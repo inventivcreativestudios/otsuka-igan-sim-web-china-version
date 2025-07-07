@@ -1,0 +1,15 @@
+@mixin yellowHeader {
+  color: $brandYellow;
+  font-family: inherit;
+  font-weight: 700;
+  text-align: center;
+}
+
+@mixin navPseudoEl {
+  width: 100%;
+  height: 13px;
+  background-color: $brandYellow;
+  position: absolute;
+  left: 0;
+  bottom: -19px;
+}

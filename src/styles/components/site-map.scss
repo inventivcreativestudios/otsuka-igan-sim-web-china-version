@@ -1,0 +1,29 @@
+[data-page-id="site-map"] {
+
+  .site-map-content {
+    padding: 5rem 5rem;
+    width: 100%;
+    max-width: 1440px;
+    font-family: inherit;
+    min-height: 65vh;
+  
+    @media screen and (max-width: 450px) {
+      padding: 2rem $mobileSectionSidePadding;
+      min-height: auto;
+    }
+
+    p, li span:not(.bullet) {
+      color: $linkColor;
+      font-size: 18px;
+      text-decoration: underline;
+      margin-bottom: 1rem;
+      width: max-content;
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    li {
+      color: $linkColor;
+    }
+  }
+}

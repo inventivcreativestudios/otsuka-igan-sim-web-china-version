@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>IgAN Progression Simulator - Hypothetical Patient Cases</title>
+  <meta name="description" content="Learn more about IgAN through interactive patient cases. Follow their treatment journey and determine the risk of progression based on their unique traits">
+  {{> ../templates/header }}
+  <link href="../styles.bundle.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WZLFQZR3" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <main class="wrapper" data-page-id="progression" data-path-level="1">
+
+    {{> ../templates/nav }}
+    {{> ../templates/interstitial }}
+
+    <div class="progression-content content-container">
+      <h1>IgA NEPHROPATHY (IgAN) PROGRESSION SIMULATION</h1>
+      <h2 class="subhead">Meet hypothetical patients Sarah, Carlos, and Mark, and learn more about their IgAN journeys
+      </h2>
+
+      <div class="profiles-container">
+        <div class="profile-option nav-el" data-nav-url="progression/sarah">
+          <div>
+            <img src="./assets/images/profiles/sarah-profile.png" class="update-path profile-pic"
+              alt="" />
+
+            <h3 class="name">Sarah (25)</h3>
+            <p>Presented with hematuria and proteinuria following an upper<br
+                class="desktop-only" /> respiratory infection.</p>
+          </div>
+
+          <div class="flex">
+            <p class="link-style">Learn more about Sarah</p>
+            <img src="./assets/images/arrow-dark.svg" class="update-path" alt="Dark arrow pointing right" />
+          </div>
+        </div>
+
+        <div class="profile-option nav-el" data-nav-url="progression/carlos">
+          <div>
+            <img src="./assets/images/profiles/carlos-profile.png" class="update-path profile-pic"
+              alt="" />
+
+            <h3 class="name">Carlos (40)</h3>
+            <p>Complains of fatigue, weight gain, and ankle edema.</p>
+          </div>
+
+          <div class="flex">
+            <p class="link-style">Learn more about Carlos</p>
+            <img src="./assets/images/arrow-dark.svg" class="update-path" alt="Dark arrow pointing right" />
+          </div>
+        </div>
+
+        <div class="profile-option nav-el" data-nav-url="progression/mark">
+          <div>
+            <img src="./assets/images/profiles/mark-profile.png" class="update-path profile-pic"
+              alt="" />
+
+            <h3 class="name">Mark (34)</h3>
+            <p>Experiencing blood in his urine and frothy urine.</p>
+          </div>
+
+          <div class="flex">
+            <p class="link-style">Learn more about Mark</p>
+            <img src="./assets/images/arrow-dark.svg" class="update-path" alt="Dark arrow pointing right" />
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    {{> ../templates/footer-el }}
+
+  </main>
+
+  <script type="text/javascript" src="../static.bundle.js" charset="utf-8"></script>
+</body>
+
+</html>

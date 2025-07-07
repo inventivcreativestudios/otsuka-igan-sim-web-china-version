@@ -1,0 +1,66 @@
+<div class="bio-info">
+  <p class="name">Carlos, 40</p>
+
+  <div id="anim-up">
+    <h4>Baseline Assessment <span class="nowrap">at Biopsy</span></h4>
+    <div class="bio-info-stat active-stat" data-stat-id="carlos-block-1">
+      <p class="">Age</p>
+      <p class="">40</p>
+    </div>
+    <div class="bio-info-stat" data-stat-id="carlos-block-2">
+      <p>Race</p>
+      <p>Hispanic</p>
+    </div>
+    <div class="bio-info-stat" data-stat-id="carlos-block-3">
+      <p>eGFR</p>
+      <p>47 mL/min/1.73 m<sup>2</sup></p>
+    </div>
+    <div class="bio-info-stat" data-stat-id="carlos-block-4">
+      <p>Systolic BP</p>
+      <p>160 mm Hg</p>
+    </div>
+    <div class="bio-info-stat" data-stat-id="carlos-block-4">
+      <p>Diastolic BP</p>
+      <p>84 mm Hg</p>
+    </div>
+    <div class="bio-info-stat" data-stat-id="carlos-block-5">
+      <p>Proteinuria</p>
+      <p>6 g/d</p>
+    </div>
+    <div class="bio-info-stat" data-stat-id="carlos-block-6">
+      <p>Use of ACE Inhibitor<br />
+        or ARB at biopsy</p>
+      <p>None</p>
+    </div>
+    <div class="bio-info-stat" data-stat-id="carlos-block-7">
+      <p>MEST M-score</p>
+      <p>1</p>
+    </div>
+    <div class="bio-info-stat" data-stat-id="carlos-block-7">
+      <p>MEST E-score</p>
+      <p>1</p>
+    </div>
+    <div class="bio-info-stat" data-stat-id="carlos-block-7">
+      <p>MEST S-score</p>
+      <p>1</p>
+    </div>
+    <div class="bio-info-stat" data-stat-id="carlos-block-7">
+      <p>MEST T-score</p>
+      <p>0</p>
+    </div>
+    <div class="bio-info-stat" data-stat-id="carlos-block-7">
+      <p>MEST C-score</p>
+      <p>0</p>
+    </div>
+    <div class="bio-info-stat" data-stat-id="carlos-block-8">
+      <p>Immunosuppression use</p>
+      <p>None</p>
+    </div>
+
+    <img src="./assets/images/profiles/carlos/biopsy-stain.png" class="stain update-path"
+      alt="PAS staining showing sclerosis in the upper left portion of the glomerulus" />
+
+    <p>PAS staining showing sclerosis in the upper left portion of the glomerulus as indicated by black arrow. A
+      single glomerulus may not capture all components of the MEST-C score.*</p>
+  </div>
+</div>

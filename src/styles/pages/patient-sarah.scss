@@ -1,0 +1,605 @@
+[data-page-id="pat-profile-sarah"] {
+  
+  section[data-section-id="1"] {
+    .cta {
+      width: max-content;
+      height: max-content;
+    }
+  }
+
+  section[data-section-id="2"] {
+    padding-left: 30rem;
+    padding-top: 0;
+
+    @media screen and (max-width: 1200px) {
+      padding: 4rem 2rem 7rem;
+    }
+
+    .owl-carousel {
+      width: 100%;
+    }
+
+    .owl-item {
+      width: 90%;
+      border-radius: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #sarah-block-7 {
+      .cta {
+        margin-top: 1rem;
+      }
+    }
+  }
+
+  section[data-section-id="3"] {
+
+      #sect-3-exit {
+        margin-top: 2.4rem;
+        width: max-content;
+      }
+
+      .graph-container {
+        position: relative;
+
+        .hotspot {
+          width: 41px;
+          height: 41px;
+          position: absolute;
+          cursor: pointer;
+          border-radius: 50%;
+
+          @media screen and (max-width: 450px) {
+            width: 38px;
+            height: 38px;
+          }
+
+          &#state-1 {
+            top: 74%;
+            left: 22%;
+
+            @media screen and (max-width: 450px) {
+              top: 81%;
+              left: 15%;
+            }
+          }
+          &#state-2 {
+            top: 68%;
+            left: 36%;
+
+            @media screen and (max-width: 450px) {
+              top: 78%;
+              left: 32%;
+            }
+          }
+          &#state-3 {
+            top: 61%;
+            left: 51%;
+
+            @media screen and (max-width: 450px) {
+              top: 75%;
+              left: 49%;
+            }
+          }
+          &#state-4 {
+            top: 55%;
+            left: 65%;
+
+            @media screen and (max-width: 450px) {
+              top: 71%;
+              left: 66%;
+            }
+          }
+          &#state-5 {
+            top: 48%;
+            left: 80%;
+
+            @media screen and (max-width: 450px) {
+              top: 67%;
+              left: 83%;
+            }
+          }
+        }
+      }
+
+      .graph {
+        width: 100%;
+        margin-top: 4.5rem;
+        display: none;
+
+        @media screen and (max-width: 450px) {
+          margin-top: 2.5rem;
+        }
+
+        &.visible {
+          display: block;
+        }
+      }
+
+    & > .bold {
+      font-size: 14px;
+      font-family: inherit;
+      margin: 6rem 0 1rem;
+
+      @media screen and (max-width: 450px) {
+        margin: 2rem 0 1rem;
+      }
+    }
+  }
+
+  section[data-section-id="4"] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & > .bold {
+      text-align: center;
+      font-size: 18px;
+      width: 100%;
+    }
+
+    .risk-radial {
+      width: pxToRem(347);
+    }
+
+    & > .flex {
+      align-items: center;
+      width: 86%;
+      justify-content: space-between;
+      font-family: inherit;
+      margin-top: 3rem;
+
+      @media screen and (max-width: 1200px) {
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+      }
+
+      .text-side {
+        font-family: inherit;
+        padding-right: 4rem;
+        width: 69%;
+
+        @media screen and (max-width: 1200px) {
+          padding: 0;
+        }
+
+        @media screen and (max-width: 500px) {
+          width: 100%;
+        }
+
+        .bold {
+          color: $brandNavy;
+          font-size: 24px;
+          font-family: inherit;
+          margin-bottom: 1.5rem;
+
+          @media screen and (max-width: 950px) {
+            font-size: 21px;
+          }
+        }
+
+        .bullet-list li {
+          font-size: 20px;
+          font-family: inherit;
+          margin-bottom: 10px;
+        }
+
+      }
+
+      .right-side {
+        font-family: inherit;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        p {
+          text-align: center;
+          width: 80%;
+          margin-bottom: 1.5rem;
+          font-size: 18px;
+
+          @media screen and (max-width: 1200px) {
+            width: 100%;
+            margin-top: 1.5rem;
+          }
+        }
+        
+        & > .flex {
+          align-items: center;
+          font-family: inherit;
+        }
+
+        .risk-radial {
+          display: none;
+          height: 352px;
+  
+          @media screen and (max-width: 1200px) {
+            margin: 2rem auto 8rem;
+            width: 88%;
+            max-width: 365px;
+            height: auto;
+          }
+
+          @media screen and (max-width: 450px) {
+            width: 66%;
+            margin: 2rem 1rem 3rem;
+          }
+  
+          &.visible {
+            display: block;
+          }
+        }
+      }
+  
+      .slider-container {
+        position: relative;
+        margin-left: 2rem;
+        font-family: inherit;
+  
+        @media screen and (max-width: 1200px) {
+          width: 100%;
+          margin: 2.5rem auto;
+        }
+
+        .range-slider {
+          writing-mode: vertical-lr;
+          direction: rtl;
+          appearance: slider-vertical;
+          opacity: 0;
+        }
+  
+        #state-1-blurb {
+          place-items: center;
+          position: absolute;
+          right: 42%;
+          top: 103%;
+          background: url('./assets/images/profiles/sarah/state-1-blurb.png') no-repeat;
+          background-size: 100% 100%;
+          width: pxToRem(445);
+          height: pxToRem(111);
+          display: none;
+          font-family: inherit;
+          padding-top: 2.5rem;
+  
+          @media screen and (max-width: 1200px) {
+            width: 14rem;
+            height: 7.75rem;
+            padding: 1.5rem 1rem 3rem;
+          }
+  
+          &.visible {
+            display: grid;
+          }
+  
+          p {
+            color: $brandPurple;
+            font-size: 18px;
+            font-weight: 300;
+            font-family: inherit;
+  
+            @media screen and (max-width: 1200px) {
+              font-size: 14px;
+            }
+          }
+        }
+  
+        .slider {
+          width: 100%;
+          display: none;
+          
+          &.visible {
+            display: block;
+          }
+        }
+  
+        .ff-hotspots {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+  
+          .hotspot {
+            width: 100%;
+            height: 2rem;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+    .footnotes {
+      padding-right: 20%;
+      margin-top: 7rem;
+      align-self: flex-start;
+
+      @media screen and (max-width: 1200px) {
+        padding-right: 0;
+      }
+
+      @media screen and (max-width: 450px) {
+        margin-top: 6rem;
+      }
+    }
+  }
+
+  section[data-section-id="5"] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .desc-text {
+      width: 70%;
+
+      @media screen and (max-width: 950px) {
+        width: 100%;
+      }
+    }
+
+    .direction {
+      width: 100%;
+      text-align: center;
+    }
+
+    .key {
+      margin-top: 2rem;
+    }
+
+    .graphs-header {
+      color: $brandPurple;
+      font-size: 24px;
+      font-weight: 700;
+      text-align: center;
+      width: 100%;
+      margin: 5rem 0 1.25rem;
+
+      @media screen and (max-width: 950px) {
+        margin: 3rem 0 1.25rem;
+      }
+    }
+
+    .graphs-container {
+      display: flex;
+      justify-content: space-between;
+      width: 95%;
+      margin-top: 4rem;
+
+      @media screen and (max-width: 950px) {
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 1rem;
+      }
+
+      & > div:not(.mobile-only .desktop-only) {
+        width: 46%;
+
+        @media screen and (max-width: 950px) {
+          width: 100%;
+          margin: 1.5rem 0 1rem;
+        }
+
+        .graph {
+          width: 100%;
+          display: none;
+
+          &.visible {
+            display: block;
+          }
+        }
+      }
+    }
+
+    .slider-container {
+      position: relative;
+      margin: 2rem 0 4.5rem;
+
+      @media screen and (max-width: 950px) {
+        margin: 1.5rem 0 2rem;
+      }
+
+      .slider {
+        width: pxToRem(600);
+        display: none;
+        
+        &.visible {
+          display: block;
+        }
+      }
+
+      .hotspot-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .slider-hotspot {
+          width: 14%;
+          height: 100%;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  section[data-section-id="6"] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .graphs-header {
+      color: $brandNavy;
+      font-size: 24px;
+      font-weight: 700;
+      text-align: center;
+      width: 100%;
+      margin: 2rem 0 1.25rem;
+
+      @media screen and (max-width: 950px) {
+        margin: 2rem 0 1.25rem;
+      }
+    }
+
+    .direction {
+      font-size: 20px;
+      font-weight: 600;
+
+      @media screen and (max-width: 950px) {
+        text-align: center;
+      }
+    }
+
+    .graph-container {
+      position: relative;
+      width: 80%;
+      margin: 3rem 0;
+
+      @media screen and (max-width: 950px) {
+        width: 100%;
+      }
+
+      .graph {
+        width: 100%;
+        display: none;
+  
+        &.visible {
+          display: block;
+        }
+      }
+  
+      & > .hotspot {
+        position: absolute;
+        height: 22px;
+        cursor: pointer;
+
+        &#state-1 {
+          top: 52%;
+          left: 11%;
+          transform: rotate(25deg);
+          width: 84%;
+
+          @media screen and (max-width: 450px) {
+            top: 38%;
+          }
+        }
+
+        &#state-2 {
+          top: 54%;
+          left: 11%;
+          transform: rotate(35deg);
+          width: 63%;
+
+          @media screen and (max-width: 450px) {
+            top: 40%;
+          }
+        }
+
+        &#state-3 {
+          top: 54%;
+          left: 10%;
+          transform: rotate(49deg);
+          width: 44%;
+
+          @media screen and (max-width: 450px) {
+            top: 41%;
+          }
+        }
+      }
+
+      .upper-hotspots {
+        position: absolute;
+        top: 19%;
+        right: 6%;
+        width: 50%;
+        height: 17%;
+
+        @media screen and (max-width: 950px) {
+          width: 72%;
+          left: 17%;
+        }
+
+        @media screen and (max-width: 450px) {
+          top: auto;
+          bottom: 7%;
+          height: 26%;
+          width: 95%;
+          left: 3%;
+        }
+  
+        .hotspot {
+          width: 100%;
+          height: 33%;
+          cursor: pointer;
+        }
+      }
+    }
+
+
+  }
+
+  section[data-section-id="7"] {
+    .icon-flex {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      margin: 3.5rem 0 7rem;
+      font-family: inherit;
+
+      @media screen and (max-width: 950px) {
+        flex-wrap: wrap;
+        margin: 2rem 0 3rem;
+      }
+
+      .icon-container {
+        font-family: inherit;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @media screen and (max-width: 950px) {
+          flex: 1;
+          margin: 1rem;
+        }
+
+        img {
+          width: pxToRem(125);
+        }
+
+        p {
+          color: $textGray;
+          font-family: inherit;
+          font-weight: 700;
+          line-height: 1.5;
+          text-align: center;
+          width: 80%;
+          margin-top: 1rem;
+          font-size: 20px;
+
+          @media screen and (max-width: 950px) {
+            font-size: 18px;
+            line-height: 1.25;
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    .footnotes {
+      // width: 83%;
+
+      @media screen and (max-width: 950px) {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+<div class="bio-info">
+  <p class="name">Carlos, 42</p>
+
+  <div>
+    <h4>Assessment after 2 years of maximal supportive care</h4>
+    <div class="bio-info-stat">
+      <p class="blue bold">Age</p>
+      <p class="blue bold">42</p>
+    </div>
+    <div class="bio-info-stat">
+      <p>Race</p>
+      <p>Hispanic</p>
+    </div>
+    <div class="bio-info-stat">
+      <p class="blue bold">eGFR</p>
+      <p class="blue bold">45 mL/min/1.73 m<sup>2</sup></p>
+    </div>
+    <div class="bio-info-stat">
+      <p class="blue bold">Systolic BP</p>
+      <p class="blue bold">140 mm Hg</p>
+    </div>
+    <div class="bio-info-stat">
+      <p class="blue bold">Diastolic BP</p>
+      <p class="blue bold">80 mm Hg</p>
+    </div>
+    <div class="bio-info-stat">
+      <p class="blue bold">Proteinuria</p>
+      <p class="blue bold">3 g/d</p>
+    </div>
+    <div class="bio-info-stat">
+      <p class="blue bold">Use of ACE Inhibitor<br />
+        or ARB at biopsy</p>
+      <p class="blue bold">Yes</p>
+    </div>
+    <div class="bio-info-stat">
+      <p>MEST M-score</p>
+      <p>1<sup>a</sup></p>
+    </div>
+    <div class="bio-info-stat">
+      <p>MEST E-score</p>
+      <p>1<sup>a</sup></p>
+    </div>
+    <div class="bio-info-stat">
+      <p>MEST S-score</p>
+      <p>1<sup>a</sup></p>
+    </div>
+    <div class="bio-info-stat">
+      <p>MEST T-score</p>
+      <p>0<sup>a</sup></p>
+    </div>
+    <div class="bio-info-stat">
+      <p>MEST C-score</p>
+      <p>0<sup>a</sup></p>
+    </div>
+    <div class="bio-info-stat">
+      <p class="blue bold">Immunosuppression use</p>
+      <p class="blue bold">Yes</p>
+    </div>
+
+    <img src="./assets/images/profiles/carlos/biopsy-stain.png" class="stain update-path"
+      alt="PAS staining showing sclerosis in the upper left portion of the glomerulus" />
+
+    <p>PAS staining showing sclerosis in the upper left portion of the glomerulus as indicated by black arrow. A
+      single glomerulus may not capture all components of the MEST-C score.*</p>
+
+  </div>
+</div>

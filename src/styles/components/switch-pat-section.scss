@@ -1,0 +1,89 @@
+.switch-pat-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  background-image: url('./assets/images/switch-pat-bg.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  @media screen and (max-width: 950px) {
+    min-height: auto;
+    padding: 2rem 1.5rem 4.5rem;
+  }
+
+  .yellow-header {
+    font-size: 38px;
+
+    @media screen and (max-width: 450px) {
+      font-size: 32px;
+    }
+  }
+
+  & > .flex {
+    font-family: inherit;
+    margin-top: 4rem;
+    width: 57%;
+    justify-content: space-between;
+
+    @media screen and (max-width: 950px) {
+      width: 100%;
+      margin-top: 3rem;
+    }
+
+    .profile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: inherit;
+      width: 40%;
+      max-width: 245px;
+      cursor: pointer;
+
+      h3 {
+        color: white;
+        font-weight: 700;
+        font-family: inherit;
+        text-transform: uppercase;
+        font-size: 38px;
+        margin-top: 1.7rem;
+
+        @media screen and (max-width: 450px) {
+          font-size: 25px;
+        }
+      }
+    }
+  }
+
+  .or-line {
+    width: pxToRem(264);
+    margin-top: 3rem;
+
+    @media screen and (max-width: 450px) {
+      width: 63%;
+    }
+  }
+
+  #discover {
+    background-color: #F8ECF8;
+    padding: 2rem 3rem;
+    margin-top: 3.5rem;
+
+    @media screen and (max-width: 450px) {
+      width: 100%;
+      padding: 1rem 2rem;
+      margin-top: 2.5rem;
+    }
+
+    p {
+      font-size: 28px;
+      font-weight: 700;
+      color: $brandPurple;
+
+      @media screen and (max-width: 450px) {
+        text-align: center;
+        font-size: 22px;
+      }
+    }
+  }
+}

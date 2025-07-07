@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>IgAN Patient Case - About Carlos's Experience</title>
+  <meta name="description" content="Discover Carlos’s experience with IgAN. Follow his case to see how this chronic kidney condition can lead to end-stage kidney disease">
+  {{> ../templates/header }}
+  <link href="../styles.bundle.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WZLFQZR3" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <main class="wrapper" data-page-id="pat-profile-carlos" data-path-level="2">
+
+    {{> ../templates/nav }}
+    {{> ../templates/interstitial }}
+
+    <div class="progress-dots-container"></div>
+
+    {{> ../templates/mestc-score-modal }}
+
+    <img id="scroll-arrow" class="update-path" src="./assets/images/scroll-arrow.svg" alt="Scroll arrow down" />
+
+    <div id="mobile-bio-tray" class="mobile-bio-tray">
+      <div id="tray-close">
+        <p>Baseline Assessment at Biopsy</p>
+        <img src="./assets/images/back-arrow.svg" class="update-path arrow" alt="Back arrow"/>
+      </div>
+
+      <p class="name">Carlos, 40</p>
+
+      {{> ../templates/carlos-bio }}
+
+      <div class="extra-section">
+        <p class="extra-footnote">*Image used with permission from the Renal Fellow Network, from: Gallan A. Kidney Biopsy of the Month.
+          Published July 29, 2019. Available at <a class="format-url link-color" target="_blank"
+            href="https://www.renalfellow.org/2019/07/29/kidney-biopsy-of-the-month-iga-nephropathy/">https://www.renalfellow.org/2019/07/29/kidney-biopsy-of-the-month-iga-nephropathy/</a>.
+        </p>
+    
+        <p class="extra-footnote">ACE, angiotensin-converting enzyme; ARB, angiotensin II receptor blocker; BP, blood pressure; CKD, chronic kidney disease; eGFR,
+          estimated glomerular filtration rate; IgA, immunoglobulin A; MEST-C, mesangial hypercellularity (M), endocapillary
+          hypercellularity (E), segmental sclerosis (S), tubular atrophy and interstitial fibrosis (T), crescent
+          (C); PAS, periodic acid-Schiff.</p>
+      </div>
+    </div>
+
+    <div id="carlos-bio-tray-2" class="mobile-bio-tray">
+      <div id="tray-close">
+        <p>Assessment after 2 years</p>
+        <img src="./assets/images/back-arrow.svg" class="update-path arrow" alt="Back arrow"/>
+      </div>
+
+      <p class="name">Carlos, 42</p>
+
+      {{> ../templates/carlos-bio-42 }}
+
+      <div class="extra-section">
+        <p class="extra-footnote">*Image used with permission from the Renal Fellow Network, from: Gallan A. Kidney Biopsy of the Month.
+          Published July 29, 2019. Available at <a class="format-url link-color" target="_blank"
+            href="https://www.renalfellow.org/2019/07/29/kidney-biopsy-of-the-month-iga-nephropathy/">https://www.renalfellow.org/2019/07/29/kidney-biopsy-of-the-month-iga-nephropathy/</a>.
+        </p>
+    
+        <p class="extra-footnote">ACE, angiotensin-converting enzyme; ARB, angiotensin II receptor blocker; BP, blood pressure; CKD, chronic kidney disease; eGFR,
+          estimated glomerular filtration rate; IgA, immunoglobulin A; MEST-C, mesangial hypercellularity (M), endocapillary
+          hypercellularity (E), segmental sclerosis (S), tubular atrophy and interstitial fibrosis (T), crescent
+          (C); PAS, periodic acid-Schiff.</p>
+      </div>
+    </div>
+
+    <!-- //////////////////// SECTION 1 ///////////////////// -->
+
+    <section class="" data-section-id="1" data-section-name="Carlos Patient Information" data-dot-label="Meet Carlos">
+      <div class="two-column">
+
+        <div id="left-bio">
+          <img src="./assets/images/profiles/carlos-profile.png" class="update-path bio-pic"
+            alt="" />
+          
+            {{> ../templates/carlos-bio }}
+        </div>
+
+        <div class="right-side">
+          <img src="./assets/images/profiles/carlos-profile.png" class="update-path bio-pic conditional-render" alt=""/>
+          <p class="name conditional-render">Carlos, 40</p>
+
+          <h1 class="sect-1-header">Carlos is a 40-year-old Hispanic man and<br class="extra-wide-only" /> IT professional who runs his own
+            business.</h1>
+
+          <p class="bold">Over the past 3 months, Carlos began experiencing fatigue, weight gain, and swelling in his
+            ankles, which he noticed because his shoes were fitting more tightly than usual. Carlos remembers when he
+            was a child, his father experienced similar symptoms of fatigue and swollen ankles.</p>
+
+          <ul class="bullet-list">
+            <li><span class="bullet">&bull;</span><span>High blood pressure and grade 2 edema were found upon physical
+                exam</span></li>
+          </ul>
+
+          <div class="divider"></div>
+
+          <h4 class="purple">Carlos followed up with a nephrologist</h4>
+
+          <div class="flex">
+            <div class="workup">
+              <img class="icon update-path" src="./assets/images/gauge-icon.svg" alt="" />
+              <p>Reduced renal function<br class="desktop-only" /> suggesting stage 3a CKD</p>
+            </div>
+            <div class="workup">
+              <img class="icon update-path" src="./assets/images/vial-icon.svg" alt="" />
+              <p>Microscopic hematuria,<br class="desktop-only" /> and proteinuria of 6 g/d</p>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="workup">
+              <img class="icon update-path" src="./assets/images/kidneys-icon.svg" alt="" />
+              <p>Kidney biopsy with staining revealed IgA deposits, mesangial and
+                endocapillary <br class="desktop-only" />hypercellularity, and segmental sclerosis, confirming a
+                diagnosis of IgAN</p>
+            </div>
+          </div>
+
+          <p class="direction bold align-center tablet-desktop-only">Click the arrows in the carousel below to explore Carlos&rsquo; baseline characteristics</p>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="temp-section mobile-only">
+      <p class="direction bold align-center">Swipe in the carousel below to explore Carlos&rsquo; baseline characteristics</p>
+    </div>
+
+    <!-- //////////////////// SECTION 2 ///////////////////// -->
+
+    <section class="" data-section-id="2" data-section-name="Carlos Demographic and Information Carousel" data-dot-label="Baseline<br>Characteristics">
+      <div class="owl-carousel">
+        <div class="carousel-block" id="carlos-block-1">
+          <h3 class="label">Age at Biopsy</h3>
+          <h4 class="characteristic">40 years old</h4>
+
+          <ul class="bullet-list">
+            <li><span class="bullet">&bull;</span><span>Most patients with IgAN are diagnosed by 40 years of
+                age<sup>1</sup></span></li>
+            <li><span class="bullet">&bull;</span><span>Clinical presentation and disease progression can vary based on
+                the patient&rsquo;s age at diagnosis<sup>2</sup></span></li>
+          </ul>
+
+          <div class="footnotes">
+            <p><span class="bold">References: 1.</span> Pitcher D, et al. <em>Clin J Am Soc Nephrol</em>.
+              2023;18(6):727-738. <br class="large-screens-only"><span class="bold">2.</span> Gutierrez E, et al. <em>Nephrol Dial Transplant</em>.
+              2018;33:472-477.</p>
+          </div>
+        </div>
+
+        <div class="carousel-block" id="carlos-block-2">
+          <h3 class="label">Race</h3>
+          <h4 class="characteristic">Hispanic</h4>
+
+          <ul class="bullet-list">
+            <li><span class="bullet">&bull;</span><span>Clinical presentation and progression of IgAN can vary greatly
+                depending on ethnicity<sup>1</sup></span></li>
+            <li><span class="bullet">&bull;</span><span>Hispanic patients with IgAN have a high rate of CKD progression
+                and ESKD, with a median age at ESKD of 46 years<sup>2</sup></span></li>
+          </ul>
+
+          <div class="footnotes">
+            <p>CKD, chronic kidney disease; ESKD, end-stage kidney disease.</p>
+            <p><span class="bold">References: 1.</span> Yeo SC, et al. <em>Nephrology (Carlton)</em>.
+              2019;24(9):885-895. <span class="bold">2.</span> Sim J, et al. <em>Nephrol Dial Transplant</em>. 2025:gfaf084.</p>
+          </div>
+        </div>
+
+        <div class="carousel-block" id="carlos-block-3">
+          <h3 class="label">Estimated GFR at Biopsy</h3>
+          <h4 class="characteristic">47 mL/min/<br class="mobile-only"/>1.73 m<sup>2</sup></h4>
+
+          <ul class="bullet-list">
+            <li><span class="bullet">&bull;</span><span>Carlos&rsquo; eGFR at biopsy indicated that he was in Stage 3a
+                CKD: some kidney damage causing a mild to moderate loss of kidney function</span></li>
+            <li><span class="bullet">&bull;</span><span>eGFR decline is a validated risk factor of IgAN progression.
+                Declines in eGFR are strongly associated with the risk of CKD progression and
+                mortality<sup>1</sup></span></li>
+          </ul>
+
+          <div class="footnotes">
+            <p>CKD, chronic kidney disease; eGFR, estimated glomerular filtration rate.</p>
+            <p><span class="bold">Reference: 1.</span> Coresh J, et al. <em>JAMA</em>. 2014;311(24):2518-2531.</p>
+          </div>
+        </div>
+
+        <div class="carousel-block" id="carlos-block-4">
+          <h3 class="label">Blood Pressure at Biopsy</h3>
+          <h4 class="characteristic">160/84 mm Hg</h4>
+
+          <ul class="bullet-list">
+            <li><span class="bullet">&bull;</span><span>Carlos&rsquo; blood pressure was found to be elevated at
+                biopsy</span></li>
+            <li><span class="bullet">&bull;</span><span>Hypertension has been shown to serve as a clinical predictor of
+                IgAN progression at the time of diagnosis<sup>1</sup></span></li>
+            <li><span class="bullet">&bull;</span><span>Reduction of hypertension lowers the risk of progression to
+                kidney failure<sup>2</sup></span></li>
+          </ul>
+
+          <div class="footnotes">
+            <p><span class="bold">References: 1.</span> Maixnerova D, et al. <em>J Nephrol</em>. 2016;29(4):535-541.
+              <span class="bold">2.</span> KDIGO. <em>Kidney Int</em>. 2021;100:S1-S276.</p>
+          </div>
+        </div>
+
+        <div class="carousel-block" id="carlos-block-5">
+          <h3 class="label">Proteinuria at Biopsy</h3>
+          <h4 class="characteristic">6 g/d</h4>
+
+          <ul class="bullet-list">
+            <li><span class="bullet">&bull;</span><span>Carlos had elevated proteinuria at the time of biopsy</span>
+            </li>
+            <li><span class="bullet">&bull;</span><span>Proteinuria is a validated prognostic marker linked to
+                long-term kidney outcomes, including eGFR decline and ESKD<sup>1,2</sup></span></li>
+            <li><span class="bullet">&bull;</span><span>Proteinuria reduction inversely correlates with serum
+                creatinine doubling, ESKD, and death<sup>2,3</sup></span></li>
+          </ul>
+
+          <div class="footnotes">
+            <p>eGFR, estimated glomerular filtration rate; ESKD, end-stage kidney disease.</p>
+            <p><span class="bold">References: 1.</span> KDIGO. <em>Kidney Int</em>. 2021;100:S1-S276. <span
+                class="bold">2.</span> Thompson A, et al. <em>Clin J Am Soc Nephrol</em>. 2019;14(3):469-481. <span
+                class="bold">3.</span> Inker L, et al. <em>Am J Kidney Dis</em>. 2016;68(3):392-401.</p>
+          </div>
+        </div>
+
+        <div class="carousel-block" id="carlos-block-6">
+          <h3 class="label">ACE<span class="lower">i</span>/ARB Use at the Time of Biopsy</h3>
+          <h4 class="characteristic">None</h4>
+
+          <p>While ACEi/ARBs are recommended as part of supportive care, Carlos had not initiated treatment at the time
+            of his biopsy.<sup>1</sup></p>
+
+          <div class="footnotes">
+            <p>ACEi, angiotensin-converting enzyme inhibitor; ARB, angiotensin II receptor blocker.</p>
+            <p><span class="bold">Reference: 1.</span> KDIGO. <em>Kidney Int</em>. 2021;100:S1-S276.</p>
+          </div>
+        </div>
+
+        <div class="carousel-block" id="carlos-block-7">
+          <h3 class="label">MEST-C Score</h3>
+          <h4 class="characteristic">M1 E1 S1 T0 C0</h4>
+
+          <p>Carlos&rsquo; biopsy was evaluated using the Oxford classification, or MEST-C score. His biopsy showed
+            mesangial hypercellularity in &gt;50% of glomeruli, presence of endocapillary hypercellularity and segmental
+            glomerulosclerosis, and no tubular atrophy/interstitial fibrosis or crescents.</p>
+          <p>The MEST-C score can serve as a valuable early prognostic tool and should be considered when evaluating the
+            risk of progression to ESKD.<sup>1-3</sup></p>
+
+          <div class="button cta modal-trigger" data-trigger-id="mest-c-score">
+            <p>Learn more about MEST-C</p>
+          </div>
+
+          <div class="footnotes">
+            <p>ESKD, end-stage kidney disease; MEST-C, mesangial hypercellularity (M), endocapillary hypercellularity
+              (E), segmental sclerosis (S), tubular atrophy and interstitial fibrosis (T), crescent (C).</p>
+            <p><span class="bold">References: 1.</span> Cattran DC, et al. <em>Kidney Int Rep</em>.
+              2023;8(12):2515-2528. <span class="bold">2.</span> Haaskjold YL, et al. <em>BMC Nephrology</em>.
+              2022;23:26. <span class="bold">3.</span> Coppo R, et al. <em>Kidney Int</em>. 2014;86(4):828-836.</p>
+          </div>
+        </div>
+
+        <div class="carousel-block" id="carlos-block-8">
+          <h3 class="label">Immunosuppression Use at or Prior to Biopsy </h3>
+          <h4 class="characteristic">None</h4>
+
+          <p>While the clinical benefits of immunosuppressive therapy have not been established in patients with IgAN,
+            they may be used in specific patient populations if the risk/benefit profile is acceptable.<sup>1</sup></p>
+
+          <div class="footnotes">
+            <p><span class="bold">Reference: 1.</span> KDIGO. <em>Kidney Int</em>. 2021;100:S1-S276.</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <div class="temp-section">
+      <div class="footnotes">
+        <p>*Image used with permission from the Renal Fellow Network, from: Gallan A. Kidney Biopsy of the Month.
+          Published July 29, 2019. Available at <a class="format-url link-color" target="_blank"
+            href="https://www.renalfellow.org/2019/07/29/kidney-biopsy-of-the-month-iga-nephropathy/">https://www.renalfellow.org/2019/07/29/kidney-biopsy-of-the-month-iga-nephropathy/</a>.
+        </p>
+    
+        <p>ACE, angiotensin-converting enzyme; ARB, angiotensin II receptor blocker; BP, blood pressure; CKD, chronic kidney disease; eGFR,
+          estimated glomerular filtration rate; IgA, immunoglobulin A; MEST-C, mesangial hypercellularity (M), endocapillary
+          hypercellularity (E), segmental sclerosis (S), tubular atrophy and interstitial fibrosis (T), crescent
+          (C); PAS, periodic acid-Schiff.</p>
+      </div>
+
+      <img class="tablet-only update-path mobile-bio-trigger" id="mobile-bio-trigger" data-tray-id="mobile-bio-tray" src="./assets/images/profiles/mobile-bio-btn.png" alt="Baseline Assessment trigger button"/>
+    </div>
+
+    <section class="gray-bg" data-section-id="3" data-section-name="Carlos' Risk of Progression" data-dot-label="Risk of<br>Progression">
+      <div class="two-column static">
+
+        <div id="left-bio" class="">
+          <img src="./assets/images/profiles/carlos-profile.png" class="update-path bio-pic" alt="" />
+
+          {{> ../templates/carlos-bio }}
+        </div>
+
+        <div class="right-side dual-view">
+          <h1 class="pat-header">Carlos&rsquo; Risk of Progression</h1>
+          <p class="desc-text">Based on Carlos&rsquo; clinical features at the time of his biopsy, he may be at risk of developing kidney failure before he turns 50.</p>
+
+          <div class="graph-container">
+            <div class="hotspot" id="state-1" data-value="Age 41;2%"></div>
+            <div class="hotspot" id="state-2" data-value="Age 42;7%"></div>
+            <div class="hotspot" id="state-3" data-value="Age 43;12%"></div>
+            <div class="hotspot" id="state-4" data-value="Age 44;18%"></div>
+            <div class="hotspot" id="state-5" data-value="Age 45;25%"></div>
+
+            <div class="tablet-desktop-only">
+              <img src="./assets/images/profiles/carlos/progression-graph-state-0.png" id="state-0"
+                class="graph update-path" alt="Graph showing Carlos' risk of progression" />
+              <img src="./assets/images/profiles/carlos/progression-graph-state-1.png" id="state-1"
+                class="graph visible update-path" alt="Graph showing Carlos' risk of progression at age 41. 2 percent 1 year after biopsy" />
+              <img src="./assets/images/profiles/carlos/progression-graph-state-2.png" id="state-2"
+                class="graph update-path" alt="Graph showing Carlos' risk of progression at age 42. 7 percent 2 years after biopsy" />
+              <img src="./assets/images/profiles/carlos/progression-graph-state-3.png" id="state-3"
+                class="graph update-path" alt="Graph showing Carlos' risk of progression at age 43. 12 percent 3 years after biopsy" />
+              <img src="./assets/images/profiles/carlos/progression-graph-state-4.png" id="state-4"
+                class="graph update-path" alt="Graph showing Carlos' risk of progression at age 44. 18 percent 4 years after biopsy" />
+              <img src="./assets/images/profiles/carlos/progression-graph-state-5.png" id="state-5"
+                class="graph update-path" alt="Graph showing Carlos' risk of progression at age 45. 25 percent 5 years after biopsy" />
+            </div>
+            <div class="mobile-only">
+              <img src="./assets/images/profiles/carlos/mobile/progression-graph-state-0-mobile.png" id="state-0"
+                class="graph mobile-graph update-path" alt="Graph showing Carlos' risk of progression" />
+              <img src="./assets/images/profiles/carlos/mobile/progression-graph-state-1-mobile.png" id="state-1"
+                class="graph mobile-graph visible update-path" alt="Graph showing Carlos' risk of progression at age 41. 2 percent 1 year after biopsy" />
+              <img src="./assets/images/profiles/carlos/mobile/progression-graph-state-2-mobile.png" id="state-2"
+                class="graph mobile-graph update-path" alt="Graph showing Carlos' risk of progression at age 42. 7 percent 2 years after biopsy" />
+              <img src="./assets/images/profiles/carlos/mobile/progression-graph-state-3-mobile.png" id="state-3"
+                class="graph mobile-graph update-path" alt="Graph showing Carlos' risk of progression at age 43. 12 percent 3 years after biopsy" />
+              <img src="./assets/images/profiles/carlos/mobile/progression-graph-state-4-mobile.png" id="state-4"
+                class="graph mobile-graph update-path" alt="Graph showing Carlos' risk of progression at age 44. 18 percent 4 years after biopsy" />
+              <img src="./assets/images/profiles/carlos/mobile/progression-graph-state-5-mobile.png" id="state-5"
+                class="graph mobile-graph update-path" alt="Graph showing Carlos' risk of progression at age 45. 25 percent 5 years after biopsy" />
+            </div>
+          </div>
+
+          <a href="https://qxmd.com/calculate/calculator_499/international-igan-prediction-tool-at-biopsy-adults"
+          target="_blank">
+            <div class="button cta" id="sect-3-tool-exit">
+              <p>View the International <br class="mobile-only"/>IgAN Prediction Tool</p>
+              <img src="./assets/images/external-icon-white.svg" class="update-path" alt="External link icon" />
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="footnotes">
+        <p><sup>a</sup>Predicted risk of progression was calculated using the International IgAN Prediction Tool and
+          defined as the risk of a 50% decline in eGFR or ESKD.<sup>1</sup></p>
+        <p>*Image used with permission from the Renal Fellow Network, from: Gallan A. Kidney Biopsy of the Month.
+          Published July 29, 2019. Available at <a class="format-url link-color" target="_blank"
+            href="https://www.renalfellow.org/2019/07/29/kidney-biopsy-of-the-month-iga-nephropathy/">https://www.renalfellow.org/2019/07/29/kidney-biopsy-of-the-month-iga-nephropathy/</a>.
+        </p>
+        <p>ACE, angiotensin-converting enzyme; ARB, angiotensin II receptor blocker; BP, blood pressure; CKD, chronic kidney disease; eGFR, estimated glomerular filtration rate; MEST-C, mesangial hypercellularity (M), endocapillary hypercellularity (E), segmental sclerosis (S), tubular atrophy and interstitial fibrosis (T), crescent (C); PAS, periodic acid-Schiff.</p>
+        <p><span class="bold">Reference: 1.</span> Barbour SJ, et al. <em>Kidney Int</em>. 2022;102(1):160-172.</p>
+      </div>
+
+      <img class="tablet-only update-path mobile-bio-trigger" id="mobile-bio-trigger-2" data-tray-id="carlos-bio-tray-2" src="./assets/images/profiles/mobile-bio-btn-2.png" alt="Baseline Assessment After 2 Years trigger button"/>
+    </section>
+
+    <section class="" data-section-id="4" data-section-name="Carlos' Risk of Progression After Supportive Care" data-dot-label="After<br>Supportive care">
+      <div class="two-column static">
+        <div id="left-bio" class="">
+          <img src="./assets/images/profiles/carlos-profile.png" class="update-path bio-pic" alt="" />
+
+          {{> ../templates/carlos-bio-42 }}
+        </div>
+
+        <div class="right-side">
+          <h1 class="pat-header">Carlos&rsquo; Risk of Progression<br class="desktop-only" /> After Supportive Care</h1>
+
+          <p class="desc-text">Carlos was promptly started on maximal supportive care including immunosuppression. Two
+            years after his initial diagnosis, he was able to reduce his blood pressure and reduce his proteinuria by
+            half to 3 g/d.</p>
+
+          <div class="graph-container">
+            <div class="hotspot" id="state-1" data-value="Age 43;5%"></div>
+            <div class="hotspot" id="state-2" data-value="Age 44;16%"></div>
+            <div class="hotspot" id="state-3" data-value="Age 45;26%"></div>
+            <div class="hotspot" id="state-4" data-value="Age 46;36%"></div>
+            <div class="hotspot" id="state-5" data-value="Age 47;46%"></div>
+
+            <div class="tablet-desktop-only">
+              <img src="./assets/images/profiles/carlos/progression-graph-2-years-state-0.png" id="state-0"
+                class="graph update-path"
+                alt="Graph showing Carlos' risk of progression one year after stabilization on supportive care" />
+              <img src="./assets/images/profiles/carlos/progression-graph-2-years-state-1.png" id="state-1"
+                class="graph visible update-path"
+                alt="Graph showing Carlos' risk of progression at age 43. 5 percent risk one year after stabilization on supportive care" />
+              <img src="./assets/images/profiles/carlos/progression-graph-2-years-state-2.png" id="state-2"
+                class="graph update-path"
+                alt="Graph showing Carlos' risk of progression at age 44. 16 percent risk two years after stabilization on supportive care" />
+              <img src="./assets/images/profiles/carlos/progression-graph-2-years-state-3.png" id="state-3"
+                class="graph update-path"
+                alt="Graph showing Carlos' risk of progression at age 45. 26 percent risk three years after stabilization on supportive care" />
+              <img src="./assets/images/profiles/carlos/progression-graph-2-years-state-4.png" id="state-4"
+                class="graph update-path"
+                alt="Graph showing Carlos' risk of progression at age 46. 36 percent risk four years after stabilization on supportive care" />
+              <img src="./assets/images/profiles/carlos/progression-graph-2-years-state-5.png" id="state-5"
+                class="graph update-path"
+                alt="Graph showing Carlos' risk of progression at age 47. 46% risk five years after stabilization on supportive care" />
+            </div>
+            <div class="mobile-only">
+              <img src="./assets/images/profiles/carlos/mobile/progression-graph-2-years-state-0-mobile.png" id="state-0"
+                class="mobile-graph graph update-path"
+                alt="Graph showing Carlos' risk of progression one year after stabilization on supportive care" />
+              <img src="./assets/images/profiles/carlos/mobile/progression-graph-2-years-state-1-mobile.png" id="state-1"
+                class="mobile-graph graph visible update-path"
+                alt="Graph showing Carlos' risk of progression at age 43. 5 percent risk one year after stabilization on supportive care" />
+              <img src="./assets/images/profiles/carlos/mobile/progression-graph-2-years-state-2-mobile.png" id="state-2"
+                class="mobile-graph graph update-path"
+                alt="Graph showing Carlos' risk of progression at age 44. 16 percent risk two years after stabilization on supportive care" />
+              <img src="./assets/images/profiles/carlos/mobile/progression-graph-2-years-state-3-mobile.png" id="state-3"
+                class="mobile-graph graph update-path"
+                alt="Graph showing Carlos' risk of progression at age 45. 26 percent risk three years after stabilization on supportive care" />
+              <img src="./assets/images/profiles/carlos/mobile/progression-graph-2-years-state-4-mobile.png" id="state-4"
+                class="mobile-graph graph update-path"
+                alt="Graph showing Carlos' risk of progression at age 46. 36 percent risk four years after stabilization on supportive care" />
+              <img src="./assets/images/profiles/carlos/mobile/progression-graph-2-years-state-5-mobile.png" id="state-5"
+                class="mobile-graph graph update-path"
+                alt="Graph showing Carlos' risk of progression at age 47. 46% risk five years after stabilization on supportive care" />
+            </div>
+          </div>
+
+          <h4>Although he began treatment with supportive care soon after<br class="desktop-only" /> his diagnosis,
+            Carlos&rsquo; risk of progression has increased.</h4>
+
+          <p class="bold">Current KDIGO guidelines do not recommend SGLT2i use in IgAN in the absence of diabetes, as
+            additional data are needed to assess efficacy and safety. Treatments in hypothetical patient cases reflect
+            current treatment guidelines.<sup>2</sup></p>
+        </div>
+
+      </div>
+
+      <div class="footnotes">
+        <p>*Image used with permission from the Renal Fellow Network, from: Gallan A. Kidney Biopsy of the Month.
+          Published July 29, 2019. Available at <a class="format-url link-color" target="_blank"
+            href="https://www.renalfellow.org/2019/07/29/kidney-biopsy-of-the-month-iga-nephropathy/">https://www.renalfellow.org/2019/07/29/kidney-biopsy-of-the-month-iga-nephropathy/</a>.
+        </p>
+        <p><sup>a</sup>MEST-C score obtained from initial baseline biopsy</p>
+        <p><sup>b</sup>Predicted risk of progression was calculated using the International IgAN Prediction Tool and
+          defined as the risk of a 50% decline in eGFR or ESKD.<sup>1</sup></p>
+        <p>ACE, angiotensin-converting enzyme; ARB, angiotensin II receptor blocker; BP, blood pressure; eGFR, estimated glomerular filtration rate; ESKD, end-stage kidney disease; KDIGO, Kidney Disease Improving Global Outcomes; MEST-C, mesangial hypercellularity (M), endocapillary hypercellularity (E), segmental sclerosis (S), tubular atrophy and interstitial fibrosis (T), crescent (C); PAS, periodic acid-Schiff; SGLT2i, sodium-glucose transport protein 2 inhibitor.</p>
+        <p><span class="bold">References: 1.</span> Barbour SJ, et al. <em>Kidney Int</em>. 2022;102(1):160-172. <span
+            class="bold">2.</span> KDIGO. <em>Kidney Int</em>. 2021;100:S1-S276.</p>
+      </div>
+    </section>
+
+    <section class="gray-bg" data-section-id="5" data-section-name="Carlos Histopathological Changes Caused by IgAN" data-dot-label="Histopathological<br>Changes">
+      <div class="flex-header">
+        <img src="./assets/images/profiles/carlos-profile.png" class="update-path bio-pic desktop-only" alt="" />
+
+        <div>
+          <h1 class="pat-header">Histopathological Changes<br class="desktop-only" /> Caused by IgAN</h1>
+          <p class="desc-text">Carlos was able to lower his proteinuria and blood pressure; however,
+            Gd-IgA1 immune complexes can continue to deposit in his kidneys, causing histopathological changes and
+            kidney damage.<sup>1</sup></p>
+        </div>
+      </div>
+
+      <div class="content-lower">
+        <p class="subhead">Patients with IgAN may continue to lose functional kidney tissue over time even when treated
+          with supportive care to improve other clinical parameters like blood pressure and/or proteinuria.<sup>2</sup>
+        </p>
+
+        <div class="divider"></div>
+
+        <h3 class="graph-header">Changes in renal histopathological features</h3>
+        <p class="direction">Use the slider to see how histopathological features can change over time and impact kidney
+          survival.</p>
+
+        <div class="images-container">
+          <div class="left-side">
+            <div class="text-bubble visible" id="section-5-state-1">
+              <p>At biopsy, Carlos had mesangial and endocapillary hypercellularity. Part of the glomerulus had
+                developed sclerosis as indicated by the black arrow in the image below.<sup>a</sup></p>
+
+              <div class="gap-10"></div>
+
+              <img src="./assets/images/profiles/carlos/biopsy-stain.png" class="stain update-path"
+                alt="PAS staining showing sclerosis in the upper left portion of the glomerulus as indicated by a black arrow." />
+
+              <div class="gap-10"></div>
+
+              <p>Image used with permission*</p>
+            </div>
+
+            <div class="text-bubble" id="section-5-state-2">
+              <p>Mesangial and endocapillary cells continue to proliferate, and the glomerulus has developed more
+                scarring.</p>
+            </div>
+
+            <div class="text-bubble" id="section-5-state-3">
+              <p>Excess ECM is deposited within the mesangium, and tubular atrophy develops.</p>
+            </div>
+
+            <div class="text-bubble" id="section-5-state-4">
+              <p>Mesangial cells and inflammatory cells continue to proliferate, and scarring spreads to more of the
+                glomerulus.</p>
+            </div>
+          </div>
+
+          <div class="right-side">
+            <div class="graphic-container">
+              <img src="./assets/images/profiles/carlos/graphic-1.png" id="section-5-state-1" class="update-path graphic visible" 
+                alt="Detailed glomerulus structure with mesangial hypercellularity, endocapillary hypercellularity, and segmental sclerosis" />
+              <img src="./assets/images/profiles/carlos/graphic-2.png" id="section-5-state-2" class="update-path graphic"
+                alt="Detailed glomerulus structure with excess mesangial cells and immune cells" />
+              <img src="./assets/images/profiles/carlos/graphic-3.png" id="section-5-state-3" class="update-path graphic"
+                alt="Kidney structure showing glomerulosclerosis and tubular atrophy" />
+              <img src="./assets/images/profiles/carlos/graphic-4.png" id="section-5-state-4" class="update-path graphic"
+                alt="Glomerulus showing sclerosis, mesangial cell proliferation, and immune cells" />
+
+                <div class="histo-tag group-1" id="tag-1">
+                  <p>Protein</p>
+                  <img src="./assets/images/plus-icon.svg" alt="" class="plus update-path"/>
+                  <img src="./assets/images/x-icon.svg" alt="" class="close update-path"/>
+                </div>
+                <div class="histo-tag group-1" id="tag-2">
+                  <p>Sclerosis</p>
+                  <img src="./assets/images/plus-icon.svg" alt="" class="plus update-path"/>
+                  <img src="./assets/images/x-icon.svg" alt="" class="close update-path"/>
+                </div>
+                <div class="histo-tag group-1" id="tag-3">
+                  <p>Red blood cell</p>
+                  <img src="./assets/images/plus-icon.svg" alt="" class="plus update-path"/>
+                  <img src="./assets/images/x-icon.svg" alt="" class="close update-path"/>
+                </div>
+                <div class="histo-tag group-1" id="tag-4">
+                  <p>ECM</p>
+                  <img src="./assets/images/plus-icon.svg" alt="" class="plus update-path"/>
+                  <img src="./assets/images/x-icon.svg" alt="" class="close update-path"/>
+                </div>
+                <div class="histo-tag group-1" id="tag-5">
+                  <p>Gd-IgA1 immune <br class="mobile-only"/>complexes</p>
+                    <img src="./assets/images/plus-icon.svg" alt="" class="plus update-path"/>
+                    <img src="./assets/images/x-icon.svg" alt="" class="close update-path"/>
+                </div>
+                <div class="histo-tag group-1" id="tag-6">
+                  <p>Immune cells</p>
+                  <img src="./assets/images/plus-icon.svg" alt="" class="plus update-path"/>
+                  <img src="./assets/images/x-icon.svg" alt="" class="close update-path"/>
+                </div>
+                <div class="histo-tag group-1" id="tag-7">
+                  <p>Mesangial cells</p>
+                    <img src="./assets/images/plus-icon.svg" alt="" class="plus update-path"/>
+                    <img src="./assets/images/x-icon.svg" alt="" class="close update-path"/>
+                </div>
+                <div class="histo-tag group-3 hidden" id="tag-8">
+                  <p>Tubular atrophy</p>
+                    <img src="./assets/images/plus-icon.svg" alt="" class="plus update-path"/>
+                    <img src="./assets/images/x-icon.svg" alt="" class="close update-path"/>
+                </div>
+            </div>
+
+            <div class="slider-container conditional-slider-upper">
+              <img src="./assets/images/profiles/over-time-slider-1.svg" id="section-5-state-1"
+                class="update-path slider-upper slider visible" alt="Slider shown at biopsy stage">
+              <img src="./assets/images/profiles/over-time-slider-2.svg" id="section-5-state-2"
+                class="update-path slider-upper slider" alt="Slider shown at 2 years">
+              <img src="./assets/images/profiles/over-time-slider-3.svg" id="section-5-state-3"
+                class="update-path slider-upper slider" alt="Slider shown at 4 years">
+              <img src="./assets/images/profiles/over-time-slider-4.svg" id="section-5-state-4"
+                class="update-path slider-upper slider" alt="Slider shown at 6 years">
+
+              <input type="range" class="range-slider" id="s6-upper" name="s6-upper" min="1" max="4" value="1" step="1" />
+            </div>
+          </div>
+        </div>
+
+        <div class="slider-container mobile-only">
+          <img src="./assets/images/profiles/over-time-slider-1-mobile.png" id="section-5-state-1"
+            class="update-path slider-upper mobile-graph slider visible" alt="Slider shown at biopsy stage">
+          <img src="./assets/images/profiles/over-time-slider-2-mobile.png" id="section-5-state-2"
+            class="update-path slider-upper mobile-graph slider" alt="Slider shown at 2 years">
+          <img src="./assets/images/profiles/over-time-slider-3-mobile.png" id="section-5-state-3"
+            class="update-path slider-upper mobile-graph slider" alt="Slider shown at 4 years">
+          <img src="./assets/images/profiles/over-time-slider-4-mobile.png" id="section-5-state-4"
+            class="update-path slider-upper mobile-graph slider" alt="Slider shown at 6 years">
+
+          <input type="range" class="range-slider" id="s6-mobile" name="s6-mobile" min="1" max="4" value="1" step="1" />
+        </div>
+
+        <div class="slider-container conditional-slider-lower">
+          <img src="./assets/images/profiles/over-time-slider-1.svg" id="section-5-state-1"
+            class="update-path slider-upper graph slider visible" alt="Slider shown at biopsy stage">
+          <img src="./assets/images/profiles/over-time-slider-2.svg" id="section-5-state-2"
+            class="update-path slider-upper graph slider" alt="Slider shown at 2 years">
+          <img src="./assets/images/profiles/over-time-slider-3.svg" id="section-5-state-3"
+            class="update-path slider-upper graph slider" alt="Slider shown at 4 years">
+          <img src="./assets/images/profiles/over-time-slider-4.svg" id="section-5-state-4"
+            class="update-path slider-upper graph slider" alt="Slider shown at 6 years">
+
+          <input type="range" class="range-slider" id="s6-conditional" name="s6-conditional" min="1" max="4" value="1" step="1" />
+        </div>
+
+        <div class="graphs-container">
+          <div class="left-side">
+            <div class="tablet-desktop-only">
+              <img src="./assets/images/profiles/carlos/pro-over-time-state-1.png" id="section-5-state-1"
+                class="update-path graph visible" alt="Graph modeling proteinuria progression over time, starting at biopsy"/>
+              <img src="./assets/images/profiles/carlos/pro-over-time-state-2.png" id="section-5-state-2"
+                class="update-path graph" alt="Graph showing proteinuria progression level after two years"/>
+              <img src="./assets/images/profiles/carlos/pro-over-time-state-3.png" id="section-5-state-3"
+                class="update-path graph" alt="Graph showing proteinuria progression level at four years"/>
+              <img src="./assets/images/profiles/carlos/pro-over-time-state-4.png" id="section-5-state-4"
+                class="update-path graph" alt="Graph showing proteinuria progression level at six years"/>
+            </div>
+            <div class="mobile-only">
+              <img src="./assets/images/profiles/carlos/mobile/pro-over-time-state-1-mobile.png" id="section-5-state-1"
+                class="update-path mobile-graph graph visible" alt="Graph modeling proteinuria progression over time, starting at biopsy"/>
+              <img src="./assets/images/profiles/carlos/mobile/pro-over-time-state-2-mobile.png" id="section-5-state-2"
+                class="update-path mobile-graph graph" alt="Graph showing proteinuria progression level after two years"/>
+              <img src="./assets/images/profiles/carlos/mobile/pro-over-time-state-3-mobile.png" id="section-5-state-3"
+                class="update-path mobile-graph graph" alt="Graph showing proteinuria progression level at four years"/>
+              <img src="./assets/images/profiles/carlos/mobile/pro-over-time-state-4-mobile.png" id="section-5-state-4"
+                class="update-path mobile-graph graph" alt="Graph showing proteinuria progression level at six years"/>
+            </div>
+          </div>
+          <div class="right-side">
+            <div class="tablet-desktop-only">
+              <img src="./assets/images/profiles/carlos/egfr-over-time-state-1.png" id="section-5-state-1"
+                class="update-path graph visible" alt="Graph modeling eGFR decline over time, starting at biopsy"/>
+              <img src="./assets/images/profiles/carlos/egfr-over-time-state-2.png" id="section-5-state-2"
+                class="update-path graph" alt="Graph showing eGFR after two years"/>
+              <img src="./assets/images/profiles/carlos/egfr-over-time-state-3.png" id="section-5-state-3"
+                class="update-path graph" alt="Graph showing eGFR after four years"/>
+              <img src="./assets/images/profiles/carlos/egfr-over-time-state-4.png" id="section-5-state-4"
+                class="update-path graph" alt="Graph showing eGFR after six years"/>
+            </div>
+            <div class="mobile-only">
+              <img src="./assets/images/profiles/carlos/mobile/egfr-over-time-state-1-mobile.png" id="section-5-state-1"
+                class="update-path mobile-graph graph visible" alt="Graph modeling eGFR decline over time, starting at biopsy"/>
+              <img src="./assets/images/profiles/carlos/mobile/egfr-over-time-state-2-mobile.png" id="section-5-state-2"
+                class="update-path mobile-graph graph" alt="Graph showing eGFR after two years"/>
+              <img src="./assets/images/profiles/carlos/mobile/egfr-over-time-state-3-mobile.png" id="section-5-state-3"
+                class="update-path mobile-graph graph" alt="Graph showing eGFR after four years"/>
+              <img src="./assets/images/profiles/carlos/mobile/egfr-over-time-state-4-mobile.png" id="section-5-state-4"
+                class="update-path mobile-graph graph" alt="Graph showing eGFR after six years"/>
+            </div>
+          </div>
+        </div>
+
+        <div class="slider-container">
+          <div class="tablet-desktop-only">
+            <img src="./assets/images/profiles/over-time-slider-1.svg" id="section-5-state-1"
+              class="update-path slider-lower slider visible" alt="Slider shown at biopsy stage"/>
+            <img src="./assets/images/profiles/over-time-slider-2.svg" id="section-5-state-2"
+              class="update-path slider-lower slider" alt="Slider shown at 2 years"/>
+            <img src="./assets/images/profiles/over-time-slider-3.svg" id="section-5-state-3"
+              class="update-path slider-lower slider" alt="Slider shown at 4 years"/>
+            <img src="./assets/images/profiles/over-time-slider-4.svg" id="section-5-state-4"
+              class="update-path slider-lower slider" alt="Slider shown at 6 years"/>
+          </div>
+          <div class="mobile-only">
+            <img src="./assets/images/profiles/over-time-slider-1-mobile.png" id="section-5-state-1"
+              class="update-path slider-lower mobile-graph slider visible" alt="Slider shown at biopsy stage"/>
+            <img src="./assets/images/profiles/over-time-slider-2-mobile.png" id="section-5-state-2"
+              class="update-path slider-lower mobile-graph slider" alt="Slider shown at 2 years"/>
+            <img src="./assets/images/profiles/over-time-slider-3-mobile.png" id="section-5-state-3"
+              class="update-path slider-lower mobile-graph slider" alt="Slider shown at 4 years"/>
+            <img src="./assets/images/profiles/over-time-slider-4-mobile.png" id="section-5-state-4"
+              class="update-path slider-lower mobile-graph slider" alt="Slider shown at 6 years"/>
+          </div>
+
+          <input type="range" class="range-slider" id="s6-lower" name="s6-lower" min="1" max="4" value="1" step="1" />
+        </div>
+      </div>
+
+      <div class="footnotes">
+        <p>The graphic shown above is for illustrative purposes only and is intended to educate on potential
+          histopathological changes that could occur during IgAN. It is not intended to provide specific information
+          about the progression of these changes or inform treatment decisions. Changes in proteinuria and eGFR are
+          hypothetical and are based on trends seen in clinical trials and cohort studies.<sup>3-6</sup></p>
+        <p>*Image used with permission from the Renal Fellow Network, from: Gallan A. Kidney Biopsy of the Month.
+          Published July 29, 2019. Available at <a class="format-url link-color" target="_blank"
+            href="https://www.renalfellow.org/2019/07/29/kidney-biopsy-of-the-month-iga-nephropathy/">https://www.renalfellow.org/2019/07/29/kidney-biopsy-of-the-month-iga-nephropathy/</a>.
+        </p>
+        <p><sup>a</sup>PAS staining showing sclerosis in the upper left portion of the glomerulus as indicated by black
+          arrow. A single glomerulus may not capture all components of the MEST-C score.</p>
+        <p>ECM, extracellular matrix; eGFR, estimated glomerular filtration rate; Gd-IgA1, galactose-deficient IgA1; MEST-C, mesangial hypercellularity (M), endocapillary hypercellularity (E), segmental sclerosis (S), tubular atrophy and interstitial fibrosis (T), crescent (C); PAS, periodic acid-Schiff.</p>
+        <p><span class="bold">References: 1.</span> Lai KN, et al. <em>Nat Rev Dis Primers</em>. 2016;2:16001. <span
+            class="bold">2.</span> Barratt J, et al. <em>Kidney Int</em>. 2023;103(2):391-402. <span
+            class="bold">3.</span> Pitcher D, et al. <em>Clin J Am Soc Nephrol</em>. 2023;18(6):727-738. <span
+            class="bold">4.</span> Faucon AL, et al. <em>Nephrol Dial Transplant</em>. 2024;30:gfae085. <span
+            class="bold">5.</span> Rovin BH, et al. <em>Lancet</em>. 2023;402(10417):2077-2090. <span
+            class="bold">6.</span> Lafayette R, et al. <em>Lancet</em>. 2023;402:859-870.</p>
+      </div>
+    </section>
+
+    <section class="gray-bg" data-section-id="6" data-section-name="Carlos Impact of MEST-C Lesions" data-dot-label="Impact of <br>MEST-C Lesions">
+      <div class="flex-header">
+        <img src="./assets/images/profiles/carlos-profile.png" class="update-path bio-pic desktop-only" alt="" />
+
+        <div>
+          <h1 class="pat-header">Impact of <span class="nowrap">MEST-C</span> Lesions</h1>
+          <p class="desc-text">MEST-C lesions may help nephrologists determine the appropriate management strategy for each patient.</p>
+        </div>
+      </div>
+
+      <p class="bold">Click below to learn more about <span class="nowrap">MEST-C</span> lesions.</p>
+
+      <div id="content-box">
+
+        <div class="hotspot-container">
+          <div class="content-hotspot" id="content-state-1"></div>
+          <div class="content-hotspot" id="content-state-2"></div>
+        </div>
+
+        <div class="large-screens-only">
+          <img src="./assets/images/profiles/carlos/sect-6-box-state-1.png" id="content-state-1"
+            class="content-img visible update-path" alt="Illustration of inflammatory lesions (mesangial and endocapillary hypercellularity), impairing glomerular filtration." />
+          <img src="./assets/images/profiles/carlos/sect-6-box-state-2.png" id="content-state-2"
+            class="content-img update-path" alt="Illustration of chronic lesions (segmental glomerulosclerosis and tubular atrophy), indicating chronic irreversible loss of kidney function" />
+        </div>
+        <div class="mobile-only">
+          <img src="./assets/images/profiles/carlos/mobile/sect-6-box-state-1-mobile.png" id="content-state-1"
+            class="content-img mobile-graph visible update-path" alt="Illustration of inflammatory lesions (mesangial and endocapillary hypercellularity), impairing glomerular filtration." />
+          <img src="./assets/images/profiles/carlos/mobile/sect-6-box-state-2-mobile.png" id="content-state-2"
+            class="content-img mobile-graph update-path" alt="Illustration of chronic lesions (segmental glomerulosclerosis and tubular atrophy), indicating chronic irreversible loss of kidney function" />
+        </div>
+
+      </div>
+
+      <div class="footnotes tablet-desktop-only">
+          <p>CKD, chronic kidney disease; IgA, immunoglobulin A; MEST-C mesangial hypercellularity (M), endocapillary hypercellularity (E), segmental sclerosis (S), tubular atrophy and interstitial fibrosis (T) and crescents (C).</p>
+          <p><span class="bold">Reference: 1.</span> Pattrapornpisut P, et al. <em>Am J Kidney Dis</em>. 2021;78(3):429-441. <span class="bold">2.</span> Wendt R, et al. <em>Biomedicines</em>. 2024;12(10):2259. <span class="bold">3.</span> Trimarchi H, et al. <em>Kidney Int</em>. 2017;91(5):1014-1021. <span class="bold">4.</span> Mitrotti A, et al. <em>Pediatr Nephrol</em>. 2024;39(6):1685-1707. <span class="bold">5.</span> Filippone EJ, et al. <em>Front Immunol</em>. 2024;15:1436923. <span class="bold">6.</span> Wendt R, et al. <em>Biomedicines</em>. 2024;12(10):2259. <span class="bold">7.</span> Caster DJ, et al. <em>Kidney Int Rep</em>. 2023;8(9):1792-1800.</p>
+      </div>
+    </section>
+
+    <section class="gray-bg acc-section" data-section-id="7" data-section-name="Carlos Impact of eGFR Decline on Progression to ESKD" data-dot-label="Impact of eGFR<br>Decline on<br>Progression">
+
+      <div class="acc-header">
+        <p>Learn more about how Carlos&rsquo; eGFR may decline over time</p>
+        <img src="./assets/images/acc-arrow.svg" class="update-path acc-arrow" alt=""/>
+      </div>
+
+      <div class="acc-content">
+        <div class="flex-header">
+          <img src="./assets/images/profiles/carlos-profile.png" class="update-path bio-pic desktop-only" alt="" />
+  
+          <div>
+            <h1 class="pat-header">Impact of eGFR Decline<br class="desktop-only" /> on Progression to Kidney Failure</h1>
+            <p class="desc-text">Based on how quickly Carlos&rsquo; eGFR declines, he may reach<br class="desktop-only" />
+              kidney failure within 10 years.</p>
+          </div>
+        </div>
+  
+        <p class="bold">If Carlos&rsquo; eGFR decline stabilizes, this can delay the onset of kidney failure.</p>
+        <p class="direction">Select a button below to see how different rates of eGFR decline can impact progression to
+          kidney failure.</p>
+  
+        <div class="graph-container">
+          <div class="tablet-desktop-only">
+            <img src="./assets/images/profiles/carlos/section-7-graph-state-0.png" id="0" class="update-path graph"
+              alt="Graph depicting changes in eGFR over time" />
+            <img src="./assets/images/profiles/carlos/section-7-graph-state-1.png" id="state-3" class="update-path visible graph"
+              alt="Graph depicting changes in eGFR over time at a loss of 5 mL/min/1.73 m2 per year" />
+            <img src="./assets/images/profiles/carlos/section-7-graph-state-2.png" id="state-2" class="update-path graph"
+              alt="Graph depicting changes in eGFR over time at a loss of 3 mL/min/1.73 m2 per year" />
+            <img src="./assets/images/profiles/carlos/section-7-graph-state-3.png" id="state-1" class="update-path graph"
+              alt="Graph depicting changes in eGFR over time at a loss of 2 mL/min/1.73 m2 per year" />
+            </div>
+            <div class="mobile-only">
+            <img src="./assets/images/profiles/carlos/mobile/section-7-graph-state-0-mobile.png" id="0" class="update-path mobile-graph graph"
+              alt="Graph depicting changes in eGFR over time" />
+            <img src="./assets/images/profiles/carlos/mobile/section-7-graph-state-1-mobile.png" id="state-3" class="visible update-path mobile-graph graph"
+              alt="Graph depicting changes in eGFR over time at a loss of 5 mL/min/1.73 m2 per year" />
+            <img src="./assets/images/profiles/carlos/mobile/section-7-graph-state-2-mobile.png" id="state-2" class="update-path mobile-graph graph"
+              alt="Graph depicting changes in eGFR over time at a loss of 3 mL/min/1.73 m2 per year" />
+            <img src="./assets/images/profiles/carlos/mobile/section-7-graph-state-3-mobile.png" id="state-1" class="update-path mobile-graph graph"
+              alt="Graph depicting changes in eGFR over time at a loss of 2 mL/min/1.73 m2 per year" />
+          </div>
+  
+          <div class="hotspot" id="state-1" data-value="Annual eGFR loss: -2 mL/min/1.73 m^2/year"></div>
+          <div class="hotspot" id="state-2" data-value="Annual eGFR loss: -3 mL/min/1.73 m^2/year"></div>
+          <div class="hotspot" id="state-3" data-value="Annual eGFR loss: -5 mL/min/1.73 m^2/year"></div>
+  
+          <div class="upper-hotspots">
+            <div class="hotspot lower-hotspot" id="state-3" data-value="Annual eGFR loss: -5 mL/min/1.73 m^2/year"></div>
+            <div class="hotspot lower-hotspot" id="state-2" data-value="Annual eGFR loss: -3 mL/min/1.73 m^2/year"></div>
+            <div class="hotspot lower-hotspot" id="state-1" data-value="Annual eGFR loss: -2 mL/min/1.73 m^2/year"></div>
+          </div>
+        </div>
+  
+        <div class="footnotes">
+          <p>CKD, chronic kidney disease; eGFR, estimated glomerular filtration rate.</p>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="switch-pat-section" data-section-name="Switch Patient">
+      <h2 class="yellow-header">SELECT ANOTHER HYPOTHETICAL PATIENT</h2>
+
+      <div class="flex">
+        <div class="profile nav-el" data-nav-url="progression/sarah" data-exit-url="progression/sarah">
+          <img src="./assets/images/profiles/sarah-profile.png" class="update-path" alt="" />
+          <h3>Sarah</h3>
+        </div>
+        <div class="profile nav-el" data-nav-url="progression/mark" data-exit-url="progression/mark">
+          <img src="./assets/images/profiles/mark-profile.png" class="update-path" alt="" />
+          <h3>Mark</h3>
+        </div>
+      </div>
+
+      <img src="./assets/images/or-line-graphic.png" class="or-line update-path" alt="Or" />
+
+      <div class="button nav-el" id="discover" data-nav-url="pathogenesis/index" data-exit-url="pathogenesis/mark">
+        <p>Discover the pathogenesis of IgAN</p>
+      </div>
+    </section>
+
+    {{> ../templates/footer-el }}
+
+  </main>
+
+  <script type="text/javascript" src="../static.bundle.js" charset="utf-8"></script>
+</body>
+
+</html>

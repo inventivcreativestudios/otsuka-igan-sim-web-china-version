@@ -1,0 +1,807 @@
+[data-page-id="pat-profile-carlos"] {
+
+  .two-column .right-side {
+    .bullet-list li {
+      width: auto !important;
+      margin-right: 0 !important;
+    }
+
+    .cta {
+      width: max-content;
+      height: max-content;
+    }
+
+    .footnotes {
+      margin-top: 2rem;
+    }
+
+    & > .flex {
+      margin-top: 0.5rem !important;
+    }
+  }
+
+  section[data-section-id="2"] {
+    padding-left: 30rem;
+    padding-top: 2rem;
+
+    @media screen and (max-width: 1200px) {
+      padding: 4rem 2rem 7rem;
+    }
+
+    .owl-carousel {
+      width: 100%;
+    }
+
+    .owl-item {
+      width: 90%;
+      border-radius: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #carlos-block-7 {
+      .cta {
+        margin-top: 1rem;
+      }
+    }
+
+    #mobile-bio-trigger {
+      margin-left: -2rem;
+    }
+  }
+
+  section[data-section-id="3"] {
+    .right-side {
+      padding-top: 6rem !important;
+    }
+
+    .graph-container {
+      position: relative;
+
+      .hotspot {
+        width: 44px;
+        height: 44px;
+        position: absolute;
+        cursor: pointer;
+        border-radius: 50%;
+
+        &#state-1 {
+          top: 75%;
+          left: 22%;
+
+          @media screen and (max-width: 450px) {
+            top: 80%;
+            left: 10%;
+          }
+        }
+        &#state-2 {
+          top: 69%;
+          left: 36%;
+
+          @media screen and (max-width: 450px) {
+            top: 77%;
+            left: 29%;
+          }
+        }
+        &#state-3 {
+          top: 66%;
+          left: 49%;
+
+          @media screen and (max-width: 450px) {
+            top: 74%;
+            left: 48%;
+          }
+        }
+        &#state-4 {
+          top: 60%;
+          left: 63%;
+
+          @media screen and (max-width: 450px) {
+            top: 70%;
+            left: 67%;
+          }
+        }
+        &#state-5 {
+          top: 53%;
+          left: 77%;
+
+          @media screen and (max-width: 450px) {
+            top: 65%;
+            left: 85%;
+          }
+        }
+      }
+    }
+
+    .graph {
+      width: 100%;
+      margin-top: 6.5rem;
+      display: none;
+
+      @media screen and (max-width: 1200px) {
+        margin-top: 2.5rem;
+      }
+
+      &.visible {
+        display: block;
+      }
+    }
+
+    a {
+      text-decoration: none;
+      font-family: inherit;
+
+      #sect-3-tool-exit {
+        font-family: inherit;
+        height: pxToRem(67);
+        margin: 6rem auto 0;
+
+        @media screen and (max-width: 1200px) {
+          margin: 3rem auto 0;
+        }
+      }
+    }
+
+    .footnotes {
+      margin-top: 2.5rem;
+    }
+  }
+
+  section[data-section-id="4"] {
+
+    .graph-container {
+      position: relative;
+
+      .hotspot {
+        width: 44px;
+        height: 44px;
+        position: absolute;
+        cursor: pointer;
+        border-radius: 50%;
+
+        &#state-1 {
+          top: 73%;
+          left: 22%;
+
+          @media screen and (max-width: 450px) {
+            top: 79%;
+            left: 10%;
+          }
+        }
+        &#state-2 {
+          top: 64%;
+          left: 36%;
+
+          @media screen and (max-width: 450px) {
+            top: 73%;
+            left: 29%;
+          }
+        }
+        &#state-3 {
+          top: 56%;
+          left: 49%;
+
+          @media screen and (max-width: 450px) {
+            top: 68%;
+            left: 47%;
+          }
+        }
+        &#state-4 {
+          top: 47%;
+          left: 63%;
+
+          @media screen and (max-width: 450px) {
+            top: 61%;
+            left: 67%;
+          }
+        }
+        &#state-5 {
+          top: 38%;
+          left: 76%;
+
+          @media screen and (max-width: 450px) {
+            top: 56%;
+            left: 85%;
+          }
+        }
+      }
+    }
+
+    h4 {
+      margin-top: 5rem;
+      color: $brandPurple;
+
+      @media screen and (max-width: 450px) {
+        margin-top: 2.5rem;
+        font-size: 20px !important;
+      }
+    }
+
+    .right-side > .bold {
+      margin-top: 4rem !important;
+      font-size: 1rem !important;
+      width: 89%;
+
+      @media screen and (max-width: 450px) {
+        width: 100%;
+        margin-top: 2rem !important;
+      }
+    }
+
+    .graph {
+      width: 100%;
+      margin-top: 4.5rem;
+      display: none;
+
+      @media screen and (max-width: 450px) {
+        margin-top: 2.5rem;
+      }
+
+      &.visible {
+        display: block;
+      }
+    }
+
+    .footnotes {
+      margin-top: 7rem;
+
+      @media screen and (max-width: 450px) {
+        margin-top: 2rem;
+      }
+    }
+    
+  }
+
+  section[data-section-id="5"] {
+    .content-lower {
+      font-family: inherit;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+
+    .subhead {
+      text-align: center;
+      font-weight: 700;
+      margin: 3rem 0 1rem;
+      font-size: 22px;
+      width: 80%;
+
+      @media screen and (max-width: 1200px) {
+        width: 100%;
+      }
+
+      @media screen and (max-width: 1200px) {
+        font-size: 18px;
+      }
+    }
+
+    .graph-header {
+      color: $brandPurple;
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 1rem;
+
+      @media screen and (max-width: 1200px) {
+        text-align: center;
+      }
+    }
+
+    .direction {
+      @media screen and (max-width: 1200px) {
+        text-align: center;
+      }
+    }
+
+    .divider {
+      width: 85%;
+      margin: 2rem 0;
+
+      @media screen and (max-width: 1200px) {
+        width: 100%;
+      }
+    }
+
+    .images-container {
+      display: flex;
+      justify-content: space-between;
+      font-family: inherit;
+      width: 85%;
+      margin-top: 2.5rem;
+      // min-height: 36rem;
+
+      @media screen and (max-width: 1200px) {
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        width: 100%;
+        min-height: 0;
+      }
+
+      .left-side {
+        width: 38%;
+        margin-right: 3rem;
+        font-family: inherit;
+
+        @media screen and (max-width: 1200px) {
+          width: 100%;
+        }
+
+        .text-bubble {
+          display: none;
+          font-family: inherit;
+          padding: 2.5rem 4.2rem 2.5rem 2.5rem;
+
+          @media screen and (max-width: 1200px) {
+            width: 100%;
+            max-width: 50%;
+            padding: 2.5rem 1.6rem 1.7rem;
+            margin-left: auto;
+            margin-right: auto;
+          }
+
+          @media screen and (max-width: 500px) {
+            max-width: 100%;
+          }
+    
+          &.visible {
+            display: block;
+          }
+
+          &#section-5-state-1 {
+            background: url('./assets/images/profiles/carlos/text-bubble-1.png') no-repeat;
+            background-size: 100% 100%;
+
+            @media screen and (max-width: 1200px) {
+              background: url('./assets/images/profiles/mobile-text-bubble-1.png') no-repeat;
+              background-size: 100% 100%;
+            }
+          }
+          &#section-5-state-2 {
+            background: url('./assets/images/profiles/carlos/text-bubble-2.png') no-repeat;
+            background-size: 100% 100%;
+            margin-top: 6rem;
+
+            @media screen and (max-width: 1200px) {
+              background: url('./assets/images/profiles/mobile-text-bubble-2.png') no-repeat;
+              background-size: 100% 100%;
+              margin-top: 0;
+            }
+          }
+          &#section-5-state-3 {
+            background: url('./assets/images/profiles/carlos/text-bubble-3.png') no-repeat;
+            background-size: 100% 100%;
+            margin-top: 6.6rem;
+
+            @media screen and (max-width: 1200px) {
+              background: url('./assets/images/profiles/mobile-text-bubble-2.png') no-repeat;
+              background-size: 100% 100%;
+              margin-top: 0;
+            }
+          }
+          &#section-5-state-4 {
+            background: url('./assets/images/profiles/carlos/text-bubble-4.png') no-repeat;
+            background-size: 100% 100%;
+            margin-top: 6rem;
+
+            @media screen and (max-width: 1200px) {
+              background: url('./assets/images/profiles/mobile-text-bubble-2.png') no-repeat;
+              background-size: 100% 100%;
+              margin-top: 0;
+            }
+          }
+
+          p {
+            font-family: inherit;
+
+            @media screen and (max-width: 1200px) {
+              line-height: 1.2;
+              font-size: 14px;
+            }
+          }
+
+          a {
+            color: blue;
+          }
+
+          & > img {
+            @media screen and (max-width: 1200px) {
+              width: 48%;
+            }
+            @media screen and (max-width: 500px) {
+              width: 100%;
+            }
+          }
+        }
+      }
+
+      .right-side {
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: inherit;
+
+        @media screen and (max-width: 1200px) {
+          width: 100%;
+        }
+
+        .graphic-container {
+          position: relative;
+          font-family: inherit;
+
+          #tag-1 {
+            top: 5%;
+            left: 28%;
+          }
+
+          #tag-2 {
+            top: 8%;
+            left: 63%;
+          }
+
+          #tag-3 {
+            top: 20%;
+            right: 81%;
+
+            @media screen and (max-width: 500px) {
+              left: 14%;
+              top: 18%;
+            }
+          }
+
+          #tag-4 {
+            top: 32%;
+            left: 36%;
+          }
+
+          #tag-5 {
+            top: 33%;
+            left: 62%;
+
+            @media screen and (max-width: 500px) {
+              height: auto;
+              left: 61%;
+              top: 28%;
+
+              &.open {
+                  padding: 4px 4px 4px 8px;
+              }
+            }
+          }
+
+          #tag-6 {
+            top: 45%;
+            left: 30%;
+
+            @media screen and (max-width: 500px) {
+              top: 46%;
+              left: 29%;
+            }
+          }
+
+          #tag-7 {
+            top: 48%;
+            left: 54%;
+
+            @media screen and (max-width: 500px) {
+              top: 49%;
+              left: 55%;
+            }
+          }
+
+          #tag-8 {
+            top: 4%;
+            left: 21%;
+          }
+        }
+        
+        .graphic {
+          display: none;
+
+          @media screen and (max-width: 1200px) {
+            max-width: 580px;
+          }
+          @media screen and (max-width: 450px) {
+            max-width: 100%;
+          }
+    
+          &.visible {
+            display: block;
+          }
+        }
+
+        .slider-container {
+          margin: 3rem 0 0;
+          width: 94%;
+          // max-width: 580px;
+
+          @media screen and (max-width: 1200px) {
+            width: 100%;
+          }
+        }
+
+        .slider {
+          display: none;
+          width: 100%;
+
+          &.visible {
+            display: block;
+          }
+        }
+      }
+    }
+
+    .graphs-container {
+      display: flex;
+      justify-content: space-between;
+      width: 95%;
+      margin-top: 4rem;
+
+      @media screen and (max-width: 1200px) {
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 0.5rem;
+        width: 100%;
+      }
+
+      & > div {
+        width: 46%;
+
+        @media screen and (max-width: 1200px) {
+          width: 100%;
+          margin-bottom: 2rem;
+        }
+
+        &.right-side {
+          @media screen and (max-width: 1200px) {
+            margin-bottom: 0;
+          }
+        }
+
+        .graph {
+          width: 100%;
+          display: none;
+          max-width: 580px;
+
+          &.visible {
+            display: block;
+          }
+        }
+      }
+    }
+
+    .slider-container {
+      position: relative;
+      margin: 2rem 0 4.5rem;
+
+      @media screen and (max-width: 1200px) {
+        margin: 2.5rem 0;
+      }
+
+      .slider {
+        width: pxToRem(600);
+        display: none;
+        
+        &.visible {
+          display: block;
+        }
+      }
+    }
+  }
+
+  section[data-section-id="6"] {
+
+    & > .bold {
+      width: 100%;
+      text-align: center;
+      font-size: 22px;
+      font-weight: 700;
+      color: $brandNavy;
+      margin-top: 2rem;
+
+      @media screen and (max-width: 450px) {
+        margin-top: 2rem;
+      }
+    }
+
+    #content-box {
+      background: url('./assets/images/profiles/carlos/sect-7-content-box.png') no-repeat;
+      background-size: 100% 100%;
+      width: 80%;
+      position: relative;
+      padding: 3rem 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 3rem auto 4rem;
+      font-family: inherit;
+
+      @media screen and (max-width: 1200px) {
+        width: 100%;
+        padding: 3rem 1rem 2rem;
+      }
+
+      @media screen and (max-width: 500px) {
+        width: 100%;
+        padding: 0;
+      }
+
+      .large-screens-only {
+        display: none;
+        place-items: center;
+
+        @media screen and (min-width: 500px) {
+          display: grid;
+        }
+      }
+
+      .mobile-only {
+        display: grid;
+        place-items: center;
+      }
+
+      .hotspot-container {
+        display: flex;
+        justify-content: space-between;
+        width: 77%;
+        height: 5rem;
+        position: absolute;
+        top: 6%;
+        left: 11%;
+
+        @media screen and (max-width: 450px) {
+          flex-direction: column;
+          justify-content: space-between;
+          width: 84%;
+          top: 3%;
+          height: 10rem;
+          left: 8%;
+        }
+
+        .content-hotspot {
+          width: 44%;
+          height: 100%;
+          cursor: pointer;
+
+          @media screen and (max-width: 450px) {
+            width: 100%;
+            height: 44%;
+          }
+        }
+      }
+
+      .content-img {
+        display: none;
+        margin-bottom: 2rem;
+
+        @media screen and (max-width: 450px) {
+          width: 100%;
+          margin-bottom: 0;
+        }
+
+        &.visible {
+          display: block;
+        }
+      }
+    }
+
+    .footnotes {
+      width: 86%;
+    }
+  }
+
+  section[data-section-id="7"] {
+
+    .acc-content > .bold {
+      font-size: 24px;
+      color: $brandNavy;
+      font-weight: 700;
+      font-family: inherit;
+      margin: 5rem 0 1.5rem;
+      text-align: center;
+      width: 100%;
+
+      @media screen and (max-width: 450px) {
+        font-size: 21px;
+        margin: 2rem 0 1.5rem;
+      }
+    }
+
+    .direction {
+      width: 100%;
+      text-align: center;
+    }
+
+    .graph-container {
+      position: relative;
+      width: 80%;
+      margin: 3rem auto;
+
+      @media screen and (max-width: 1200px) {
+        width: 100%;
+      }
+
+      .graph {
+        width: 100%;
+        display: none;
+
+        &.visible {
+          display: block;
+        }
+      }
+  
+      & > .hotspot {
+        position: absolute;
+        height: 22px;
+        cursor: pointer;
+        
+        @media screen and (max-width: 450px) {
+          height: 15px;
+        }
+
+        &#state-1 {
+          top: 50%;
+          left: 17%;
+          transform: rotate(26deg);
+          width: 76%;
+
+          @media screen and (max-width: 450px) {
+            top: 42%;
+            left: 24%;
+          }
+        }
+
+        &#state-2 {
+          top: 52%;
+          left: 17%;
+          transform: rotate(37deg);
+          width: 59%;
+
+          @media screen and (max-width: 450px) {
+            top: 43%;
+          }
+        }
+
+        &#state-3 {
+          top: 50%;
+          left: 13%;
+          transform: rotate(51deg);
+          width: 45%;
+
+          @media screen and (max-width: 450px) {
+            top: 43%;
+            left: 9%;
+            width: 49%;
+          }
+        }
+      }
+
+      .upper-hotspots {
+        position: absolute;
+        top: 21%;
+        right: 9%;
+        width: 48%;
+        height: 17%;
+
+        @media screen and (max-width: 450px) {
+          top: 69%;
+          left: 3%;
+          width: 94%;
+        }
+  
+        .hotspot {
+          width: 100%;
+          height: 33%;
+          cursor: pointer;
+
+          @media screen and (max-width: 450px) {
+            height: 2.4rem;
+          }
+        }
+      }
+    }
+  }
+}

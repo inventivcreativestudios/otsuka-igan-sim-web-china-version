@@ -1,0 +1,142 @@
+#overlay {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  z-index: 12;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  display: none;
+}
+
+.modal {
+  font-family: inherit;
+  background-color: white;
+  background-image: url('./assets/images/pink-gradient-bg.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 30px;
+  padding: 2.5rem;
+  z-index: 15;
+  width: 82%;
+  max-width: 80rem;
+  position: absolute;
+  top: 0;
+  left: 9%;
+  opacity: 0;
+  display: none;
+
+  @media screen and (min-width: 1570px) {
+    left: calc((100vw - 80rem) / 2);
+  }
+
+  @media screen and (max-width: 450px) {
+    padding: 1.5rem;
+    max-height: 90%;
+  }
+
+  .modal-inner {
+    font-family: inherit;
+    position: relative;
+
+    @media screen and (max-width: 450px) {
+      overflow: auto;
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 0;
+      right: 0;
+      cursor: pointer;
+      width: 31px;
+
+      @media screen and (max-width: 450px) {
+        width: 19px;
+      }
+    }
+
+    .modal-header {
+      font-family: inherit;
+      color: $textGray;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 1.5;
+      text-align: center;
+      width: 72%;
+      margin: 1rem auto 2rem;
+
+      @media screen and (max-width: 450px) {
+        width: 100%;
+        font-size: 17px;
+        margin: 2rem auto;
+        line-height: 1.3;
+      }
+    }
+
+    .modal-big-header {
+      font-size: 28px;
+    }
+
+    .hotspot-container {
+      display: flex;
+      justify-content: space-between;
+      position: absolute;
+      top: 44%;
+      width: 100%;
+      left: 0;
+
+      @media screen and (max-width: 450px) {
+        top: 45%;
+      }
+
+      .hotspot {
+        width: 17%;
+        height: 3.5rem;
+        cursor: pointer;
+
+        @media screen and (max-width: 450px) {
+          width: 20%;
+          height: 1.5rem;
+        }
+      }
+    }
+
+    .graphic-container {
+      width: 100%;
+      
+      @media screen and (max-width: 450px) {
+        overflow-x: scroll;
+  
+        &::-webkit-scrollbar {
+          -webkit-appearance: none;
+          width: 7px;
+          height: 7px;
+          -webkit-overflow-scrolling: auto;
+        }
+        &::-webkit-scrollbar-thumb {
+          border-radius: 4px;
+          background-color: rgba(0,0,0,.5);
+          -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+        }
+      }
+    }
+
+    .graphic {
+      margin-bottom: 1rem;
+      width: 100%;
+
+      @media screen and (max-width: 450px) {
+        max-width: none;
+        height: 265px;
+        width: auto;
+      }
+    }
+
+    @media screen and (max-width: 450px) {
+      .footnotes p {
+        font-size: 10px !important;
+      }
+    }
+  }
+}

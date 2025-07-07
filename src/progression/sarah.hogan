@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>IgAN Patient Case - Explore Sarah's Journey</title>
+  <meta name="description" content="Explore Sarah’s journey with IgAN, from diagnosis to disease progression. Learn how this autoimmune kidney disease can impact her quality of life">
+  {{> ../templates/header }}
+  <link href="../styles.bundle.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WZLFQZR3" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <main class="wrapper" data-page-id="pat-profile-sarah" data-path-level="2">
+
+    {{> ../templates/nav }}
+    {{> ../templates/interstitial }}
+
+    <div class="progress-dots-container"></div>
+
+    {{> ../templates/mestc-score-modal }}
+
+    <img id="scroll-arrow" class="update-path" src="./assets/images/scroll-arrow.svg" alt="Scroll arrow down" />
+
+    <div id="sarah-bio-tray" class="mobile-bio-tray">
+      <div id="tray-close">
+        <p>Baseline Assessment at Biopsy</p>
+        <img src="./assets/images/back-arrow.svg" class="update-path arrow" alt="Back arrow"/>
+      </div>
+
+      <p class="name">Sarah, 25</p>
+
+      {{> ../templates/sarah-bio }}
+
+      <div class="extra-section">
+        <p class="extra-footnote">*Image used with permission from the Renal Fellow Network, from Gallan A. Kidney Biopsy of the Month. Published July 29, 2019. Available at: Kidney Biopsy of the Month: IgA Nephropathy - Renal Fellow Network/.</p>
+        <p class="extra-footnote">ACE, angiotensin-converting enzyme; ARB, angiotensin II receptor blocker; BP, blood pressure; eGFR, estimated glomerular filtration rate; HPF, high-power field; MEST-C, mesangial hypercellularity (M), endocapillary hypercellularity (E), segmental sclerosis (S), tubular atrophy and interstitial fibrosis (T), crescent (C); PAS, periodic acid-Schiff; RBC, red blood cells; UPCR, urine protein creatinine ratio.</p>
+      </div>
+    </div>
+
+    <!-- //////////////////// SECTION 1 ///////////////////// -->
+
+    <section id="section-1" class="" data-section-id="1" data-section-name="Sarah Patient Information" data-dot-label="Meet Sarah">
+
+      <div class="two-column">
+
+        <div id="left-bio">
+          <img src="./assets/images/profiles/sarah-profile.png" class="update-path bio-pic" alt="">
+          
+          {{> ../templates/sarah-bio }}
+        </div>
+
+        <div class="right-side">
+          <img src="./assets/images/profiles/sarah-profile.png" class="update-path bio-pic conditional-render" alt="">
+          <p class="name conditional-render">Sarah, 25</p>
+
+          <h1 class="sect-1-header">Sarah is a 25-year-old Japanese American woman and recent law school graduate. She began working at a local, fast-paced law firm 6 months prior to her initial exam.</h1>
+
+          <p class="bold">Sarah has been experiencing dark brown urine for the past 2 days following an upper
+            respiratory tract infection. She is currently not menstruating and recalled a similar incident when she was
+            a teenager.</p>
+
+          <ul class="bullet-list">
+            <li><span class="bullet">&bull;</span><span>No remarkable findings upon physical exam</span></li>
+            <li><span class="bullet">&bull;</span><span>Her urinalysis showed &gt;25 RBC/HPF and 2+ protein</span></li>
+          </ul>
+
+          <div class="divider"></div>
+
+          <h4 class="purple">Sarah was referred to a nephrologist for subsequent workups:</h4>
+
+          <div class="flex">
+            <div class="workup">
+              <img class="icon update-path" src="./assets/images/gauge-icon.svg" alt="" />
+              <p>UPCR 2.1 g/g (~24-hour urine<br class="desktop-only"> protein excretion of <span class="nowrap">2.1 g/d)</span></p>
+            </div>
+            <div class="workup">
+              <img class="icon update-path" src="./assets/images/kidneys-icon.svg" alt="" />
+              <p>Kidney biopsy revealed dominant IgA staining and evidence of mesangial hypercellularity, which
+                confirmed Sarah&rsquo;s IgAN diagnosis</p>
+            </div>
+          </div>
+
+          <p class="direction bold align-center tablet-desktop-only">Click the arrows in the carousel below to explore Sarah&rsquo;s baseline characteristics</p>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="temp-section mobile-only">
+      <p class="direction bold align-center">Swipe in the carousel below to explore Sarah&rsquo;s baseline characteristics</p>
+    </div>
+
+    <!-- //////////////////// SECTION 2 ///////////////////// -->
+
+    <section id="section-2" class="" data-section-id="2" data-section-name="Sarah Demographic and Information Carousel" data-dot-label="Baseline<br>Characteristics">
+
+      <div class="owl-carousel">
+        <div class="carousel-block" id="sarah-block-1">
+          <h3 class="label">Age at Biopsy</h3>
+          <h4 class="characteristic">25 years old</h4>
+
+          <ul class="bullet-list">
+            <li><span class="bullet">&bull;</span><span>IgAN is primarily diagnosed in adults 20-40 years of
+                age<sup>1,2</sup></span></li>
+            <li><span class="bullet">&bull;</span><span>Clinical presentation and disease progression can vary based on
+                the patient&rsquo;s age at diagnosis<sup>3</sup></span></li>
+          </ul>
+
+          <div class="footnotes">
+            <p><span class="bold">References: 1.</span> Caster DJ, et al. <em>Kidney Int Rep</em>. 2023;8(9):1792-1800.
+              <span class="bold">2.</span> Lai KN, et al. <em>Nat Rev Dis Primers</em>. 2016;2:16001. <span
+                class="bold">3.</span> Gutierrez E, et al. <em>Nephrol Dial Transplant</em>. 2018;33:472-477.</p>
+          </div>
+        </div>
+
+        <div class="carousel-block" id="sarah-block-2">
+          <h3 class="label">Race</h3>
+          <h4 class="characteristic">East Asian (Japanese)</h4>
+
+          <ul class="bullet-list">
+            <li><span class="bullet">&bull;</span><span>Clinical presentation and progression of IgAN can vary greatly
+                depending on ethnicity<sup>1</sup></span></li>
+            <li><span class="bullet">&bull;</span><span>Asian ethnicity is associated with faster disease progression
+                and greater burden<sup>1</sup></span></li>
+            <ul>
+              <li><span class="bullet">&ndash;</span><span>East Asian patients are 4x more likely to develop ESKD</span>
+              </li>
+            </ul>
+          </ul>
+
+          <div class="footnotes">
+            <p>ESKD, end-stage kidney disease.</p>
+            <p><span class="bold">Reference: 1.</span> Yeo SC, et al. <em>Nephrology (Carlton)</em>. 2019;24(9):885-895.
+            </p>
+          </div>
+        </div>
+
+        <div class="carousel-block" id="sarah-block-3">
+          <h3 class="label">Estimated GFR at Biopsy</h3>
+          <h4 class="characteristic">70 mL/min/<br class="mobile-only"/>1.73 m<sup>2</sup></h4>
+
+          <ul class="bullet-list">
+            <li><span class="bullet">&bull;</span><span>Sarah&rsquo;s eGFR at biopsy indicated that she is in Stage 2
+                CKD:
+                some kidney damage leading to a mild loss of kidney function</span></li>
+            <li><span class="bullet">&bull;</span><span>eGFR decline is a validated risk factor of IgAN progression
+                and is strongly associated with the risk of CKD progression and mortality<sup>1</sup></span></li>
+          </ul>
+
+          <div class="footnotes">
+            <p>CKD, chronic kidney disease; eGFR, estimated glomerular filtration rate.</p>
+            <p><span class="bold">Reference: 1.</span> Coresh J, et al. <em>JAMA</em>. 2014;311(24):2518-2531.</p>
+          </div>
+        </div>
+
+        <div class="carousel-block" id="sarah-block-4">
+          <h3 class="label">Blood Pressure at Biopsy</h3>
+          <h4 class="characteristic">130/80 mm Hg</h4>
+
+          <ul class="bullet-list">
+            <li><span class="bullet">&bull;</span><span>Sarah&rsquo;s blood pressure was slightly elevated at
+                biopsy</span></li>
+            <li><span class="bullet">&bull;</span><span>Hypertension can be a predictor of IgAN progression at the time
+                of diagnosis<sup>1</sup></span></li>
+            <li><span class="bullet">&bull;</span><span>Reduction of hypertension lowers the risk of progression to
+                kidney failure<sup>2</sup></span></li>
+          </ul>
+
+          <div class="footnotes">
+            <p><span class="bold">References: 1.</span> Maixnerova D, et al. <em>J Nephrol</em>. 2016;29(4):535-541.
+              <span class="bold">2.</span> KDIGO. <em>Kidney Int</em>. 2021;100:S1-S276.</p>
+          </div>
+        </div>
+
+        <div class="carousel-block" id="sarah-block-5">
+          <h3 class="label">Proteinuria at Biopsy</h3>
+          <h4 class="characteristic">2.1 g/d</h4>
+
+          <ul class="bullet-list">
+            <li><span class="bullet">&bull;</span><span>Sarah had elevated proteinuria at the time of biopsy</span></li>
+            <li><span class="bullet">&bull;</span><span>Proteinuria is a validated prognostic marker linked to
+                long-term kidney outcomes, including eGFR decline and ESKD<sup>1,2</sup></span></li>
+            <li><span class="bullet">&bull;</span><span>Proteinuria reduction inversely correlates with serum
+                creatinine doubling, ESKD, and death<sup>2,3</sup></span></li>
+          </ul>
+
+          <div class="footnotes">
+            <p>eGFR, estimated glomerular filtration rate; ESKD, end-stage kidney disease.</p>
+            <p><span class="bold">References: 1.</span> KDIGO. <em>Kidney Int</em>. 2021;100:S1-S276. <span
+                class="bold">2.</span> Thompson A, et al. <em>Clin J Am Soc Nephrol</em>. 2019;14(3):469-481. <span
+                class="bold">3.</span> Inker L, et al. <em>Am J Kidney Dis</em>. 2016;68(3):392-401.</p>
+          </div>
+        </div>
+
+        <div class="carousel-block" id="sarah-block-6">
+          <h3 class="label">ACE<span class="lower">i</span>/ARB Use at the Time of Biopsy</h3>
+          <h4 class="characteristic">None</h4>
+
+          <p>While ACEi/ARBs are recommended as part of supportive care, Sarah had not initiated treatment at the time
+            of her biopsy.<sup>1</sup></p>
+
+          <div class="footnotes">
+            <p>ACEi, angiotensin-converting enzyme inhibitor; ARB, angiotensin II receptor blocker.</p>
+            <p><span class="bold">Reference: 1.</span> KDIGO. <em>Kidney Int</em>. 2021;100:S1-S276.</p>
+          </div>
+        </div>
+
+        <div class="carousel-block" id="sarah-block-7">
+          <h3 class="label">MEST-C Score</h3>
+          <h4 class="characteristic">M1 E0 S0 T0 C0</h4>
+
+          <p>Sarah&rsquo;s biopsy was evaluated using the Oxford classification, or MEST-C score. Her biopsy showed
+            mesangial hypercellularity in &gt;50% of glomeruli, but was absent of endocapillary hypercellularity,
+            segmental glomerulosclerosis, tubular atrophy/interstitial fibrosis, and crescents.</p>
+          <p>The MEST-C score can serve as a valuable early prognostic tool and should be considered when evaluating the
+            risk of progression to ESKD.<sup>1-3</sup></p>
+
+          <div class="button cta modal-trigger" data-trigger-id="mest-c-score">
+            <p>Learn more about MEST-C</p>
+          </div>
+
+          <div class="footnotes">
+            <p>ESKD, end-stage kidney disease; MEST-C, mesangial hypercellularity (M), endocapillary hypercellularity
+              (E), segmental sclerosis (S), tubular atrophy and interstitial fibrosis (T), crescent (C).</p>
+            <p><span class="bold">References: 1.</span> Cattran DC, et al. <em>Kidney Int Rep</em>.
+              2023;8(12):2515-2528. <span class="bold">2.</span> Haaskjold YL, et al. <em>BMC Nephrology</em>.
+              2022;23:26. <span class="bold">3.</span> Coppo R, et al. <em>Kidney Int</em>. 2014;86(4):828-836.</p>
+          </div>
+        </div>
+
+        <div class="carousel-block" id="sarah-block-8">
+          <h3 class="label">Immunosuppression Use at or Prior to Biopsy </h3>
+          <h4 class="characteristic">None</h4>
+
+          <p>While the clinical benefits of immunosuppressive therapy have not been established in patients with IgAN,
+            they may be used in specific patient populations if the risk/benefit profile is acceptable.<sup>1</sup></p>
+
+          <div class="footnotes">
+            <p><span class="bold">Reference: 1.</span> KDIGO. <em>Kidney Int</em>. 2021;100:S1-S276.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <div class="temp-section">
+      <div class="footnotes">
+        <p>*Image used with permission from the Renal Fellow Network, from Gallan A. Kidney Biopsy of the Month. Published July 29, 2019. Available at: <a class="format-url link-color" href="https://www.renalfellow.org/2019/07/29/kidney-biopsy-of-the-month-iga-nephropathy/" target="_blank">https://www.renalfellow.org/2019/07/29/kidney-biopsy-of-the-month-iga-nephropathy/</a>.</p>
+        <p>ACE, angiotensin-converting enzyme; ARB, angiotensin II receptor blocker; BP, blood pressure; eGFR, estimated glomerular filtration rate; HPF, high-power field; MEST-C, mesangial hypercellularity (M), endocapillary hypercellularity (E), segmental sclerosis (S), tubular atrophy and interstitial fibrosis (T), crescent (C); PAS, periodic acid-Schiff; RBC, red blood cells; UPCR, urine protein creatinine ratio.</p>
+      </div>
+
+      <img class="mobile-only update-path mobile-bio-trigger" data-tray-id="sarah-bio-tray" id="mobile-bio-trigger" src="./assets/images/profiles/mobile-bio-btn.png" alt="Baseline Assessment trigger button"/>
+    </div>
+
+    <!-- //////////////////// SECTION 3 ///////////////////// -->
+
+    <section id="section-3" class="gray-bg" data-section-id="3" data-section-name="Sarah's Risk of Progression" data-dot-label="Risk of<br>Progression">
+      <div class="flex-header">
+        <img src="./assets/images/profiles/sarah-profile.png" class="update-path bio-pic desktop-only" alt="">
+
+        <div>
+          <h1 class="pat-header">Sarah&rsquo;s Risk of Progression</h1>
+          <p class="desc-text">After Sarah&rsquo;s IgAN diagnosis was confirmed by biopsy, she was prescribed an
+            ACEi/ARB. One year later, her proteinuria stabilized to 1 g/d and her blood pressure was lowered to 120/80
+            with supportive care and lifestyle modifications.</p>
+
+          <div class="graph-container">
+            <div class="hotspot" id="state-1" data-value="Age 27;5%"></div>
+            <div class="hotspot" id="state-2" data-value="Age 28;11%"></div>
+            <div class="hotspot" id="state-3" data-value="Age 29;18%"></div>
+            <div class="hotspot" id="state-4" data-value="Age 30;25%"></div>
+            <div class="hotspot" id="state-5" data-value="Age 31;33%"></div>
+
+            <div class="tablet-desktop-only">
+              <img src="./assets/images/profiles/sarah/progression-graph-state-0.png" id="state-0"
+                class="graph update-path"
+                alt="Graph showing Sarah's risk of progression one year after stabilization on optimized supportive care" />
+              <img src="./assets/images/profiles/sarah/progression-graph-state-1.png" id="state-1"
+                class="graph visible update-path"
+                alt="Graph showing Sarah's risk of progression at age 27. 5 percent risk one year after stabilization on optimized supportive care" />
+              <img src="./assets/images/profiles/sarah/progression-graph-state-2.png" id="state-2"
+                class="graph update-path"
+                alt="Graph showing Sarah's risk of progression at age 28. 11 percent risk two years after stabilization on optimized supportive care" />
+              <img src="./assets/images/profiles/sarah/progression-graph-state-3.png" id="state-3"
+                class="graph update-path"
+                alt="Graph showing Sarah's risk of progression at age 29. 18 percent risk three years after stabilization on optimized supportive care" />
+              <img src="./assets/images/profiles/sarah/progression-graph-state-4.png" id="state-4"
+                class="graph update-path"
+                alt="Graph showing Sarah's risk of progression at age 30. 25 percent risk four years after stabilization on optimized supportive care" />
+              <img src="./assets/images/profiles/sarah/progression-graph-state-5.png" id="state-5"
+                class="graph update-path"
+                alt="Graph showing Sarah's risk of progression at age 31. 33 percent risk five years after stabilization on optimized supportive care" />
+            </div>
+
+            <div class="mobile-only">
+              <img src="./assets/images/profiles/sarah/mobile/progression-graph-state-0-mobile.png" id="state-0"
+              class="graph mobile-graph update-path"
+              alt="Graph showing Sarah's risk of progression one year after stabilization on optimized supportive care" />
+              <img src="./assets/images/profiles/sarah/mobile/progression-graph-state-1-mobile.png" id="state-1"
+              class="graph mobile-graph visible update-path"
+              alt="Graph showing Sarah's risk of progression at age 27. 5 percent risk one year after stabilization on optimized supportive care" />
+              <img src="./assets/images/profiles/sarah/mobile/progression-graph-state-2-mobile.png" id="state-2"
+              class="graph mobile-graph update-path"
+              alt="Graph showing Sarah's risk of progression at age 28. 11 percent risk two years after stabilization on optimized supportive care" />
+              <img src="./assets/images/profiles/sarah/mobile/progression-graph-state-3-mobile.png" id="state-3"
+              class="graph mobile-graph update-path"
+              alt="Graph showing Sarah's risk of progression at age 29. 18 percent risk three years after stabilization on optimized supportive care" />
+              <img src="./assets/images/profiles/sarah/mobile/progression-graph-state-4-mobile.png" id="state-4"
+              class="graph mobile-graph update-path"
+              alt="Graph showing Sarah's risk of progression at age 30. 25 percent risk four years after stabilization on optimized supportive care" />
+              <img src="./assets/images/profiles/sarah/mobile/progression-graph-state-5-mobile.png" id="state-5"
+              class="graph mobile-graph update-path"
+              alt="Graph showing Sarah's risk of progression at age 31. 33 percent risk five years after stabilization on optimized supportive care" />
+            </div>
+          </div>
+
+          <a href="https://qxmd.com/calculate/calculator_499/international-igan-prediction-tool-at-biopsy-adults"
+          target="_blank" class="button cta" id="sect-3-exit">
+          <p>View the International <br class="mobile-only"/>IgAN Prediction Tool</p>
+          <img src="./assets/images/external-icon-white.svg" class="update-path" alt="External link icon" />
+        </a>
+
+        </div>
+      </div>
+
+      <p class="bold">Current KDIGO guidelines do not recommend SGLT2i use in IgAN in the absence of diabetes, as
+        additional data are needed to assess efficacy and safety. Treatments in hypothetical patient cases reflect
+        current treatment guidelines.<sup>2</sup></p>
+
+      <div class="footnotes">
+        <p><sup>a</sup>Predicted risk of progression was calculated using the International IgAN Prediction Tool and
+          defined as the risk of a 50% decline in eGFR or ESKD.<sup>1</sup></p>
+        <p>ACEi, angiotensin-converting enzyme inhibitor; ARB, angiotensin receptor blocker; eGFR, estimated glomerular
+          filtration rate; ESKD, end-stage kidney disease; KDIGO, Kidney Disease: Improving Global Outcomes; SGLT2i,
+          Sodium-Glucose Transport Protein 2 inhibitor.</p>
+        <p><span class="bold">References: 1.</span> Barbour SJ, et al. <em>Kidney Int</em>. 2022;102(1):160-172. <span
+            class="bold">2.</span> KDIGO. <em>Kidney Int</em>. 2021;100:S1-S276.</p>
+      </div>
+
+    </section>
+
+    <!-- //////////////////// SECTION 4 ///////////////////// -->
+
+    <section id="section-4" class="" data-section-id="4" data-section-name="Sarah Impact of Proteinuria" data-dot-label="Impact of<br>Proteinuria">
+      <div class="flex-header">
+        <img src="./assets/images/profiles/sarah-profile.png" class="update-path bio-pic desktop-only" alt="">
+
+        <div>
+          <h1 class="pat-header">Impact of Proteinuria</h1>
+          <p class="desc-text">Despite decreasing her proteinuria level by half to 1 g/d,<br class="desktop-only" />
+            Sarah remains at risk of progression.</p>
+        </div>
+      </div>
+
+      <div class="flex">
+        <div class="text-side">
+          <p class="bold">A retrospective cohort study showed that patients perceived as low risk continue to remain at
+            risk of progression to kidney failure within <span class="nowrap">10 years<sup>2</sup></span></p>
+
+          <ul class="bullet-list">
+            <li><span class="bullet">&bull;</span><span>30% risk in patients with proteinuria 0.5 to 1 g/d</span></li>
+            <li><span class="bullet">&bull;</span><span>~20% risk in patients with proteinuria &lt;0.5 g/d</span></li>
+          </ul>
+        </div>
+
+        <div class="right-side">
+          <p class="bold purple">Use the slider to see how reducing proteinuria below 1 g/d could reduce Sarah&rsquo;s risk of
+            progression.</p>
+          
+          <div class="flex">
+            <img src="./assets/images/profiles/sarah/risk-23.png" id="section-4-state-1" class="risk-radial update-path"
+              alt="23 percent risk progression at 5 years with proteinuria at 0.5 g/d" />
+            <img src="./assets/images/profiles/sarah/risk-28.png" id="section-4-state-2" class="risk-radial update-path"
+              alt="28 percent risk progression at 5 years with proteinuria at 0.75 g/d" />
+            <img src="./assets/images/profiles/sarah/risk-33.png" id="section-4-state-3"
+              class="risk-radial update-path visible" alt="33 percent risk progression at 5 years with proteinuria at 1 g/d" />
+    
+            <div class="slider-container">
+              <div id="state-1-blurb">
+                <p>Reducing proteinuria from 1 g/d to 0.5 g/d lowers the risk of progression by ~10%</p>
+              </div>
+              <div class="">
+                <img src="./assets/images/profiles/sarah/section-4-slider-1.svg" id="section-4-state-1"
+                  class="slider update-path" alt="Slider shown at 0.5 g/d" />
+                <img src="./assets/images/profiles/sarah/section-4-slider-2.svg" id="section-4-state-2"
+                  class="slider update-path" alt="Slider shown at 0.75 g/d" />
+                <img src="./assets/images/profiles/sarah/section-4-slider-3.svg" id="section-4-state-3"
+                  class="slider update-path visible" alt="Slider shown at 1.0 g/d" />
+              </div>
+
+              <div class="ff-hotspots hidden">
+                <div class="hotspot" id="section-4-state-3" data-value="1.0 g/d"></div>
+                <div class="hotspot" id="section-4-state-2" data-value="0.75 g/d"></div>
+                <div class="hotspot" id="section-4-state-1" data-value="0.5 g/d"></div>
+              </div>
+      
+              <input type="range" class="range-slider" id="pro-impact" orient="vertical" name="pro-impact" min="1" max="3" value="3" step="1" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footnotes">
+        <p><sup>a</sup>Predicted risk of progression was calculated using the International IgAN Prediction Tool and
+          defined as the risk of a 50% decline in eGFR or ESKD.</p>
+        <p>eGFR, estimated glomerular filtration rate; ESKD, end-stage kidney disease.</p>
+        <p><span class="bold">References: 1.</span> Barbour SJ, et al. <em>Kidney Int</em>. 2022;102(1):160-172. <span
+            class="bold">2.</span> Pitcher D, et al. <em>Clin J Am Soc Nephrol</em>. 2023;18(6):727-738.</p>
+      </div>
+    </section>
+
+    <!-- //////////////////// SECTION 5 ///////////////////// -->
+
+    <section id="section-5" class="" data-section-id="5" data-section-name="Sarah Changes in Proteinuria and eGFR Over Time" data-dot-label="Changes in Proteinuria/<br>eGFR Over Time">
+      <div class="flex-header">
+        <img src="./assets/images/profiles/sarah-profile.png" class="update-path bio-pic desktop-only" alt="">
+
+        <div>
+          <h1 class="pat-header">Changes in Proteinuria<br class="desktop-only"/> and eGFR Over Time</h1>
+          <p class="desc-text">Through medication and lifestyle changes, Sarah may be able to reduce her proteinuria and slow her eGFR decline.</p>
+        </div>
+      </div>
+
+      <p class="graphs-header">Changes in proteinuria and eGFR over time</p>
+      <p class="direction">Use the slider to see how Sarah&rsquo;s proteinuria and eGFR may change over time</p>
+
+      <img src="./assets/images/profiles/sarah/section-5-key.png" class="update-path key tablet-desktop-only" alt=""/>
+
+      <div class="graphs-container">
+        <div class="left-side">
+          <div class="tablet-desktop-only">
+            <img src="./assets/images/profiles/sarah/pro-over-time-state-1.png" id="section-5-state-1"
+              class="update-path graph visible" alt="Graph modeling proteinuria progression over time with and without intervention, starting at biopsy"/>
+            <img src="./assets/images/profiles/sarah/pro-over-time-state-2.png" id="section-5-state-2"
+              class="update-path graph" alt="Graph showing proteinuria level with and without intervention, after two years"/>
+            <img src="./assets/images/profiles/sarah/pro-over-time-state-3.png" id="section-5-state-3"
+              class="update-path graph" alt="Graph showing proteinuria progression with and without intervention, at four years"/>
+            <img src="./assets/images/profiles/sarah/pro-over-time-state-4.png" id="section-5-state-4"
+              class="update-path graph" alt="Graph showing proteinuria with and without intervention, at six years"/>
+          </div>
+          <div class="mobile-only">
+            <img src="./assets/images/profiles/sarah/mobile/pro-over-time-state-1-mobile.png" id="section-5-state-1"
+              class="update-path mobile-graph graph visible" alt="Graph modeling proteinuria progression over time with and without intervention, starting at biopsy"/>
+            <img src="./assets/images/profiles/sarah/mobile/pro-over-time-state-2-mobile.png" id="section-5-state-2"
+              class="update-path mobile-graph graph" alt="Graph showing proteinuria level with and without intervention, after two years"/>
+            <img src="./assets/images/profiles/sarah/mobile/pro-over-time-state-3-mobile.png" id="section-5-state-3"
+              class="update-path mobile-graph graph" alt="Graph showing proteinuria progression with and without intervention, at four years"/>
+            <img src="./assets/images/profiles/sarah/mobile/pro-over-time-state-4-mobile.png" id="section-5-state-4"
+              class="update-path mobile-graph graph" alt="Graph showing proteinuria with and without intervention, at six years"/>
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="tablet-desktop-only">
+            <img src="./assets/images/profiles/sarah/egfr-over-time-state-1.png" id="section-5-state-1"
+              class="update-path graph visible" alt="Graph modeling eGFR decline over time with and without intervention, starting at biopsy"/>
+            <img src="./assets/images/profiles/sarah/egfr-over-time-state-2.png" id="section-5-state-2"
+              class="update-path graph" alt="Graph showing eGFR with and without intervention, after two years"/>
+            <img src="./assets/images/profiles/sarah/egfr-over-time-state-3.png" id="section-5-state-3"
+              class="update-path graph" alt="Graph showing eGFR with and without intervention, after four years"/>
+            <img src="./assets/images/profiles/sarah/egfr-over-time-state-4.png" id="section-5-state-4"
+              class="update-path graph" alt="Graph showing eGFR with and without intervention, after six years"/>
+            </div>
+            <div class="mobile-only">
+              <img src="./assets/images/profiles/sarah/mobile/egfr-over-time-state-1-mobile.png" id="section-5-state-1"
+                class="update-path mobile-graph graph visible" alt="Graph modeling eGFR decline over time with and without intervention, starting at biopsy"/>
+              <img src="./assets/images/profiles/sarah/mobile/egfr-over-time-state-2-mobile.png" id="section-5-state-2"
+                class="update-path mobile-graph graph" alt="Graph showing eGFR with and without intervention, after two years"/>
+              <img src="./assets/images/profiles/sarah/mobile/egfr-over-time-state-3-mobile.png" id="section-5-state-3"
+                class="update-path mobile-graph graph" alt="Graph showing eGFR with and without intervention, after four years"/>
+              <img src="./assets/images/profiles/sarah/mobile/egfr-over-time-state-4-mobile.png" id="section-5-state-4"
+                class="update-path mobile-graph graph" alt="Graph showing eGFR with and without intervention, after six years"/>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider-container">
+        <div class="tablet-desktop-only">
+          <img src="./assets/images/profiles/over-time-slider-1.svg" id="section-5-state-1" class="update-path slider visible" 
+            alt="Slider shown at biopsy stage">
+          <img src="./assets/images/profiles/over-time-slider-2.svg" id="section-5-state-2" class="update-path slider"
+            alt="Slider shown at 2 years">
+          <img src="./assets/images/profiles/over-time-slider-3.svg" id="section-5-state-3" class="update-path slider"
+            alt="Slider shown at 4 years">
+          <img src="./assets/images/profiles/over-time-slider-4.svg" id="section-5-state-4" class="update-path slider"
+            alt="Slider shown at 6 years">
+        </div>
+        <div class="mobile-only">
+          <img src="./assets/images/profiles/over-time-slider-1-mobile.png" id="section-5-state-1"
+            class="update-path mobile-graph slider visible" alt="Slider shown at biopsy stage">
+          <img src="./assets/images/profiles/over-time-slider-2-mobile.png" id="section-5-state-2" class="update-path mobile-graph slider"
+            alt="Slider shown at 2 years">
+          <img src="./assets/images/profiles/over-time-slider-3-mobile.png" id="section-5-state-3" class="update-path mobile-graph slider"
+            alt="Slider shown at 4 years">
+          <img src="./assets/images/profiles/over-time-slider-4-mobile.png" id="section-5-state-4" class="update-path mobile-graph slider"
+            alt="Slider shown at 6 years">
+        </div>
+
+        <input type="range" class="range-slider" id="changes-over-time" name="changes-over-time" min="1" max="4" value="1" step="1" />
+      </div>
+
+      <div class="footnotes">
+        <p>Changes in proteinuria and eGFR, as well as the differences between "With intervention" and "Without intervention", are hypothetical and based on trends seen in clinical trials and cohort studies.<sup>1-4</sup></p>
+          <p>eGFR, estimated glomerular filtration rate.</p>
+        <p><span class="bold">References: 1.</span> Pitcher D, et al. <em>Clin J Am Soc Nephrol</em>.
+          2023;18(6):727-738. <span class="bold">2.</span> Faucon AL, et al. <em>Nephrol Dial Transplant</em>.
+          2024;30:gfae085. <span class="bold">3.</span> Rovin BH, et al. <em>Lancet</em>. 2023;402(10417):2077-2090. <span class="bold">4.</span>
+          Lafayette R, et al. <em>Lancet</em>. 2023;402:859-870.</p>
+      </div>
+    </section>
+
+    <!-- //////////////////// SECTION 6 ///////////////////// -->
+
+    <section id="section-6" class="gray-bg" data-section-id="6" data-section-name="Sarah Impact of eGFR Decline on Progression to ESKD" data-dot-label="Impact of eGFR<br>Decline on<br>Progression">
+      <div class="flex-header">
+        <img src="./assets/images/profiles/sarah-profile.png" class="update-path bio-pic desktop-only" alt="">
+
+        <div>
+          <h1 class="pat-header">Impact of eGFR Decline on<br class="desktop-only"/> Progression to Kidney Failure</h1>
+        </div>
+      </div>
+
+      <p class="graphs-header">If Sarah&rsquo;s eGFR decline stabilizes, this can delay the onset of kidney failure.</p>
+      <p class="direction">Select a button below to see how different rates of eGFR decline can impact progression to
+        kidney failure.</p>
+
+      <div class="graph-container">
+        <div class="tablet-desktop-only">
+          <img src="./assets/images/profiles/sarah/section-6-graph-state-0.png" id="0" class="update-path graph"
+            alt="Graph depicting changes in eGFR over time" />
+          <img src="./assets/images/profiles/sarah/section-6-graph-state-1.png" id="state-1" class="update-path graph"
+            alt="Graph depicting changes in eGFR over time at a loss of 2 mL/min/1.73 m2 per year" />
+          <img src="./assets/images/profiles/sarah/section-6-graph-state-2.png" id="state-2" class="update-path graph"
+            alt="Graph depicting changes in eGFR over time at a loss of 3 mL/min/1.73 m2 per year" />
+          <img src="./assets/images/profiles/sarah/section-6-graph-state-3.png" id="state-3" class="visible update-path graph"
+            alt="Graph depicting changes in eGFR over time at a loss of 5 mL/min/1.73 m2 per year" />
+          </div>
+          <div class="mobile-only">
+            <img src="./assets/images/profiles/sarah/mobile/section-6-graph-state-0-mobile.png" id="0" class="update-path mobile-graph graph"
+              alt="Graph depicting changes in eGFR over time" />
+            <img src="./assets/images/profiles/sarah/mobile/section-6-graph-state-1-mobile.png" id="state-3" class="visible update-path mobile-graph graph"
+              alt="Graph depicting changes in eGFR over time at a loss of 2 mL/min/1.73 m2 per year" />
+            <img src="./assets/images/profiles/sarah/mobile/section-6-graph-state-2-mobile.png" id="state-2" class="update-path mobile-graph graph"
+              alt="Graph depicting changes in eGFR over time at a loss of 3 mL/min/1.73 m2 per year" />
+            <img src="./assets/images/profiles/sarah/mobile/section-6-graph-state-3-mobile.png" id="state-1" class="update-path mobile-graph graph"
+              alt="Graph depicting changes in eGFR over time at a loss of 5 mL/min/1.73 m2 per year" />
+        </div>
+
+        <div class="hotspot" id="state-1" data-value="Annual eGFR loss: -2 mL/min/1.73 m^2/year"></div>
+        <div class="hotspot" id="state-2" data-value="Annual eGFR loss: -3 mL/min/1.73 m^2/year"></div>
+        <div class="hotspot" id="state-3" data-value="Annual eGFR loss: -5 mL/min/1.73 m^2/year"></div>
+
+        <div class="upper-hotspots">
+          <div class="hotspot lower-hotspot" id="state-3" data-value="Annual eGFR loss: -5 mL/min/1.73 m^2/year"></div>
+          <div class="hotspot lower-hotspot" id="state-2" data-value="Annual eGFR loss: -3 mL/min/1.73 m^2/year"></div>
+          <div class="hotspot lower-hotspot" id="state-1" data-value="Annual eGFR loss: -2 mL/min/1.73 m^2/year"></div>
+        </div>
+      </div>
+
+      <div class="footnotes">
+        <p>CKD, chronic kidney disease; eGFR, estimated glomerular filtration rate.</p>
+      </div>
+    </section>
+
+    <!-- //////////////////// SECTION 7 ///////////////////// -->
+
+    <section id="section-7" class="gray-bg" data-section-id="7" data-section-name="Sarah Considerable Impact on Physical, Mental, and Emotional Health" data-dot-label="Impact on QoL">
+      <div class="flex-header">
+        <img src="./assets/images/profiles/sarah-profile.png" class="update-path bio-pic desktop-only" alt="">
+
+        <div>
+          <h1 class="pat-header">A Considerable Impact on Physical, Mental, and Emotional Health<sup>1,2</sup></h1>
+        </div>
+      </div>
+
+      <div class="icon-flex">
+        <div class="icon-container">
+          <img src="./assets/images/profiles/blue-icon-anxiety.svg" class="update-path" alt="" />
+          <p>~25% of patients with IgAN experience anxiety<sup>1,a</sup></p>
+        </div>
+        <div class="icon-container">
+          <img src="./assets/images/profiles/blue-icon-depression.svg" class="update-path" alt="" />
+          <p>~30% of patients with IgAN experience depression<sup>2,b</sup></p>
+        </div>
+        <div class="icon-container">
+          <img src="./assets/images/profiles/blue-icon-activity.svg" class="update-path" alt="" />
+          <p>~40% daily activity impairment reported<sup>3,c</sup></p>
+        </div>
+        <div class="icon-container">
+          <img src="./assets/images/profiles/blue-icon-work.svg" class="update-path" alt="" />
+          <p>Up to 40% overall work impairment reported<sup>3,c</sup></p>
+        </div>
+      </div>
+
+      <div class="footnotes">
+        <p class=""><sup>a</sup>Survey of U.S. patients on coping with IgAN from the NKF Voice of the Patient Report.</p>
+        <p class=""><sup>b</sup>Prospective observational study of adult patients with biopsy-confirmed IgAN.</p>
+        <p class=""><sup>c</sup>Based on real-world data from the Adelphi IgAN Disease Specific Programme (DSP), a
+          point-in-time survey of IgAN-treating nephrologists and their patients in the United
+          States, EU5 (France, Germany, Italy, Spain, and the United Kingdom), Japan, and China between June and October
+          2021. Data presented are for patients with IgAN in the United States, and are based on the average impairment reported by participants.</p>
+
+        <p><span class="bold">References: 1.</span> The Voice of the Patient. National Kidney Foundation. December 8,
+          2020. Accessed June 10, 2024. https://www.igan.org/wp-content/uploads/2021/01/VOP_IgAN_12-7-20__FNL.pdf. <span
+            class="bold">2.</span> Zhao Y, et al. <em>J Int Med Res</em>. 2020;48(1):300060519898008. <span
+            class="bold">3.</span> Lafayette R, et al. Poster. International Symposium on IgA Nephropathy; Tokyo, Japan.
+          September 28-30, 2023 (poster P-51).</p>
+      </div>
+    </section>
+
+    <section class="switch-pat-section" id="switch-pat" data-section-name="Switch Patient">
+      <h2 class="yellow-header">SELECT ANOTHER HYPOTHETICAL PATIENT</h2>
+
+      <div class="flex">
+        <div class="profile nav-el" data-nav-url="progression/carlos" data-exit-url="progression/carlos">
+          <img src="./assets/images/profiles/carlos-profile.png" class="update-path" alt="" />
+          <h3>Carlos</h3>
+        </div>
+        <div class="profile nav-el" data-nav-url="progression/mark" data-exit-url="progression/mark">
+          <img src="./assets/images/profiles/mark-profile.png" class="update-path" alt="" />
+          <h3>Mark</h3>
+        </div>
+      </div>
+
+      <img src="./assets/images/or-line-graphic.png" class="or-line update-path" alt="Or" />
+
+      <div class="button nav-el" id="discover" data-nav-url="pathogenesis/index" data-exit-url="pathogenesis/index">
+        <p>Discover the pathogenesis of IgAN</p>
+      </div>
+    </section>
+
+    {{> ../templates/footer-el }}
+
+  </main>
+
+  <script type="text/javascript" src="../static.bundle.js" charset="utf-8"></script>
+</body>
+
+</html>

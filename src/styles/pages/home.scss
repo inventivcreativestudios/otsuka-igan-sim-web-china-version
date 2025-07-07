@@ -1,0 +1,186 @@
+.home-content-container {
+  background: url('./assets/images/home/home-bg.png') no-repeat;
+  background-size: 100% 100%;
+  min-height: 541px;
+  padding: 4rem 0 0;
+  width: 100%;
+  max-width: 1440px;
+
+  @media screen and (max-width: 450px) {
+    padding: 3rem 0;
+    background: url('./assets/images/home/home-bg-mobile-2.png') no-repeat;
+    background-size: auto;
+    overflow-x: hidden;
+  }
+
+  .header-box {
+    font-family: inherit;
+
+    .yellow-header {
+      font-size: 48px;
+
+      @media screen and (max-width: 950px) {
+        font-size: 42px;
+        line-height: 1.2;
+      }
+    }
+    .subhead {
+      color: white;
+      font-family: inherit;
+      font-size: 24px;
+      font-weight: 700;
+      text-align: center;
+      width: 58%;
+      margin: 1rem auto 0;
+      line-height: 1.5;
+
+      @media screen and (max-width: 450px) {
+        width: 90%;
+        line-height: 1.3;
+        font-size: 21px;
+      }
+    }
+    
+    p {
+      color: white;
+      font-family: inherit;
+      font-size: 24px;
+      font-weight: 700;
+      text-align: center;
+      width: 58%;
+      margin: 1rem auto 0;
+      line-height: 1.5;
+
+      @media screen and (max-width: 450px) {
+        width: 90%;
+        line-height: 1.3;
+        font-size: 21px;
+      }
+    }
+  }
+
+  .home-scroll-arrow {
+    width: 30px;
+    margin: 3rem auto 0;
+    transform: rotate(90deg);
+  }
+
+  .flex {
+    justify-content: space-between;
+    font-family: inherit;
+    margin-top: 7rem;
+    width: 86%;
+
+    @media screen and (max-width: 1200px) {
+      margin-left: 0;
+      width: 92%;
+    }
+
+    @media screen and (max-width: 450px) {
+      flex-direction: column;
+      width: 100%;
+      margin: 0;
+    }
+
+    .path-container {
+      width: 47%;
+      font-family: inherit;
+      text-align: center;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      align-items: center;
+      padding: pxToRem(75) pxToRem(57);
+
+      &:first-child {
+        background: url('./assets/images/home/patho-bubble-bg.png') no-repeat;
+        background-size: 100% 100%;
+      }
+
+      &:last-child {
+        background: url('./assets/images/home/progression-bubble-bg.png') no-repeat;
+        background-size: 100% 100%;
+      }
+
+      @media screen and (max-width: 1200px) {
+        width: 45%;
+        justify-content: space-between;
+      }
+
+      @media screen and (max-width: 450px) {
+        height: 420px;
+        justify-content: center;
+        max-width: none;
+        width: 100%;
+        border-radius: 20px;
+        padding: pxToRem(41);
+
+        &:first-child {
+          margin-top: 4rem;
+          background: rgba(119, 53, 117, 0.75);
+        }
+
+        &:last-child {
+          margin-top: 2.5rem;
+          background: rgba(26, 49, 65, 0.75);
+        }
+      }
+
+      h3 {
+        font-size: 28px;
+        font-weight: 700;
+        font-family: inherit;
+        text-transform: uppercase;
+        color: white;
+
+        @media screen and (max-width: 450px) {
+          font-size: 24px;
+        }
+      }
+
+      & > p {
+        color: white;
+        margin: 1.5rem 0;
+        font-family: inherit;
+        line-height: 1.5;
+        font-size: 20px;
+
+        @media screen and (max-width: 450px) {
+          font-size: 18px;
+          margin: 1.5rem 0;
+        }
+      }
+
+      .cta {
+        border: 2px solid white;
+        font-family: inherit;
+        padding: 12px 25px;
+        background-color: transparent;
+        width: max-content !important;
+        height: auto;
+
+        @media screen and (max-width: 450px) {
+          padding: 8px 20px;
+        }
+
+        p {
+          color: white;
+          font-family: inherit;
+
+          @media screen and (max-width: 450px) {
+            font-size: 1rem;
+          }
+        }
+
+        .arrow {
+          margin-left: 22px;
+
+          @media screen and (max-width: 450px) {
+            width: 10px;
+            margin-left: 9px;
+          }
+        }
+      }
+    }
+  }
+}

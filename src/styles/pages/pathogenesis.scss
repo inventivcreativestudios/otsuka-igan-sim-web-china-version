@@ -1,0 +1,73 @@
+[data-page-id="pathogenesis"] {
+  background: #562D5D;
+
+  #unity-container {
+    padding-top: calc($navHeight + 49px);
+    max-width: 2048px;
+    position: fixed; 
+    width: 100%; 
+    height: 100%;
+
+    @media screen and (max-width: 450px) {
+      padding-top: $mobileNavHeight;
+    }
+
+    #unity-canvas { 
+      width: 100%; 
+      height: 100%; 
+      background: #310058 
+    }
+
+    #unity-loading-bar { 
+      position: absolute; 
+      left: 50%; 
+      top: 50%; 
+      transform: translate(-50%, -50%); 
+      display: none;
+      flex-direction: column;
+      align-items: center;
+
+      #logo { 
+        width: 154px;
+      }
+
+      #loading-text {
+        color: white;
+        text-align: center;
+        margin: 20px 0 10px;
+        font-family: 'muli', sans-serif;
+        font-style: italic;
+        font-size: 1rem;
+      }
+
+      #unity-progress-bar-empty { 
+        margin-left: auto; 
+        margin-right: auto; 
+        width: 141px; 
+        height: 18px; 
+        margin-top: 10px; 
+        background: url('./pathogenesis/TemplateData/progress-bar-empty-dark.png') no-repeat center;
+
+        #unity-progress-bar-full {
+          width: 0%; 
+          height: 18px; 
+          // margin-top: 10px; 
+          background: url('./pathogenesis/TemplateData/progress-bar-full-dark.png') no-repeat center;
+        }
+      }
+
+    }
+
+    #unity-warning { 
+      position: absolute; 
+      left: 50%; 
+      top: 5%; 
+      transform: translate(-50%); 
+      background: white; 
+      padding: 10px; 
+      display: none;
+    }
+
+  }
+
+}

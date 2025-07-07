@@ -1,0 +1,147 @@
+[data-page-id="progression"] {
+  
+  .progression-content {
+    padding: 5rem 3rem;
+
+    @media screen and (max-width: 450px) {
+      padding: 3rem 1rem;
+    }
+
+    h1 {
+      color: $brandPurple;
+      font-weight: 700;
+      font-size: 28px;
+      font-family: inherit;
+      margin-bottom: 1rem;
+    }
+
+    h2 {
+      color: $brandPurple;
+      font-weight: 700;
+      font-size: 28px;
+      font-family: inherit;
+      margin-bottom: 1rem;
+    }
+
+    h2.subhead {
+      color: $textGray;
+      font-family: inherit;
+      font-weight: 700;
+      font-size: 20px;
+    }
+
+    .profiles-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 4rem;
+      font-family: inherit;
+
+      @media screen and (max-width: 1200px) {
+        justify-content: space-between;
+        width: 100%;
+      }
+
+      @media screen and (max-width: 450px) {
+        flex-direction: column;
+        align-items: center;
+      }
+  
+      .profile-option {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 21%;
+        margin-right: 6rem;
+        font-family: inherit;
+        min-height: 460px;
+
+        @media screen and (max-width: 1200px) {
+          margin-right: 0;
+          width: 28%;
+        }
+
+        @media screen and (max-width: 450px) {
+          width: 95%;
+          margin-right: 0;
+          margin-bottom: 3rem;
+          min-height: auto;
+        }
+  
+        &:last-child {
+          margin-right: 0;
+        }
+
+        & > div:not(.flex) {
+          font-family: inherit;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          .profile-pic {
+            width: 88%;
+            transition: transform 0.15s linear;
+            cursor: pointer;
+
+            @media screen and (max-width: 450px) {
+              width: 70%;
+            }
+          }
+
+          h3, p {
+            text-align: center;
+            font-family: inherit;
+            color: $textGray;
+          }
+
+          p {
+            font-size: 19px;
+
+            @media screen and (max-width: 450px) {
+              font-size: 18px;
+            }
+          }
+  
+          h3 {
+            font-size: 28px;
+            font-weight: 700;
+            margin: 1.2rem 0;
+          }
+        }
+
+        & > .flex {
+          justify-content: center;
+          align-items: baseline;
+          font-family: inherit;
+          margin-top: 8px;
+          cursor: pointer;
+
+          .link-style {
+            color: $linkColor;
+            text-decoration: underline;
+            margin-right: 16px;
+            font-family: inherit;
+          }
+
+          & > img {
+            height: 12px;
+          }
+        }
+
+        &:hover {
+          div {
+            .profile-pic {
+              transform: scale(1.1);
+            }
+
+            & > h3, p {
+              color: $brandPurple;
+              font-weight: 700;
+            }
+          }
+        }
+
+      }
+    }
+  }
+
+}

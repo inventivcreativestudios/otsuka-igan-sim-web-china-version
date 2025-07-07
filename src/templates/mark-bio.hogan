@@ -1,0 +1,66 @@
+<div class="bio-info">
+  <p class="name">Mark, 34</p>
+  <div id="anim-up">
+    <h4>Baseline Assessment <span class="nowrap">at Biopsy</span></h4>
+    <div class="bio-info-stat active-stat" data-stat-id="mark-block-1">
+      <p class="">Age</p>
+      <p class="">34</p>
+    </div>
+    <div class="bio-info-stat" data-stat-id="mark-block-2">
+      <p>Race</p>
+      <p>White</p>
+    </div>
+    <div class="bio-info-stat" data-stat-id="mark-block-3">
+      <p>eGFR</p>
+      <p>54 mL/min/1.73 m<sup>2</sup></p>
+    </div>
+    <div class="bio-info-stat" data-stat-id="mark-block-4">
+      <p>Systolic BP</p>
+      <p>140 mm Hg</p>
+    </div>
+    <div class="bio-info-stat" data-stat-id="mark-block-4">
+      <p>Diastolic BP</p>
+      <p>80 mm Hg</p>
+    </div>
+    <div class="bio-info-stat" data-stat-id="mark-block-5">
+      <p>Proteinuria</p>
+      <p>2.5 g/d</p>
+    </div>
+    <div class="bio-info-stat" data-stat-id="mark-block-6">
+      <p>Use of ACE Inhibitor<br />
+        or ARB at biopsy</p>
+      <p>None</p>
+    </div>
+    <div class="bio-info-stat" data-stat-id="mark-block-7">
+      <p>MEST M-score</p>
+      <p>1</p>
+    </div>
+    <div class="bio-info-stat" data-stat-id="mark-block-7">
+      <p>MEST E-score</p>
+      <p>1</p>
+    </div>
+    <div class="bio-info-stat" data-stat-id="mark-block-7">
+      <p>MEST S-score</p>
+      <p>0</p>
+    </div>
+    <div class="bio-info-stat" data-stat-id="mark-block-7">
+      <p>MEST T-score</p>
+      <p>0</p>
+    </div>
+    <div class="bio-info-stat" data-stat-id="mark-block-7">
+      <p>MEST C-score</p>
+      <p>1</p>
+    </div>
+    <div class="bio-info-stat" data-stat-id="mark-block-8">
+      <p>Immunosuppression use</p>
+      <p>None</p>
+    </div>
+
+    <img src="./assets/images/profiles/mark/stain.png" class="stain update-path"
+      alt="H&E stain showing mesangial hypercellularity, endocapillary hypercellularity, and crescent formation" />
+
+    <p>H&E staining showing mesangial hypercellularity, endocapillary hypercellularity, and crescent formation.
+      Crescent formation indicated by black arrow. A single glomerulus may not capture all components of the
+      MEST-C score.*</p>
+  </div>
+</div>
