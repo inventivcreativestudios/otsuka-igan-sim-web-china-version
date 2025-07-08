@@ -18,27 +18,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       <div class="home-content-container content-container">
         <div class="header-box">
-          <h1 class="yellow-header">Welcome<br class="mobile-only"/> to the IgAN Simulator</h1>
-          <h2 class="subhead">Here you can get an <span class="nowrap">in-depth</span> look at IgAN pathogenesis and the journeys of patients living with IgAN</h2>
+          <h1 class="yellow-header">欢迎访问 IgA肾病模拟平台</h1>
+          <h2 class="subhead">在这里，您可深入了解 IgA肾病的发病机制&#65292; <br>以及患者真实的病程轨迹</h2>
         </div>
   
         <div class="flex">
           <div class="path-container">
-            <h3>Pathogenesis</h3>
-            <p>See the origins of IgAN at the molecular level and how that results in its progression.</p>
+            <h3>疾病机制</h3>
+            <p>探秘分子机制：IgA肾病在分子层面如何启动&#65292; 以及病情如何逐步进展。</p>
   
             <div class="cta button nav-el" data-nav-url="pathogenesis/index">
-              <p>Learn More</p>
+              <p>了解更多</p>
               <img class="arrow" src="./assets/images/arrow-white.svg" alt="White arrow pointing right"/>
             </div>
           </div>
           
           <div class="path-container">
-            <h3>Progression</h3>
-            <p>Journey into the profiles of 3 hypothetical patients to see how their IgAN diagnosis was uncovered, and what's expected in their prognosis.</p>
+            <h3>疾病进程</h3>
+            <p>走近 3 位虚拟患者：看看他们如何确诊 IgA肾病&#65292; 以及预后情况如何。</p>
   
             <div class="cta button nav-el" data-nav-url="progression/index">
-              <p>Learn More</p>
+              <p>了解更多</p>
               <img class="arrow" src="./assets/images/arrow-white.svg" alt="White arrow pointing right"/>
             </div>
           </div>

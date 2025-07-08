@@ -1,16 +1,18 @@
 <div id="footer">
   <div class="footer-inner">
     <div class="links">
-      <a href="https://www.otsuka-us.com/privacy-policy" class="link" target="_blank">Privacy Policy</a>
-      <a href="https://www.otsuka-us.com/terms-and-conditions" class="link" target="_blank">Terms of Use</a>
-      <p class="link nav-el" data-nav-url="site-map">Site Map</p>
+      <a href="https://www.otsuka-us.com/privacy-policy" class="link" target="_blank">隐私政策</a>
+      <a href="https://www.otsuka-us.com/terms-and-conditions" class="link" target="_blank">使用条款</a>
+      <p class="link nav-el" data-nav-url="site-map">网站地图</p>
     </div>
   
-    <p>The information provided on the IgANsim website is intended for your educational benefit only. It is not intended as, nor is it a substitute for, medical care or advice or professional diagnosis. Health care professionals should use their independent judgment when reviewing educational resources from IgANsim. Users seeking medical advice should consult with a health care professional.</p>
+    <p>IgANsim 网站所提供的信息，仅用于帮您了解相关知识，无法替代医疗护理、医疗建议或专业诊断。<br class="mobile-hide">
+    医疗专业人员查阅 IgANsim 的教育资源时，应结合自身专业判断。<br class="mobile-hide">
+    有医疗咨询需求的用户，应咨询医疗专业人员。</p>
     
     <div class="signoff">
-      <p>&copy;2025 Otsuka Pharmaceutical Development &amp; Commercialization, Inc. All Rights Reserved.<br/>
-        March 2025 US.UNB.X.24.00051</p>
+      <p>&copy;2025 大冢制药研发与商业化有限公司 保留所有权利。<br/>
+        2025年3月 US.UNB.X.24.00051</p>
       
       <a href="https://www.otsuka-us.com/" target="_blank">
         <img src="./assets/images/otsuka-logo-ko-white.svg" class="update-path" alt="Otsuka logo. Click here to go to Otsuka website"/>

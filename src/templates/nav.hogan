@@ -1,6 +1,6 @@
 <div id="eyebrow">
   <div class="eyebrow-inner">
-    <p id="nephu-link" data-exit-url="https://nephu.org/iga-nephropathy/">NephU IgAN Home Page</p>
+    <p id="nephu-link" data-exit-url="https://nephu.org/iga-nephropathy/">NephU IgA肾病 专题页</p>
     <img src="./assets/images/external-icon.svg" class="update-path" alt=""/>
   </div>
 </div>
@@ -11,37 +11,37 @@
   
     <div class="page-links">
       <div class="page-link nav-el" data-nav-url="index" data-exit-url="home" data-nav-id="home">
-        <p>Home</p>
+        <p>首页</p>
       </div>
       <div class="page-link nav-el dropdown-trigger" data-nav-url="pathogenesis/index" data-exit-url="pathogenesis/index" data-nav-id="pathogenesis">
-        <p>Pathogenesis</p>
+        <p>疾病机制</p>
         <div class="nav-dropdown">
           <div class="dropdown-sect nav-el" data-nav-url="pathogenesis/index" data-exit-url="pathogenesis/index" data-url-param="about-igan">
-            <p>About IgAN</p>
+            <p>关于 lgAN</p>
           </div>
           <div class="dropdown-sect nav-el" data-nav-url="pathogenesis/index" data-exit-url="pathogenesis/index" data-url-param="april">
-            <p>APRIL/4-hit</p>
+            <p>APRIL/四重打击</p>
           </div>
         </div>
       </div>
       <div class="page-link nav-el dropdown-trigger" data-nav-url="progression/index" data-exit-url="progression/index" data-nav-id="progression">
-        <p>Progression</p>
+        <p>疾病进程</p>
         <div class="nav-dropdown">
           <div class="dropdown-sect nav-el" data-nav-url="progression/sarah" data-exit-url="progression/sarah">
-            <p>Sarah</p>
+            <p>莎拉</p>
           </div>
           <div class="dropdown-sect nav-el" data-nav-url="progression/carlos" data-exit-url="progression/carlos">
-            <p>Carlos</p>
+            <p>卡洛斯</p>
           </div>
           <div class="dropdown-sect nav-el" data-nav-url="progression/mark" data-exit-url="progression/mark">
-            <p>Mark</p>
+            <p>马克</p>
           </div>
         </div>
       </div>
     </div>
   
     <div class="button cta" id="contact-btn" data-exit-url="https://nephu.org/about/contact-our-team/">
-      <p>Contact Our Medical Team</p>
+      <p>联系我们的医疗团队</p>
     </div>
   </div>
 </div>
@@ -54,13 +54,13 @@
 
 <div id="mobile-menu">
   <div class="menu-item nav-el" data-nav-id="home" data-nav-url="index" data-exit-url="home">
-    <p>Home</p>
+    <p>首页</p>
     <svg class="arrow" width="9" height="15" viewBox="0 0 9 15" fill="none">
       <path class="arrow-fill" fill-rule="evenodd" clip-rule="evenodd" d="M8.51871 6.45309C8.80994 6.72848 8.97352 7.10178 8.97352 7.491C8.97352 7.88022 8.80994 8.25353 8.51871 8.52892L2.65477 14.069C2.36303 14.3444 1.9674 14.4991 1.55491 14.499C1.14243 14.4989 0.746875 14.3441 0.455272 14.0686C0.163669 13.793 -9.72195e-05 13.4194 -2.09644e-08 13.0298C9.71776e-05 12.6402 0.16405 12.2667 0.45579 11.9913L5.22076 7.491L0.455789 2.99075C0.172366 2.71387 0.0154278 2.34293 0.0187776 1.95782C0.0221273 1.57272 0.185496 1.20426 0.473698 0.931817C0.7619 0.659369 1.15188 0.504728 1.55963 0.501202C1.96738 0.497675 2.36029 0.645544 2.65373 0.912961L8.51975 6.45211L8.51871 6.45309Z" fill="#69186B"/>
     </svg>
   </div>
   <div class="menu-item mobile-acc-trigger" data-nav-id="pathogenesis" data-nav-url="pathogenesis/index" data-exit-url="pathogenesis/index">
-    <p>Pathogenesis</p>
+    <p>疾病机制</p>
     <svg class="arrow" width="9" height="15" viewBox="0 0 9 15" fill="none">
       <path class="arrow-fill" fill-rule="evenodd" clip-rule="evenodd" d="M8.51871 6.45309C8.80994 6.72848 8.97352 7.10178 8.97352 7.491C8.97352 7.88022 8.80994 8.25353 8.51871 8.52892L2.65477 14.069C2.36303 14.3444 1.9674 14.4991 1.55491 14.499C1.14243 14.4989 0.746875 14.3441 0.455272 14.0686C0.163669 13.793 -9.72195e-05 13.4194 -2.09644e-08 13.0298C9.71776e-05 12.6402 0.16405 12.2667 0.45579 11.9913L5.22076 7.491L0.455789 2.99075C0.172366 2.71387 0.0154278 2.34293 0.0187776 1.95782C0.0221273 1.57272 0.185496 1.20426 0.473698 0.931817C0.7619 0.659369 1.15188 0.504728 1.55963 0.501202C1.96738 0.497675 2.36029 0.645544 2.65373 0.912961L8.51975 6.45211L8.51871 6.45309Z" fill="#69186B"/>
     </svg>
@@ -76,7 +76,7 @@
   </div>
 
   <div class="menu-item mobile-acc-trigger" data-nav-id="progression" data-nav-url="progression/index" data-exit-url="progression/index">
-    <p>Progression</p>
+    <p>疾病进程</p>
     <svg class="arrow" width="9" height="15" viewBox="0 0 9 15" fill="none">
       <path class="arrow-fill" fill-rule="evenodd" clip-rule="evenodd" d="M8.51871 6.45309C8.80994 6.72848 8.97352 7.10178 8.97352 7.491C8.97352 7.88022 8.80994 8.25353 8.51871 8.52892L2.65477 14.069C2.36303 14.3444 1.9674 14.4991 1.55491 14.499C1.14243 14.4989 0.746875 14.3441 0.455272 14.0686C0.163669 13.793 -9.72195e-05 13.4194 -2.09644e-08 13.0298C9.71776e-05 12.6402 0.16405 12.2667 0.45579 11.9913L5.22076 7.491L0.455789 2.99075C0.172366 2.71387 0.0154278 2.34293 0.0187776 1.95782C0.0221273 1.57272 0.185496 1.20426 0.473698 0.931817C0.7619 0.659369 1.15188 0.504728 1.55963 0.501202C1.96738 0.497675 2.36029 0.645544 2.65373 0.912961L8.51975 6.45211L8.51871 6.45309Z" fill="#69186B"/>
     </svg>
@@ -100,11 +100,11 @@
 
   <div class="menu-lower">
     <div class="button cta" id="contact-btn" data-exit-url="https://nephu.org/about/contact-our-team/">
-      <p>Contact Our Medical Team</p>
+      <p>联系我们的医疗团队</p>
     </div>
 
     <div class="flex">
-      <p id="nephu-link" data-exit-url="https://nephu.org/iga-nephropathy/">NephU IgAN Landing Page</p>
+      <p id="nephu-link" data-exit-url="https://nephu.org/iga-nephropathy/">NephU IgA肾病 专题页</p>
       <img src="./assets/images/external-icon.svg" class="update-path" alt=""/>
     </div>
   </div>
