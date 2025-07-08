@@ -19,9 +19,8 @@
     {{> ../templates/interstitial }}
 
     <div class="progression-content content-container">
-      <h1>IgA NEPHROPATHY (IgAN) PROGRESSION SIMULATION</h1>
-      <h2 class="subhead">Meet hypothetical patients Sarah, Carlos, and Mark, and learn more about their IgAN journeys
-      </h2>
+      <h1>IgA肾病疾病进展模拟</h1>
+      <h2 class="subhead">认识虚拟患者莎拉、卡洛斯和马克，深入了解他们的lgAN患病历程</h2>
 
       <div class="profiles-container">
         <div class="profile-option nav-el" data-nav-url="progression/sarah">
@@ -29,13 +28,12 @@
             <img src="./assets/images/profiles/sarah-profile.png" class="update-path profile-pic"
               alt="" />
 
-            <h3 class="name">Sarah (25)</h3>
-            <p>Presented with hematuria and proteinuria following an upper<br
-                class="desktop-only" /> respiratory infection.</p>
+            <h3 class="name">莎拉 (25)</h3>
+            <p>上呼吸道感染后出现血尿和蛋白尿</p>
           </div>
 
           <div class="flex">
-            <p class="link-style">Learn more about Sarah</p>
+            <p class="link-style">了解更多关于莎拉的情况</p>
             <img src="./assets/images/arrow-dark.svg" class="update-path" alt="Dark arrow pointing right" />
           </div>
         </div>
@@ -45,12 +43,12 @@
             <img src="./assets/images/profiles/carlos-profile.png" class="update-path profile-pic"
               alt="" />
 
-            <h3 class="name">Carlos (40)</h3>
-            <p>Complains of fatigue, weight gain, and ankle edema.</p>
+            <h3 class="name">卡洛斯 (40)</h3>
+            <p>主诉疲劳、体重增加和脚踝水肿</p>
           </div>
 
           <div class="flex">
-            <p class="link-style">Learn more about Carlos</p>
+            <p class="link-style">了解更多关于卡洛斯的情况</p>
             <img src="./assets/images/arrow-dark.svg" class="update-path" alt="Dark arrow pointing right" />
           </div>
         </div>
@@ -60,12 +58,12 @@
             <img src="./assets/images/profiles/mark-profile.png" class="update-path profile-pic"
               alt="" />
 
-            <h3 class="name">Mark (34)</h3>
-            <p>Experiencing blood in his urine and frothy urine.</p>
+            <h3 class="name">马克 (34)</h3>
+            <p>出现血尿及泡沫尿</p>
           </div>
 
           <div class="flex">
-            <p class="link-style">Learn more about Mark</p>
+            <p class="link-style">了解更多关于马克的情况</p>
             <img src="./assets/images/arrow-dark.svg" class="update-path" alt="Dark arrow pointing right" />
           </div>
 

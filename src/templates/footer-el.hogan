@@ -6,8 +6,8 @@
       <p class="link nav-el" data-nav-url="site-map">网站地图</p>
     </div>
   
-    <p>IgANsim 网站所提供的信息，仅用于帮您了解相关知识，无法替代医疗护理、医疗建议或专业诊断。<br class="mobile-hide">
-    医疗专业人员查阅 IgANsim 的教育资源时，应结合自身专业判断。<br class="mobile-hide">
+    <p>IgANsim 网站所提供的信息，仅用于帮您了解相关知识，无法替代医疗护理、医疗建议或专业诊断。<br class="desktop-only">
+    医疗专业人员查阅 IgANsim 的教育资源时，应结合自身专业判断。<br class="desktop-only">
     有医疗咨询需求的用户，应咨询医疗专业人员。</p>
     
     <div class="signoff">
