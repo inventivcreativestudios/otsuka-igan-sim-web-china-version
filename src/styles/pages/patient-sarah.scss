@@ -151,6 +151,7 @@
       justify-content: space-between;
       font-family: inherit;
       margin-top: 3rem;
+      margin-bottom: 4rem;
 
       @media screen and (max-width: 1200px) {
         width: 100%;
@@ -218,7 +219,7 @@
           height: 352px;
   
           @media screen and (max-width: 1200px) {
-            margin: 2rem auto 8rem;
+            margin: 2rem auto 3rem;
             width: 88%;
             max-width: 365px;
             height: auto;
@@ -239,10 +240,13 @@
         position: relative;
         margin-left: 2rem;
         font-family: inherit;
+
+        @media screen and (min-width: 700px) {
+          min-width: 135px;
+        }
   
         @media screen and (max-width: 1200px) {
           width: 100%;
-          margin: 2.5rem auto;
         }
 
         .range-slider {
@@ -569,6 +573,7 @@
         @media screen and (max-width: 950px) {
           flex: 1;
           margin: 1rem;
+          min-width: 40%;
         }
 
         img {
@@ -581,11 +586,11 @@
           font-weight: 700;
           line-height: 1.5;
           text-align: center;
-          width: 80%;
+          width: 100%;
           margin-top: 1rem;
           font-size: 20px;
 
-          @media screen and (max-width: 950px) {
+          @media screen and (max-width: 1150px) {
             font-size: 18px;
             line-height: 1.25;
             width: 100%;

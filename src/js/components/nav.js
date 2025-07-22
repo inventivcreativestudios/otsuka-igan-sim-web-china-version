@@ -22,7 +22,7 @@ document.querySelectorAll('#nephu-link').forEach(link => link.addEventListener('
 }));
 
 function goToPage(url, param='') {
-  let stagingFolder = IS_STAGING ? '/GSW_OTSUKA_SIMULATOR_WEB_v2' : '';
+  let stagingFolder = IS_STAGING ? '/GSW_OTSUKA_SIMULATOR_WEB_CHINA_VERSION' : '';
   let urlParam = param.length > 0 ? `#${param}` : '';
   window.open(window.location.origin + stagingFolder + `/${url}.html` + urlParam, '_self');
 

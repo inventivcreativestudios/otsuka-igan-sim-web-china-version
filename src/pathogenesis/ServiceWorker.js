@@ -1,9 +1,9 @@
 const cacheName = "GSW-GSW OTSUKA MOD-0.2";
 const contentToCache = [
-    "Build/builds.loader.js",
-    "Build/builds.framework.js",
-    "Build/builds.data",
-    "Build/builds.wasm",
+    "Build/7_22_2025.loader.js",
+    "Build/7_22_2025.framework.js",
+    "Build/7_22_2025.data",
+    "Build/7_22_2025.wasm",
     "TemplateData/style.css"
 
 ];

@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
   function updatePaths() {
     document.querySelectorAll('.update-path').forEach(el => {
       let srcTail = el.src.split('assets')[1];
-      let stagingFolder = IS_STAGING ? '/GSW_OTSUKA_SIMULATOR_WEB_v2' : '';
+      let stagingFolder = IS_STAGING ? '/GSW_OTSUKA_SIMULATOR_WEB_CHINA_VERSION' : '';
       el.src = window.location.origin + stagingFolder + '/assets' + srcTail;
     });
   }

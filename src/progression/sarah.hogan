@@ -42,7 +42,7 @@
 
     <!-- //////////////////// SECTION 1 ///////////////////// -->
 
-    <section id="section-1" class="" data-section-id="1" data-section-name="Sarah Patient Information" data-dot-label="Meet Sarah">
+    <section id="section-1" class="" data-section-id="1" data-section-name="Sarah Patient Information" data-dot-label="走近莎拉">
 
       <div class="two-column">
 
@@ -56,34 +56,31 @@
           <img src="./assets/images/profiles/sarah-profile.png" class="update-path bio-pic conditional-render" alt="">
           <p class="name conditional-render">Sarah, 25</p>
 
-          <h1 class="sect-1-header">Sarah is a 25-year-old Japanese American woman and recent law school graduate. She began working at a local, fast-paced law firm 6 months prior to her initial exam.</h1>
+          <h1 class="sect-1-header">莎拉是一名 25 岁的美籍日裔女性，刚从法学院毕业。<br class="desktop-only">在初次检查前 6 个月，她就职于当地一家工作节奏很快的律所。</h1>
 
-          <p class="bold">Sarah has been experiencing dark brown urine for the past 2 days following an upper
-            respiratory tract infection. She is currently not menstruating and recalled a similar incident when she was
-            a teenager.</p>
+          <p class="bold">在上呼吸道感染后，过去 2 天里莎拉出现了深棕色尿液。<br class="desktop-only">目前莎拉未处于经期，且青少年时期有过类似情况。</p>
 
           <ul class="bullet-list">
-            <li><span class="bullet">&bull;</span><span>No remarkable findings upon physical exam</span></li>
-            <li><span class="bullet">&bull;</span><span>Her urinalysis showed &gt;25 RBC/HPF and 2+ protein</span></li>
+            <li><span class="bullet">&bull;</span><span>体格检查无明显异常</span></li>
+            <li><span class="bullet">&bull;</span><span>尿液分析显示RBC/HPF &gt;25 个&#65292;<br class="desktop-only">蛋白（2+）</span></li>
           </ul>
 
           <div class="divider"></div>
 
-          <h4 class="purple">Sarah was referred to a nephrologist for subsequent workups:</h4>
+          <h4 class="purple">莎拉转诊至肾病科医生处进行后续检查：</h4>
 
           <div class="flex">
             <div class="workup">
               <img class="icon update-path" src="./assets/images/gauge-icon.svg" alt="" />
-              <p>UPCR 2.1 g/g (~24-hour urine<br class="desktop-only"> protein excretion of <span class="nowrap">2.1 g/d)</span></p>
+              <p>UPCR 2.1 g/g（约 24 h 尿蛋白<br class="desktop-only">排泄量 2.1 g/d）</p>
             </div>
             <div class="workup">
               <img class="icon update-path" src="./assets/images/kidneys-icon.svg" alt="" />
-              <p>Kidney biopsy revealed dominant IgA staining and evidence of mesangial hypercellularity, which
-                confirmed Sarah&rsquo;s IgAN diagnosis</p>
+              <p>肾活检显示以 IgA 沉积为主&#65292;<br class="desktop-only">且伴随系膜细胞增生&#65292;<br class="desktop-only">莎拉由此确诊IgA肾病</p>
             </div>
           </div>
 
-          <p class="direction bold align-center tablet-desktop-only">Click the arrows in the carousel below to explore Sarah&rsquo;s baseline characteristics</p>
+          <p class="direction bold align-center tablet-desktop-only">点击下方轮播图中的箭头，查看莎拉的基线特征</p>
         </div>
 
       </div>
@@ -95,151 +92,135 @@
 
     <!-- //////////////////// SECTION 2 ///////////////////// -->
 
-    <section id="section-2" class="" data-section-id="2" data-section-name="Sarah Demographic and Information Carousel" data-dot-label="Baseline<br>Characteristics">
+    <section id="section-2" class="" data-section-id="2" data-section-name="Sarah Demographic and Information Carousel" data-dot-label="基线特征">
 
       <div class="owl-carousel">
         <div class="carousel-block" id="sarah-block-1">
-          <h3 class="label">Age at Biopsy</h3>
-          <h4 class="characteristic">25 years old</h4>
+          <h3 class="label">活检时年龄</h3>
+          <h4 class="characteristic">25 岁</h4>
 
           <ul class="bullet-list">
-            <li><span class="bullet">&bull;</span><span>IgAN is primarily diagnosed in adults 20-40 years of
-                age<sup>1,2</sup></span></li>
-            <li><span class="bullet">&bull;</span><span>Clinical presentation and disease progression can vary based on
-                the patient&rsquo;s age at diagnosis<sup>3</sup></span></li>
+            <li><span class="bullet">&bull;</span><span>IgA肾病主要在 20-40 岁的成年人中确诊<sup>1,2</sup></span></li>
+            <li><span class="bullet">&bull;</span><span>临床表现和疾病进展会因患者确诊时的年龄不同而产生差异<sup>3</sup></span></li>
           </ul>
 
           <div class="footnotes">
-            <p><span class="bold">References: 1.</span> Caster DJ, et al. <em>Kidney Int Rep</em>. 2023;8(9):1792-1800.
+            <p><span class="bold">参考文献: 1.</span> Caster DJ, et al. <em>Kidney Int Rep</em>. 2023;8(9):1792-1800.
               <span class="bold">2.</span> Lai KN, et al. <em>Nat Rev Dis Primers</em>. 2016;2:16001. <span
                 class="bold">3.</span> Gutierrez E, et al. <em>Nephrol Dial Transplant</em>. 2018;33:472-477.</p>
           </div>
         </div>
 
         <div class="carousel-block" id="sarah-block-2">
-          <h3 class="label">Race</h3>
-          <h4 class="characteristic">East Asian (Japanese)</h4>
+          <h3 class="label">种族</h3>
+          <h4 class="characteristic">东亚人（日本人）</h4>
 
           <ul class="bullet-list">
-            <li><span class="bullet">&bull;</span><span>Clinical presentation and progression of IgAN can vary greatly
-                depending on ethnicity<sup>1</sup></span></li>
-            <li><span class="bullet">&bull;</span><span>Asian ethnicity is associated with faster disease progression
-                and greater burden<sup>1</sup></span></li>
+            <li><span class="bullet">&bull;</span><span>IgA肾病的临床表现和疾病进展会因种族不同而产生较大差异<sup>1</sup></span></li>
+            <li><span class="bullet">&bull;</span><span>亚裔人群疾病更快进展，疾病负担更重<sup>1</sup></span></li>
             <ul>
-              <li><span class="bullet">&ndash;</span><span>East Asian patients are 4x more likely to develop ESKD</span>
+              <li><span class="bullet">&ndash;</span><span>东亚患者发展为ESKD的可能性是其他人群的4 倍</span>
               </li>
             </ul>
           </ul>
 
           <div class="footnotes">
-            <p>ESKD, end-stage kidney disease.</p>
-            <p><span class="bold">Reference: 1.</span> Yeo SC, et al. <em>Nephrology (Carlton)</em>. 2019;24(9):885-895.
+            <p>ESKD：终末期肾病。</p>
+            <p><span class="bold">参考文献: 1.</span> Yeo SC, et al. <em>Nephrology (Carlton)</em>. 2019;24(9):885-895.
             </p>
           </div>
         </div>
 
         <div class="carousel-block" id="sarah-block-3">
-          <h3 class="label">Estimated GFR at Biopsy</h3>
+          <h3 class="label">活检时eGFR</h3>
           <h4 class="characteristic">70 mL/min/<br class="mobile-only"/>1.73 m<sup>2</sup></h4>
 
           <ul class="bullet-list">
-            <li><span class="bullet">&bull;</span><span>Sarah&rsquo;s eGFR at biopsy indicated that she is in Stage 2
-                CKD:
-                some kidney damage leading to a mild loss of kidney function</span></li>
-            <li><span class="bullet">&bull;</span><span>eGFR decline is a validated risk factor of IgAN progression
-                and is strongly associated with the risk of CKD progression and mortality<sup>1</sup></span></li>
+            <li><span class="bullet">&bull;</span><span>莎拉活检时的eGFR表明，她正处于CKD2 期：肾脏已出现一定损伤，导致肾功能轻度下降</span></li>
+            <li><span class="bullet">&bull;</span><span>eGFR下降是IgA肾病疾病进展已知的风险因素，且与CKD进展风险及死亡风险密切相关<sup>1</sup></span></li>
           </ul>
 
           <div class="footnotes">
-            <p>CKD, chronic kidney disease; eGFR, estimated glomerular filtration rate.</p>
-            <p><span class="bold">Reference: 1.</span> Coresh J, et al. <em>JAMA</em>. 2014;311(24):2518-2531.</p>
+            <p>CKD：慢性肾脏病；eGFR：估算肾小球滤过率。</p>
+            <p><span class="bold">参考文献: 1.</span> Coresh J, et al. <em>JAMA</em>. 2014;311(24):2518-2531.</p>
           </div>
         </div>
 
         <div class="carousel-block" id="sarah-block-4">
-          <h3 class="label">Blood Pressure at Biopsy</h3>
+          <h3 class="label">活检时血压</h3>
           <h4 class="characteristic">130/80 mm Hg</h4>
 
           <ul class="bullet-list">
-            <li><span class="bullet">&bull;</span><span>Sarah&rsquo;s blood pressure was slightly elevated at
-                biopsy</span></li>
-            <li><span class="bullet">&bull;</span><span>Hypertension can be a predictor of IgAN progression at the time
-                of diagnosis<sup>1</sup></span></li>
-            <li><span class="bullet">&bull;</span><span>Reduction of hypertension lowers the risk of progression to
-                kidney failure<sup>2</sup></span></li>
+            <li><span class="bullet">&bull;</span><span>莎拉活检时血压轻度升高</span></li>
+            <li><span class="bullet">&bull;</span><span>诊断时，高血压可作为 IgA 肾病疾病进展的预测因素<sup>1</sup></span></li>
+            <li><span class="bullet">&bull;</span><span>控制高血压可降低进展为肾衰竭的风险<sup>2</sup></span></li>
           </ul>
 
           <div class="footnotes">
-            <p><span class="bold">References: 1.</span> Maixnerova D, et al. <em>J Nephrol</em>. 2016;29(4):535-541.
+            <p><span class="bold">参考文献：1.</span> Maixnerova D, et al. <em>J Nephrol</em>. 2016;29(4):535-541.
               <span class="bold">2.</span> KDIGO. <em>Kidney Int</em>. 2021;100:S1-S276.</p>
           </div>
         </div>
 
         <div class="carousel-block" id="sarah-block-5">
-          <h3 class="label">Proteinuria at Biopsy</h3>
+          <h3 class="label">活检时蛋白尿</h3>
           <h4 class="characteristic">2.1 g/d</h4>
 
           <ul class="bullet-list">
-            <li><span class="bullet">&bull;</span><span>Sarah had elevated proteinuria at the time of biopsy</span></li>
-            <li><span class="bullet">&bull;</span><span>Proteinuria is a validated prognostic marker linked to
-                long-term kidney outcomes, including eGFR decline and ESKD<sup>1,2</sup></span></li>
-            <li><span class="bullet">&bull;</span><span>Proteinuria reduction inversely correlates with serum
-                creatinine doubling, ESKD, and death<sup>2,3</sup></span></li>
+            <li><span class="bullet">&bull;</span><span>活检时莎拉的蛋白尿水平升高</span></li>
+            <li><span class="bullet">&bull;</span><span>蛋白尿是公认的预后标志物，与长期肾脏结局相关，包括eGFR下降和ESKD进展<sup>1,2</sup></span></li>
+            <li><span class="bullet">&bull;</span><span>蛋白尿减少与血清肌酐倍增、ESKD及死亡风险呈负相关<sup>2,3</sup></span></li>
           </ul>
 
           <div class="footnotes">
-            <p>eGFR, estimated glomerular filtration rate; ESKD, end-stage kidney disease.</p>
-            <p><span class="bold">References: 1.</span> KDIGO. <em>Kidney Int</em>. 2021;100:S1-S276. <span
+            <p>eGFR：估算肾小球滤过率；ESKD：终末期肾病</p>
+            <p><span class="bold">参考文献：1.</span> KDIGO. <em>Kidney Int</em>. 2021;100:S1-S276. <span
                 class="bold">2.</span> Thompson A, et al. <em>Clin J Am Soc Nephrol</em>. 2019;14(3):469-481. <span
                 class="bold">3.</span> Inker L, et al. <em>Am J Kidney Dis</em>. 2016;68(3):392-401.</p>
           </div>
         </div>
 
         <div class="carousel-block" id="sarah-block-6">
-          <h3 class="label">ACE<span class="lower">i</span>/ARB Use at the Time of Biopsy</h3>
+          <h3 class="label">活检时ACE<span class="lower">i</span>/ARB使用情况</h3>
           <h4 class="characteristic">None</h4>
 
-          <p>While ACEi/ARBs are recommended as part of supportive care, Sarah had not initiated treatment at the time
-            of her biopsy.<sup>1</sup></p>
+          <p>ACEi/ARB是指南推荐的支持治疗，但莎拉在活检时尚未启动该治疗。<sup>1</sup></p>
 
           <div class="footnotes">
-            <p>ACEi, angiotensin-converting enzyme inhibitor; ARB, angiotensin II receptor blocker.</p>
-            <p><span class="bold">Reference: 1.</span> KDIGO. <em>Kidney Int</em>. 2021;100:S1-S276.</p>
+            <p>ACEi：血管紧张素转换酶抑制剂；ARB：血管紧张素 Ⅱ 受体拮抗剂</p>
+            <p><span class="bold">参考文献：1.</span> KDIGO. <em>Kidney Int</em>. 2021;100:S1-S276.</p>
           </div>
         </div>
 
         <div class="carousel-block" id="sarah-block-7">
-          <h3 class="label">MEST-C Score</h3>
+          <h3 class="label">MEST-C 评分</h3>
           <h4 class="characteristic">M1 E0 S0 T0 C0</h4>
 
-          <p>Sarah&rsquo;s biopsy was evaluated using the Oxford classification, or MEST-C score. Her biopsy showed
-            mesangial hypercellularity in &gt;50% of glomeruli, but was absent of endocapillary hypercellularity,
-            segmental glomerulosclerosis, tubular atrophy/interstitial fibrosis, and crescents.</p>
-          <p>The MEST-C score can serve as a valuable early prognostic tool and should be considered when evaluating the
-            risk of progression to ESKD.<sup>1-3</sup></p>
+          <p>莎拉的活检采用牛津分型（即 MEST-C 评分 ）进行评估。活检显示，其超过 50% 的肾小球存在系膜细胞增生，但无毛细血管内皮细胞增生、节段性肾小球硬化、肾小管萎缩/间质纤维化及新月体形成。</p>
+          <p>MEST-C 评分可作为具有价值的早期预后评估工具，在评估疾病进展至ESKD的风险时，应将其纳入考量。<sup>1-3</sup></p>
 
           <div class="button cta modal-trigger" data-trigger-id="mest-c-score">
-            <p>Learn more about MEST-C</p>
+            <p>了解更多关于 MEST-C 的信息</p>
           </div>
 
           <div class="footnotes">
-            <p>ESKD, end-stage kidney disease; MEST-C, mesangial hypercellularity (M), endocapillary hypercellularity
-              (E), segmental sclerosis (S), tubular atrophy and interstitial fibrosis (T), crescent (C).</p>
-            <p><span class="bold">References: 1.</span> Cattran DC, et al. <em>Kidney Int Rep</em>.
+            <p>ESKD：终末期肾病；MEST-C：系膜细胞增生（M）、毛细血管内皮细胞增生（E）、节段性硬化（S）、肾小管萎缩和间质纤维化（T）、新月体（C）；</p>
+            <p><span class="bold">参考文献：1.</span> Cattran DC, et al. <em>Kidney Int Rep</em>.
               2023;8(12):2515-2528. <span class="bold">2.</span> Haaskjold YL, et al. <em>BMC Nephrology</em>.
               2022;23:26. <span class="bold">3.</span> Coppo R, et al. <em>Kidney Int</em>. 2014;86(4):828-836.</p>
           </div>
         </div>
 
         <div class="carousel-block" id="sarah-block-8">
-          <h3 class="label">Immunosuppression Use at or Prior to Biopsy </h3>
-          <h4 class="characteristic">None</h4>
+          <h3 class="label">活检时或活检前免疫抑制剂使用情况</h3>
+          <h4 class="characteristic">未使用</h4>
 
-          <p>While the clinical benefits of immunosuppressive therapy have not been established in patients with IgAN,
-            they may be used in specific patient populations if the risk/benefit profile is acceptable.<sup>1</sup></p>
+          <p>免疫抑制治疗对IgA肾病患者的临床获益尚未明确，<br>
+            经评估风险与获益可接受时，<br>
+            特定患者人群可考虑采用。<sup>1</sup></p>
 
           <div class="footnotes">
-            <p><span class="bold">Reference: 1.</span> KDIGO. <em>Kidney Int</em>. 2021;100:S1-S276.</p>
+            <p><span class="bold">参考文献：1.</span> KDIGO. <em>Kidney Int</em>. 2021;100:S1-S276.</p>
           </div>
         </div>
       </div>
@@ -247,8 +228,8 @@
     
     <div class="temp-section">
       <div class="footnotes">
-        <p>*Image used with permission from the Renal Fellow Network, from Gallan A. Kidney Biopsy of the Month. Published July 29, 2019. Available at: <a class="format-url link-color" href="https://www.renalfellow.org/2019/07/29/kidney-biopsy-of-the-month-iga-nephropathy/" target="_blank">https://www.renalfellow.org/2019/07/29/kidney-biopsy-of-the-month-iga-nephropathy/</a>.</p>
-        <p>ACE, angiotensin-converting enzyme; ARB, angiotensin II receptor blocker; BP, blood pressure; eGFR, estimated glomerular filtration rate; HPF, high-power field; MEST-C, mesangial hypercellularity (M), endocapillary hypercellularity (E), segmental sclerosis (S), tubular atrophy and interstitial fibrosis (T), crescent (C); PAS, periodic acid-Schiff; RBC, red blood cells; UPCR, urine protein creatinine ratio.</p>
+        <p>*图片经 Renal Fellow Network授权使用，来源：Gallan A. Kidney biopsy of the Month. 2019年7月29日在线发表，可在此处查看: Kidney Biopsy of the Month: IgA Nephropathy - Renal Fellow Network/。</p>
+        <p>ACE：血管紧张素转换酶；ARB：血管紧张素II受体阻滞剂；eGFR：估算肾小球滤过率；HPF：高倍视野；MEST-C：系膜细胞增生（M）、毛细血管内皮细胞增生（E）、节段性硬化（S）、肾小管萎缩和间质纤维化（T）、新月体（C）；PAS：过碘酸-希夫（染色法）；RBC：红细胞；UPCR，尿蛋白肌酐比值。</p>
       </div>
 
       <img class="mobile-only update-path mobile-bio-trigger" data-tray-id="sarah-bio-tray" id="mobile-bio-trigger" src="./assets/images/profiles/mobile-bio-btn.png" alt="Baseline Assessment trigger button"/>
@@ -256,15 +237,15 @@
 
     <!-- //////////////////// SECTION 3 ///////////////////// -->
 
-    <section id="section-3" class="gray-bg" data-section-id="3" data-section-name="Sarah's Risk of Progression" data-dot-label="Risk of<br>Progression">
+    <section id="section-3" class="gray-bg" data-section-id="3" data-section-name="Sarah's Risk of Progression" data-dot-label="疾病进展风险">
       <div class="flex-header">
         <img src="./assets/images/profiles/sarah-profile.png" class="update-path bio-pic desktop-only" alt="">
 
         <div>
-          <h1 class="pat-header">Sarah&rsquo;s Risk of Progression</h1>
-          <p class="desc-text">After Sarah&rsquo;s IgAN diagnosis was confirmed by biopsy, she was prescribed an
-            ACEi/ARB. One year later, her proteinuria stabilized to 1 g/d and her blood pressure was lowered to 120/80
-            with supportive care and lifestyle modifications.</p>
+          <h1 class="pat-header">莎拉的疾病进展风险</h1>
+          <p class="desc-text">莎拉的IgA肾病经活检确诊后，医生为其开具了ACEi/ARB。<br>
+          一年后，通过支持治疗和调整生活方式，<br>
+          她的蛋白尿稳定在 1 g/d，血压降至 120/80 mm Hg </p>
 
           <div class="graph-container">
             <div class="hotspot" id="state-1" data-value="Age 27;5%"></div>
@@ -318,24 +299,21 @@
 
           <a href="https://qxmd.com/calculate/calculator_499/international-igan-prediction-tool-at-biopsy-adults"
           target="_blank" class="button cta" id="sect-3-exit">
-          <p>View the International <br class="mobile-only"/>IgAN Prediction Tool</p>
+          <p>查看国际 IgA肾病预测工具</p>
           <img src="./assets/images/external-icon-white.svg" class="update-path" alt="External link icon" />
         </a>
 
         </div>
       </div>
 
-      <p class="bold">Current KDIGO guidelines do not recommend SGLT2i use in IgAN in the absence of diabetes, as
-        additional data are needed to assess efficacy and safety. Treatments in hypothetical patient cases reflect
-        current treatment guidelines.<sup>2</sup></p>
+      <p class="bold">当前KDIGO指南不建议在非糖尿病的IgA肾病患者中使用SGLT2i ，因其疗效和安全性数据还有待完善。<br>
+        虚拟患者病例采用的治疗依据当前治疗指南制定。<sup>2</sup></p>
 
       <div class="footnotes">
-        <p><sup>a</sup>Predicted risk of progression was calculated using the International IgAN Prediction Tool and
-          defined as the risk of a 50% decline in eGFR or ESKD.<sup>1</sup></p>
-        <p>ACEi, angiotensin-converting enzyme inhibitor; ARB, angiotensin receptor blocker; eGFR, estimated glomerular
-          filtration rate; ESKD, end-stage kidney disease; KDIGO, Kidney Disease: Improving Global Outcomes; SGLT2i,
-          Sodium-Glucose Transport Protein 2 inhibitor.</p>
-        <p><span class="bold">References: 1.</span> Barbour SJ, et al. <em>Kidney Int</em>. 2022;102(1):160-172. <span
+        <p><sup>a</sup>疾病进展风险通过国际IgA肾病预测工具计算，定义为 eGFR 下降 50% 或发生 ESKD 的风险<sup>1</sup></p>
+        <p>ACEi：血管紧张素转换酶抑制剂；ARB：血管紧张素II受体阻滞剂；eGFR：估算肾小球滤过率；<br>
+        ESKD：终末期肾病；KDIGO：改善全球肾脏病预后组织；SGLT2i：钠-葡萄糖协同转运蛋白 2 抑制剂。</p>
+        <p><span class="bold">参考文献: 1.</span> Barbour SJ, et al. <em>Kidney Int</em>. 2022;102(1):160-172. <span
             class="bold">2.</span> KDIGO. <em>Kidney Int</em>. 2021;100:S1-S276.</p>
       </div>
 
@@ -343,31 +321,32 @@
 
     <!-- //////////////////// SECTION 4 ///////////////////// -->
 
-    <section id="section-4" class="" data-section-id="4" data-section-name="Sarah Impact of Proteinuria" data-dot-label="Impact of<br>Proteinuria">
+    <section id="section-4" class="" data-section-id="4" data-section-name="Sarah Impact of Proteinuria" data-dot-label="蛋白尿的影响">
       <div class="flex-header">
         <img src="./assets/images/profiles/sarah-profile.png" class="update-path bio-pic desktop-only" alt="">
 
         <div>
-          <h1 class="pat-header">Impact of Proteinuria</h1>
-          <p class="desc-text">Despite decreasing her proteinuria level by half to 1 g/d,<br class="desktop-only" />
-            Sarah remains at risk of progression.</p>
+          <h1 class="pat-header">蛋白尿的影响</h1>
+          <p class="desc-text">尽管莎拉的蛋白尿水平减半至 1 g/d，<br>
+          但她仍存在疾病进展风险。</p>
         </div>
       </div>
 
       <div class="flex">
         <div class="text-side">
-          <p class="bold">A retrospective cohort study showed that patients perceived as low risk continue to remain at
-            risk of progression to kidney failure within <span class="nowrap">10 years<sup>2</sup></span></p>
+          <p class="bold">一项回顾性队列研究显示，<br>
+            低风险的患者仍存在 10 年内<br>
+            进展为 ESKD 的风险<sup>2</sup></p>
 
           <ul class="bullet-list">
-            <li><span class="bullet">&bull;</span><span>30% risk in patients with proteinuria 0.5 to 1 g/d</span></li>
-            <li><span class="bullet">&bull;</span><span>~20% risk in patients with proteinuria &lt;0.5 g/d</span></li>
+            <li><span class="bullet">&bull;</span><span>蛋白尿为 0.5 至 1 g/d的患者，风险为 30%</span></li>
+            <li><span class="bullet">&bull;</span><span>蛋白尿＜0.5 g/d的患者，风险约为 20%</span></li>
           </ul>
         </div>
 
         <div class="right-side">
-          <p class="bold purple">Use the slider to see how reducing proteinuria below 1 g/d could reduce Sarah&rsquo;s risk of
-            progression.</p>
+          <p class="bold purple">滑动查看将蛋白尿降至 1 g/d 以下，<br>
+            如何降低莎拉的疾病进展风险。</p>
           
           <div class="flex">
             <img src="./assets/images/profiles/sarah/risk-23.png" id="section-4-state-1" class="risk-radial update-path"
@@ -403,28 +382,28 @@
       </div>
 
       <div class="footnotes">
-        <p><sup>a</sup>Predicted risk of progression was calculated using the International IgAN Prediction Tool and
-          defined as the risk of a 50% decline in eGFR or ESKD.</p>
-        <p>eGFR, estimated glomerular filtration rate; ESKD, end-stage kidney disease.</p>
-        <p><span class="bold">References: 1.</span> Barbour SJ, et al. <em>Kidney Int</em>. 2022;102(1):160-172. <span
+        <p><sup>a</sup>疾病进展风险通过国际IgA肾病预测工具计算，定义为 eGFR 下降 50% 或发生 ESKD 的风险。</p>
+        <p>eGFR：估算肾小球滤过率；ESKD：终末期肾病</p>
+        <p><span class="bold">参考文献: 1.</span> Barbour SJ, et al. <em>Kidney Int</em>. 2022;102(1):160-172. <span
             class="bold">2.</span> Pitcher D, et al. <em>Clin J Am Soc Nephrol</em>. 2023;18(6):727-738.</p>
       </div>
     </section>
 
     <!-- //////////////////// SECTION 5 ///////////////////// -->
 
-    <section id="section-5" class="" data-section-id="5" data-section-name="Sarah Changes in Proteinuria and eGFR Over Time" data-dot-label="Changes in Proteinuria/<br>eGFR Over Time">
+    <section id="section-5" class="" data-section-id="5" data-section-name="Sarah Changes in Proteinuria and eGFR Over Time" data-dot-label="eGFR 随时间的变化">
       <div class="flex-header">
         <img src="./assets/images/profiles/sarah-profile.png" class="update-path bio-pic desktop-only" alt="">
 
         <div>
-          <h1 class="pat-header">Changes in Proteinuria<br class="desktop-only"/> and eGFR Over Time</h1>
-          <p class="desc-text">Through medication and lifestyle changes, Sarah may be able to reduce her proteinuria and slow her eGFR decline.</p>
+          <h1 class="pat-header">蛋白尿与 eGFR <br/>
+            随时间的变化</h1>
+          <p class="desc-text">通过药物治疗和生活方式调整，莎拉能够降低蛋白尿水平，<br>并延缓 eGFR 的下降。</p>
         </div>
       </div>
 
-      <p class="graphs-header">Changes in proteinuria and eGFR over time</p>
-      <p class="direction">Use the slider to see how Sarah&rsquo;s proteinuria and eGFR may change over time</p>
+      <p class="graphs-header">蛋白尿与 eGFR 随时间的变化</p>
+      <p class="direction">滑动查看莎拉的蛋白尿和 eGFR 随时间的变化</p>
 
       <img src="./assets/images/profiles/sarah/section-5-key.png" class="update-path key tablet-desktop-only" alt=""/>
 
@@ -501,9 +480,9 @@
       </div>
 
       <div class="footnotes">
-        <p>Changes in proteinuria and eGFR, as well as the differences between "With intervention" and "Without intervention", are hypothetical and based on trends seen in clinical trials and cohort studies.<sup>1-4</sup></p>
-          <p>eGFR, estimated glomerular filtration rate.</p>
-        <p><span class="bold">References: 1.</span> Pitcher D, et al. <em>Clin J Am Soc Nephrol</em>.
+        <p>蛋白尿和 eGFR 的变化为基于临床试验和队列研究结果趋势的假设<sup>1-4</sup></p>
+        <p>eGFR：估算肾小球滤过率。</p>
+        <p><span class="bold">参考文献: 1.</span> Pitcher D, et al. <em>Clin J Am Soc Nephrol</em>.
           2023;18(6):727-738. <span class="bold">2.</span> Faucon AL, et al. <em>Nephrol Dial Transplant</em>.
           2024;30:gfae085. <span class="bold">3.</span> Rovin BH, et al. <em>Lancet</em>. 2023;402(10417):2077-2090. <span class="bold">4.</span>
           Lafayette R, et al. <em>Lancet</em>. 2023;402:859-870.</p>
@@ -512,18 +491,18 @@
 
     <!-- //////////////////// SECTION 6 ///////////////////// -->
 
-    <section id="section-6" class="gray-bg" data-section-id="6" data-section-name="Sarah Impact of eGFR Decline on Progression to ESKD" data-dot-label="Impact of eGFR<br>Decline on<br>Progression">
+    <section id="section-6" class="gray-bg" data-section-id="6" data-section-name="Sarah Impact of eGFR Decline on Progression to ESKD" data-dot-label="eGFR 下降对疾病进展的影响">
       <div class="flex-header">
         <img src="./assets/images/profiles/sarah-profile.png" class="update-path bio-pic desktop-only" alt="">
 
         <div>
-          <h1 class="pat-header">Impact of eGFR Decline on<br class="desktop-only"/> Progression to Kidney Failure</h1>
+          <h1 class="pat-header">eGFR 下降对疾病进展<br>
+            至肾衰竭的影响</h1>
         </div>
       </div>
 
-      <p class="graphs-header">If Sarah&rsquo;s eGFR decline stabilizes, this can delay the onset of kidney failure.</p>
-      <p class="direction">Select a button below to see how different rates of eGFR decline can impact progression to
-        kidney failure.</p>
+      <p class="graphs-header">若莎拉的 eGFR 下降情况趋于稳定，则可延缓肾衰竭的发生。</p>
+      <p class="direction">选择下方按钮，查看不同的 eGFR 下降速率对进展至肾衰竭的影响。</p>
 
       <div class="graph-container">
         <div class="tablet-desktop-only">
@@ -559,49 +538,50 @@
       </div>
 
       <div class="footnotes">
-        <p>CKD, chronic kidney disease; eGFR, estimated glomerular filtration rate.</p>
+        <p>CKD：慢性肾脏病；eGFR：估算肾小球滤过率。</p>
       </div>
     </section>
 
     <!-- //////////////////// SECTION 7 ///////////////////// -->
 
-    <section id="section-7" class="gray-bg" data-section-id="7" data-section-name="Sarah Considerable Impact on Physical, Mental, and Emotional Health" data-dot-label="Impact on QoL">
+    <section id="section-7" class="gray-bg" data-section-id="7" data-section-name="Sarah Considerable Impact on Physical, Mental, and Emotional Health" data-dot-label="QoL 的影响">
       <div class="flex-header">
         <img src="./assets/images/profiles/sarah-profile.png" class="update-path bio-pic desktop-only" alt="">
 
         <div>
-          <h1 class="pat-header">A Considerable Impact on Physical, Mental, and Emotional Health<sup>1,2</sup></h1>
+          <h1 class="pat-header">对身体、心理及情绪健康的显著影响<sup>1,2</sup></h1>
         </div>
       </div>
 
       <div class="icon-flex">
         <div class="icon-container">
           <img src="./assets/images/profiles/blue-icon-anxiety.svg" class="update-path" alt="" />
-          <p>~25% of patients with IgAN experience anxiety<sup>1,a</sup></p>
+          <p>约 25% 的 IgA肾病患者<br>
+            存在焦虑<sup>1,a</sup></p>
         </div>
         <div class="icon-container">
           <img src="./assets/images/profiles/blue-icon-depression.svg" class="update-path" alt="" />
-          <p>~30% of patients with IgAN experience depression<sup>2,b</sup></p>
+          <p>约 30% 的 IgA肾病患者<br>
+            存在抑郁<sup>2,b</sup></p>
         </div>
         <div class="icon-container">
           <img src="./assets/images/profiles/blue-icon-activity.svg" class="update-path" alt="" />
-          <p>~40% daily activity impairment reported<sup>3,c</sup></p>
+          <p>约 40% 的患者<br>
+            报告日常活动受限<sup>3,c</sup></p>
         </div>
         <div class="icon-container">
           <img src="./assets/images/profiles/blue-icon-work.svg" class="update-path" alt="" />
-          <p>Up to 40% overall work impairment reported<sup>3,c</sup></p>
+          <p>高达 40% 的患者<br>
+            存在整体工作能力受限<sup>3,c</sup></p>
         </div>
       </div>
 
       <div class="footnotes">
-        <p class=""><sup>a</sup>Survey of U.S. patients on coping with IgAN from the NKF Voice of the Patient Report.</p>
-        <p class=""><sup>b</sup>Prospective observational study of adult patients with biopsy-confirmed IgAN.</p>
-        <p class=""><sup>c</sup>Based on real-world data from the Adelphi IgAN Disease Specific Programme (DSP), a
-          point-in-time survey of IgAN-treating nephrologists and their patients in the United
-          States, EU5 (France, Germany, Italy, Spain, and the United Kingdom), Japan, and China between June and October
-          2021. Data presented are for patients with IgAN in the United States, and are based on the average impairment reported by participants.</p>
+        <p class=""><sup>a</sup>基于 NKF 患者之声报告 ，美国 IgA肾病患者应对情况的调查。</p>
+        <p class=""><sup>b</sup>对经活检确诊为 IgA肾病的成年患者开展的前瞻性观察性研究。</p>
+        <p class=""><sup>c</sup>基于阿德菲 IgA肾病疾病特定项目（DSP）的真实世界数据，该项目是 2021 年 6 月至 10 月期间，针对美国、欧盟五国（法国、德国、意大利、西班牙和英国 ）、日本及中国的主治 IgA肾病的肾病科医生及其患者开展的时点调查。所呈现数据为美国 IgA肾病患者的数据，且基于参与者报告的平均损害情况</p>
 
-        <p><span class="bold">References: 1.</span> The Voice of the Patient. National Kidney Foundation. December 8,
+        <p><span class="bold">参考文献: 1.</span> The Voice of the Patient. National Kidney Foundation. December 8,
           2020. Accessed June 10, 2024. https://www.igan.org/wp-content/uploads/2021/01/VOP_IgAN_12-7-20__FNL.pdf. <span
             class="bold">2.</span> Zhao Y, et al. <em>J Int Med Res</em>. 2020;48(1):300060519898008. <span
             class="bold">3.</span> Lafayette R, et al. Poster. International Symposium on IgA Nephropathy; Tokyo, Japan.
@@ -610,23 +590,23 @@
     </section>
 
     <section class="switch-pat-section" id="switch-pat" data-section-name="Switch Patient">
-      <h2 class="yellow-header">SELECT ANOTHER HYPOTHETICAL PATIENT</h2>
+      <h2 class="yellow-header">选择另一名虚拟患者</h2>
 
       <div class="flex">
         <div class="profile nav-el" data-nav-url="progression/carlos" data-exit-url="progression/carlos">
           <img src="./assets/images/profiles/carlos-profile.png" class="update-path" alt="" />
-          <h3>Carlos</h3>
+          <h3>卡洛斯</h3>
         </div>
         <div class="profile nav-el" data-nav-url="progression/mark" data-exit-url="progression/mark">
           <img src="./assets/images/profiles/mark-profile.png" class="update-path" alt="" />
-          <h3>Mark</h3>
+          <h3>马克</h3>
         </div>
       </div>
 
       <img src="./assets/images/or-line-graphic.png" class="or-line update-path" alt="Or" />
 
       <div class="button nav-el" id="discover" data-nav-url="pathogenesis/index" data-exit-url="pathogenesis/index">
-        <p>Discover the pathogenesis of IgAN</p>
+        <p>探索 IgA肾病的疾病机制</p>
       </div>
     </section>
 

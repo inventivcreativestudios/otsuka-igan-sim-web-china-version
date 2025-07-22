@@ -2,25 +2,17 @@
   <div class="modal-inner">
     <img src="./assets/images/modal-close.svg" class="modal-close update-path" alt="Close X icon"/>
 
-    <h2 class="modal-header">What is the MEST-C score? The Oxford classification describes<br class="desktop-only"> 5 features associated with adverse kidney outcomes.<sup>1,2</sup></h2>
+    <h2 class="modal-header">什么是 MEST-C 评分? 牛津分型描述了与不良肾脏结局相关的 5 个特征。<sup>1,2</sup></h2>
 
     <div class="graphic-container">
       <img src="./assets/images/mest-c-score-modal-content.png" class="update-path graphic" alt="Histopathological classifications of IgA nephropathy displayed through microscopic images and descriptions of five key conditions"/>
     </div>
-
-    <div class="hotspot-container">
-      <div class="hotspot"></div>
-      <div class="hotspot"></div>
-      <div class="hotspot"></div>
-      <div class="hotspot"></div>
-      <div class="hotspot"></div>
-    </div>
     
     <div class="footnotes">
-      <p>ESKD, end-stage kidney disease; MEST-C, mesangial hypercellularity (M), endocapillary hypercellularity (E), segmental sclerosis (S), tubular atrophy and interstitial fibrosis (T), crescent (C).</p>
-      <p><sup>a</sup>&copy;2021, with permission from the National Kidney Foundation, Inc. Available from: <a class="format-url link-color" target="_blank" href="https://www.sciencedirect.com/journal/american-journal-of-kidney-diseases">https://www.sciencedirect.com/journal/american-journal-of-kidney-diseases</a></p>
-      <p><sup>b</sup>&copy;2016, with permission from the National Kidney Foundation, Inc. Available from: <a class="format-url link-color" target="_blank" href="https://www.sciencedirect.com/journal/american-journal-of-kidney-diseases">https://www.sciencedirect.com/journal/american-journal-of-kidney-diseases</a></p>
-      <p><span class="bold">References: 1.</span> Pattrapornpisut P, et al. <em>Am J Kidney Dis</em>. 2021;78(3):429-441. <span class="bold">2.</span> Lusco MA, et al. <em>Am J Kidney Dis</em>. 2016;67(6):e33-e34.</p>
+      <p>ESKD：终末期肾病；MEST-C：系膜细胞增生（M）、毛细血管内皮细胞增生（E）、节段性硬化（S）、肾小管萎缩和间质纤维化（T）、新月体（C）；</p>
+      <p><sup>a</sup>&copy;2021年经美国肾脏基金会许可，可通过以下方式获取：<a class="format-url link-color" target="_blank" href="https://www.sciencedirect.com/journal/american-journal-of-kidney-diseases">https://www.sciencedirect.com/journal/american-journal-of-kidney-diseases</a></p>
+      <p><sup>b</sup>&copy;2016年经美国肾脏基金会许可，可通过以下方式获取：<a class="format-url link-color" target="_blank" href="https://www.sciencedirect.com/journal/american-journal-of-kidney-diseases">https://www.sciencedirect.com/journal/american-journal-of-kidney-diseases</a></p>
+      <p><span class="bold">参考文献：1.</span> Pattrapornpisut P, et al. <em>Am J Kidney Dis</em>. 2021;78(3):429-441. <span class="bold">2.</span> Lusco MA, et al. <em>Am J Kidney Dis</em>. 2016;67(6):e33-e34.</p>
     </div>
   </div>
 </div>
