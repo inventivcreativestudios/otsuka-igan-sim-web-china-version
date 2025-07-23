@@ -26,17 +26,17 @@
 
     <div id="sarah-bio-tray" class="mobile-bio-tray">
       <div id="tray-close">
-        <p>Baseline Assessment at Biopsy</p>
+        <p>活检时的基线评估</p>
         <img src="./assets/images/back-arrow.svg" class="update-path arrow" alt="Back arrow"/>
       </div>
 
-      <p class="name">Sarah, 25</p>
+      <p class="name">莎拉，25岁</p>
 
       {{> ../templates/sarah-bio }}
 
       <div class="extra-section">
-        <p class="extra-footnote">*Image used with permission from the Renal Fellow Network, from Gallan A. Kidney Biopsy of the Month. Published July 29, 2019. Available at: Kidney Biopsy of the Month: IgA Nephropathy - Renal Fellow Network/.</p>
-        <p class="extra-footnote">ACE, angiotensin-converting enzyme; ARB, angiotensin II receptor blocker; BP, blood pressure; eGFR, estimated glomerular filtration rate; HPF, high-power field; MEST-C, mesangial hypercellularity (M), endocapillary hypercellularity (E), segmental sclerosis (S), tubular atrophy and interstitial fibrosis (T), crescent (C); PAS, periodic acid-Schiff; RBC, red blood cells; UPCR, urine protein creatinine ratio.</p>
+        <p class="extra-footnote">*图片经 Renal Fellow Network授权使用，来源：Gallan A. Kidney biopsy of the Month. 2019年7月29日在线发表，可在此处查看: Kidney Biopsy of the Month: IgA Nephropathy - Renal Fellow Network/。</p>
+        <p class="extra-footnote">ACE：血管紧张素转换酶；ARB：血管紧张素II受体阻滞剂；eGFR：估算肾小球滤过率；HPF：高倍视野；MEST-C：系膜细胞增生（M）、毛细血管内皮细胞增生（E）、节段性硬化（S）、肾小管萎缩和间质纤维化（T）、新月体（C）；PAS：过碘酸-希夫（染色法）；RBC：红细胞；UPCR，尿蛋白肌酐比值。</p>
       </div>
     </div>
 
@@ -54,7 +54,7 @@
 
         <div class="right-side">
           <img src="./assets/images/profiles/sarah-profile.png" class="update-path bio-pic conditional-render" alt="">
-          <p class="name conditional-render">Sarah, 25</p>
+          <p class="name conditional-render">莎拉，25岁</p>
 
           <h1 class="sect-1-header">莎拉是一名 25 岁的美籍日裔女性，刚从法学院毕业。<br class="desktop-only">在初次检查前 6 个月，她就职于当地一家工作节奏很快的律所。</h1>
 
@@ -87,7 +87,7 @@
     </section>
 
     <div class="temp-section mobile-only">
-      <p class="direction bold align-center">Swipe in the carousel below to explore Sarah&rsquo;s baseline characteristics</p>
+      <p class="direction bold align-center">滑动下方轮播图，查看莎拉的基线特征</p>
     </div>
 
     <!-- //////////////////// SECTION 2 ///////////////////// -->
