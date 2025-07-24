@@ -72,7 +72,7 @@
 
     <!-- //////////////////// SECTION 1 ///////////////////// -->
 
-    <section class="" data-section-id="1" data-section-name="Carlos Patient Information" data-dot-label="Meet Carlos">
+    <section class="" data-section-id="1" data-section-name="Carlos Patient Information" data-dot-label="走近卡洛斯">
       <div class="two-column">
 
         <div id="left-bio">
@@ -86,42 +86,38 @@
           <img src="./assets/images/profiles/carlos-profile.png" class="update-path bio-pic conditional-render" alt=""/>
           <p class="name conditional-render">Carlos, 40</p>
 
-          <h1 class="sect-1-header">Carlos is a 40-year-old Hispanic man and<br class="extra-wide-only" /> IT professional who runs his own
-            business.</h1>
+          <h1 class="sect-1-header">卡洛斯是一位40岁的西班牙裔男性，IT专业人士，经营着自己的公司。</h1>
 
-          <p class="bold">Over the past 3 months, Carlos began experiencing fatigue, weight gain, and swelling in his
-            ankles, which he noticed because his shoes were fitting more tightly than usual. Carlos remembers when he
-            was a child, his father experienced similar symptoms of fatigue and swollen ankles.</p>
+          <p class="bold">在过去的3个月里，卡洛斯开始感到疲劳、体重增加，并且脚踝出现肿胀，<br class="desktop-only">他注意到这点是因为他的鞋子比平时更紧了。</p>
 
           <ul class="bullet-list">
-            <li><span class="bullet">&bull;</span><span>High blood pressure and grade 2 edema were found upon physical
-                exam</span></li>
+            <li><span class="bullet">&bull;</span><span>在体检中被发现高血压和2级水肿。</span></li>
           </ul>
 
           <div class="divider"></div>
 
-          <h4 class="purple">Carlos followed up with a nephrologist</h4>
+          <h4 class="purple">卡洛斯到肾病科医生处就诊</h4>
 
           <div class="flex">
             <div class="workup">
               <img class="icon update-path" src="./assets/images/gauge-icon.svg" alt="" />
-              <p>Reduced renal function<br class="desktop-only" /> suggesting stage 3a CKD</p>
+              <p>肾功能下降，<br class="desktop-only">提示CKD 3a期</p>
             </div>
             <div class="workup">
               <img class="icon update-path" src="./assets/images/vial-icon.svg" alt="" />
-              <p>Microscopic hematuria,<br class="desktop-only" /> and proteinuria of 6 g/d</p>
+              <p>显微镜下血尿，<br class="desktop-only" />
+                蛋白尿 <span class="nowrap">6 g/d</span></p>
             </div>
           </div>
           <div class="flex">
             <div class="workup">
               <img class="icon update-path" src="./assets/images/kidneys-icon.svg" alt="" />
-              <p>Kidney biopsy with staining revealed IgA deposits, mesangial and
-                endocapillary <br class="desktop-only" />hypercellularity, and segmental sclerosis, confirming a
-                diagnosis of IgAN</p>
+              <p>肾活检染色显示存在IgA沉积、系膜及毛细血管内皮细胞增生、以及节段性肾小球硬化，
+                <br class="desktop-only">确诊为IgA肾病</p>
             </div>
           </div>
 
-          <p class="direction bold align-center tablet-desktop-only">Click the arrows in the carousel below to explore Carlos&rsquo; baseline characteristics</p>
+          <p class="direction bold align-center tablet-desktop-only">点击下方轮播图中的箭头，查看卡洛斯的基线特征</p>
         </div>
 
       </div>
@@ -133,147 +129,129 @@
 
     <!-- //////////////////// SECTION 2 ///////////////////// -->
 
-    <section class="" data-section-id="2" data-section-name="Carlos Demographic and Information Carousel" data-dot-label="Baseline<br>Characteristics">
+    <section class="" data-section-id="2" data-section-name="Carlos Demographic and Information Carousel" data-dot-label="基线特征">
       <div class="owl-carousel">
         <div class="carousel-block" id="carlos-block-1">
-          <h3 class="label">Age at Biopsy</h3>
-          <h4 class="characteristic">40 years old</h4>
+          <h3 class="label">活检时年龄</h3>
+          <h4 class="characteristic">40 岁</h4>
 
           <ul class="bullet-list">
-            <li><span class="bullet">&bull;</span><span>Most patients with IgAN are diagnosed by 40 years of
-                age<sup>1</sup></span></li>
-            <li><span class="bullet">&bull;</span><span>Clinical presentation and disease progression can vary based on
-                the patient&rsquo;s age at diagnosis<sup>2</sup></span></li>
+            <li><span class="bullet">&bull;</span><span>大多数 IgA肾病患者在40岁前确诊<sup>1</sup></span></li>
+            <li><span class="bullet">&bull;</span><span>临床表现和疾病进展可能因患者诊断时的年龄而异<sup>2</sup></span></li>
           </ul>
 
           <div class="footnotes">
-            <p><span class="bold">References: 1.</span> Pitcher D, et al. <em>Clin J Am Soc Nephrol</em>.
+            <p><span class="bold">参考文献: 1.</span> Pitcher D, et al. <em>Clin J Am Soc Nephrol</em>.
               2023;18(6):727-738. <br class="large-screens-only"><span class="bold">2.</span> Gutierrez E, et al. <em>Nephrol Dial Transplant</em>.
               2018;33:472-477.</p>
           </div>
         </div>
 
         <div class="carousel-block" id="carlos-block-2">
-          <h3 class="label">Race</h3>
-          <h4 class="characteristic">Hispanic</h4>
+          <h3 class="label">种族</h3>
+          <h4 class="characteristic">西班牙裔</h4>
 
           <ul class="bullet-list">
-            <li><span class="bullet">&bull;</span><span>Clinical presentation and progression of IgAN can vary greatly
-                depending on ethnicity<sup>1</sup></span></li>
-            <li><span class="bullet">&bull;</span><span>Hispanic patients with IgAN have a high rate of CKD progression
-                and ESKD, with a median age at ESKD of 46 years<sup>2</sup></span></li>
+            <li><span class="bullet">&bull;</span><span>IgA肾病的临床表现和进展在不同种族间存在显著差异<sup>1</sup></span></li>
+            <li><span class="bullet">&bull;</span><span>西班牙裔IgA肾病患者的 CKD 进展和 ESKD 的发生率较高，进展至 ESKD 的中位年龄为 46 岁<sup>2</sup></span></li>
           </ul>
 
           <div class="footnotes">
-            <p>CKD, chronic kidney disease; ESKD, end-stage kidney disease.</p>
-            <p><span class="bold">References: 1.</span> Yeo SC, et al. <em>Nephrology (Carlton)</em>.
+            <p>CKD：慢性肾脏病； ESKD：终末期肾病</p>
+            <p><span class="bold">参考文献: 1.</span> Yeo SC, et al. <em>Nephrology (Carlton)</em>.
               2019;24(9):885-895. <span class="bold">2.</span> Sim J, et al. <em>Nephrol Dial Transplant</em>. 2025:gfaf084.</p>
           </div>
         </div>
 
         <div class="carousel-block" id="carlos-block-3">
-          <h3 class="label">Estimated GFR at Biopsy</h3>
+          <h3 class="label">活检时eGFR</h3>
           <h4 class="characteristic">47 mL/min/<br class="mobile-only"/>1.73 m<sup>2</sup></h4>
 
           <ul class="bullet-list">
-            <li><span class="bullet">&bull;</span><span>Carlos&rsquo; eGFR at biopsy indicated that he was in Stage 3a
-                CKD: some kidney damage causing a mild to moderate loss of kidney function</span></li>
-            <li><span class="bullet">&bull;</span><span>eGFR decline is a validated risk factor of IgAN progression.
-                Declines in eGFR are strongly associated with the risk of CKD progression and
-                mortality<sup>1</sup></span></li>
+            <li><span class="bullet">&bull;</span><span>卡洛斯活检时的 eGFR 显示他处于 CKD 3a 期：肾脏损伤导致轻度至中度肾功能丧失</span></li>
+            <li><span class="bullet">&bull;</span><span>eGFR 下降是 IgA肾病进展的一个经过验证的风险因素。eGFR 的下降与慢性肾脏病进展和死亡风险密切相关<sup>1</sup></span></li>
           </ul>
 
           <div class="footnotes">
-            <p>CKD, chronic kidney disease; eGFR, estimated glomerular filtration rate.</p>
-            <p><span class="bold">Reference: 1.</span> Coresh J, et al. <em>JAMA</em>. 2014;311(24):2518-2531.</p>
+            <p>CKD：慢性肾脏病；eGFR：估算肾小球滤过率。</p>
+            <p><span class="bold">参考文献: 1.</span> Coresh J, et al. <em>JAMA</em>. 2014;311(24):2518-2531.</p>
           </div>
         </div>
 
         <div class="carousel-block" id="carlos-block-4">
-          <h3 class="label">Blood Pressure at Biopsy</h3>
+          <h3 class="label">活检时血压</h3>
           <h4 class="characteristic">160/84 mm Hg</h4>
 
           <ul class="bullet-list">
-            <li><span class="bullet">&bull;</span><span>Carlos&rsquo; blood pressure was found to be elevated at
-                biopsy</span></li>
-            <li><span class="bullet">&bull;</span><span>Hypertension has been shown to serve as a clinical predictor of
-                IgAN progression at the time of diagnosis<sup>1</sup></span></li>
-            <li><span class="bullet">&bull;</span><span>Reduction of hypertension lowers the risk of progression to
-                kidney failure<sup>2</sup></span></li>
+            <li><span class="bullet">&bull;</span><span>活检时发现卡洛斯的血压偏高</span></li>
+            <li><span class="bullet">&bull;</span><span>研究表明，高血压是 IgA肾病在确诊时进展的临床预测因素<sup>1</sup></span></li>
+            <li><span class="bullet">&bull;</span><span>降低高血压可降低进展为肾衰竭的风险<sup>2</sup></span></li>
           </ul>
 
           <div class="footnotes">
-            <p><span class="bold">References: 1.</span> Maixnerova D, et al. <em>J Nephrol</em>. 2016;29(4):535-541.
+            <p><span class="bold">参考文献: 1.</span> Maixnerova D, et al. <em>J Nephrol</em>. 2016;29(4):535-541.
               <span class="bold">2.</span> KDIGO. <em>Kidney Int</em>. 2021;100:S1-S276.</p>
           </div>
         </div>
 
         <div class="carousel-block" id="carlos-block-5">
-          <h3 class="label">Proteinuria at Biopsy</h3>
+          <h3 class="label">活检时蛋白尿</h3>
           <h4 class="characteristic">6 g/d</h4>
 
           <ul class="bullet-list">
-            <li><span class="bullet">&bull;</span><span>Carlos had elevated proteinuria at the time of biopsy</span>
+            <li><span class="bullet">&bull;</span><span>活检时卡洛斯的蛋白尿水平升高</span>
             </li>
-            <li><span class="bullet">&bull;</span><span>Proteinuria is a validated prognostic marker linked to
-                long-term kidney outcomes, including eGFR decline and ESKD<sup>1,2</sup></span></li>
-            <li><span class="bullet">&bull;</span><span>Proteinuria reduction inversely correlates with serum
-                creatinine doubling, ESKD, and death<sup>2,3</sup></span></li>
+            <li><span class="bullet">&bull;</span><span>蛋白尿是公认的预后标志物，与长期肾脏结局相关，包括eGFR下降和ESKD进展<sup>1,2</sup></span></li>
+            <li><span class="bullet">&bull;</span><span>蛋白尿减少与血清肌酐倍增、ESKD及死亡风险呈负相关<sup>2,3</sup></span></li>
           </ul>
 
           <div class="footnotes">
-            <p>eGFR, estimated glomerular filtration rate; ESKD, end-stage kidney disease.</p>
-            <p><span class="bold">References: 1.</span> KDIGO. <em>Kidney Int</em>. 2021;100:S1-S276. <span
+            <p>eGFR：估算肾小球滤过率；ESKD：终末期肾病</p>
+            <p><span class="bold">参考文献: 1.</span> KDIGO. <em>Kidney Int</em>. 2021;100:S1-S276. <span
                 class="bold">2.</span> Thompson A, et al. <em>Clin J Am Soc Nephrol</em>. 2019;14(3):469-481. <span
                 class="bold">3.</span> Inker L, et al. <em>Am J Kidney Dis</em>. 2016;68(3):392-401.</p>
           </div>
         </div>
 
         <div class="carousel-block" id="carlos-block-6">
-          <h3 class="label">ACE<span class="lower">i</span>/ARB Use at the Time of Biopsy</h3>
-          <h4 class="characteristic">None</h4>
+          <h3 class="label">活检时ACE<span class="lower">i</span>/ARB使用情况</h3>
+          <h4 class="characteristic">未使用</h4>
 
-          <p>While ACEi/ARBs are recommended as part of supportive care, Carlos had not initiated treatment at the time
-            of his biopsy.<sup>1</sup></p>
+          <p>ACEi/ARB是指南推荐的支持治疗，但卡洛斯在活检时尚未启动该治疗。<sup>1</sup></p>
 
           <div class="footnotes">
-            <p>ACEi, angiotensin-converting enzyme inhibitor; ARB, angiotensin II receptor blocker.</p>
-            <p><span class="bold">Reference: 1.</span> KDIGO. <em>Kidney Int</em>. 2021;100:S1-S276.</p>
+            <p>ACEi：血管紧张素转换酶抑制剂；ARB：血管紧张素 II  受体拮抗剂</p>
+            <p><span class="bold">参考文献: 1.</span> KDIGO. <em>Kidney Int</em>. 2021;100:S1-S276.</p>
           </div>
         </div>
 
         <div class="carousel-block" id="carlos-block-7">
-          <h3 class="label">MEST-C Score</h3>
+          <h3 class="label">MEST-C 评分</h3>
           <h4 class="characteristic">M1 E1 S1 T0 C0</h4>
 
-          <p>Carlos&rsquo; biopsy was evaluated using the Oxford classification, or MEST-C score. His biopsy showed
-            mesangial hypercellularity in &gt;50% of glomeruli, presence of endocapillary hypercellularity and segmental
-            glomerulosclerosis, and no tubular atrophy/interstitial fibrosis or crescents.</p>
-          <p>The MEST-C score can serve as a valuable early prognostic tool and should be considered when evaluating the
-            risk of progression to ESKD.<sup>1-3</sup></p>
+          <p>卡洛斯的活检采用了牛津分型，即MEST-C评分。其活检结果显示 >50% 的肾小球存在系膜细胞增多、毛细血管内细胞增多和节段性肾小球硬化，无肾小管萎缩/间质纤维化或新月体。</p>
+          <p>MEST-C评分是重要的早期预后工具，评估 ESKD 进展风险时应予以考虑。<sup>1-3</sup></p>
 
           <div class="button cta modal-trigger" data-trigger-id="mest-c-score">
-            <p>Learn more about MEST-C</p>
+            <p>了解更多关于 MEST-C 的信息</p>
           </div>
 
           <div class="footnotes">
-            <p>ESKD, end-stage kidney disease; MEST-C, mesangial hypercellularity (M), endocapillary hypercellularity
-              (E), segmental sclerosis (S), tubular atrophy and interstitial fibrosis (T), crescent (C).</p>
-            <p><span class="bold">References: 1.</span> Cattran DC, et al. <em>Kidney Int Rep</em>.
+            <p>ESKD：终末期肾病；MEST-C：系膜细胞增生（M）、毛细血管内皮细胞增生（E）、节段性硬化（S）、肾小管萎缩和间质纤维化（T）、新月体（C）；</p>
+            <p><span class="bold">参考文献: 1.</span> Cattran DC, et al. <em>Kidney Int Rep</em>.
               2023;8(12):2515-2528. <span class="bold">2.</span> Haaskjold YL, et al. <em>BMC Nephrology</em>.
               2022;23:26. <span class="bold">3.</span> Coppo R, et al. <em>Kidney Int</em>. 2014;86(4):828-836.</p>
           </div>
         </div>
 
         <div class="carousel-block" id="carlos-block-8">
-          <h3 class="label">Immunosuppression Use at or Prior to Biopsy </h3>
-          <h4 class="characteristic">None</h4>
+          <h3 class="label">活检时或活检前免疫抑制剂使用情况</h3>
+          <h4 class="characteristic">未使用</h4>
 
-          <p>While the clinical benefits of immunosuppressive therapy have not been established in patients with IgAN,
-            they may be used in specific patient populations if the risk/benefit profile is acceptable.<sup>1</sup></p>
+          <p>免疫抑制治疗对IgA肾病患者的临床获益尚未明确，经评估风险与获益可接受时，特定患者人群可考虑采用。<sup>1</sup></p>
 
           <div class="footnotes">
-            <p><span class="bold">Reference: 1.</span> KDIGO. <em>Kidney Int</em>. 2021;100:S1-S276.</p>
+            <p><span class="bold">参考文献: 1.</span> KDIGO. <em>Kidney Int</em>. 2021;100:S1-S276.</p>
           </div>
         </div>
       </div>
@@ -282,21 +260,18 @@
 
     <div class="temp-section">
       <div class="footnotes">
-        <p>*Image used with permission from the Renal Fellow Network, from: Gallan A. Kidney Biopsy of the Month.
-          Published July 29, 2019. Available at <a class="format-url link-color" target="_blank"
+        <p>*本图像经Renal Fellow Network授权使用，来源： Gallan A. Kidney biopsy of the Month. 2019年7月29日在线发表， 可在此处查看 : <a class="format-url link-color" target="_blank"
             href="https://www.renalfellow.org/2019/07/29/kidney-biopsy-of-the-month-iga-nephropathy/">https://www.renalfellow.org/2019/07/29/kidney-biopsy-of-the-month-iga-nephropathy/</a>.
         </p>
     
-        <p>ACE, angiotensin-converting enzyme; ARB, angiotensin II receptor blocker; BP, blood pressure; CKD, chronic kidney disease; eGFR,
-          estimated glomerular filtration rate; IgA, immunoglobulin A; MEST-C, mesangial hypercellularity (M), endocapillary
-          hypercellularity (E), segmental sclerosis (S), tubular atrophy and interstitial fibrosis (T), crescent
-          (C); PAS, periodic acid-Schiff.</p>
+        <p>ACE：血管紧张素转换酶；ARB：血管紧张素 Ⅱ 受体阻滞剂；CKD：慢性肾脏病；eGFR：估算肾小球滤过率；IgA：免疫球蛋白A；<br>
+          MEST-C：系膜细胞增生（M）、毛细血管内皮细胞增生（E）、节段性硬化（S）、肾小管萎缩和间质纤维化（T）、新月体（C）；PAS：过碘酸-希夫（染色法 ）。</p>
       </div>
 
       <img class="tablet-only update-path mobile-bio-trigger" id="mobile-bio-trigger" data-tray-id="mobile-bio-tray" src="./assets/images/profiles/mobile-bio-btn.png" alt="Baseline Assessment trigger button"/>
     </div>
 
-    <section class="gray-bg" data-section-id="3" data-section-name="Carlos' Risk of Progression" data-dot-label="Risk of<br>Progression">
+    <section class="gray-bg" data-section-id="3" data-section-name="Carlos' Risk of Progression" data-dot-label="进展风险">
       <div class="two-column static">
 
         <div id="left-bio" class="">
@@ -306,8 +281,8 @@
         </div>
 
         <div class="right-side dual-view">
-          <h1 class="pat-header">Carlos&rsquo; Risk of Progression</h1>
-          <p class="desc-text">Based on Carlos&rsquo; clinical features at the time of his biopsy, he may be at risk of developing kidney failure before he turns 50.</p>
+          <h1 class="pat-header">卡洛斯的疾病进展风险</h1>
+          <p class="desc-text">根据卡洛斯活检时的临床特征，他可能在50岁前就面临肾衰竭的风险。</p>
 
           <div class="graph-container">
             <div class="hotspot" id="state-1" data-value="Age 41;2%"></div>
@@ -349,7 +324,7 @@
           <a href="https://qxmd.com/calculate/calculator_499/international-igan-prediction-tool-at-biopsy-adults"
           target="_blank">
             <div class="button cta" id="sect-3-tool-exit">
-              <p>View the International <br class="mobile-only"/>IgAN Prediction Tool</p>
+              <p>查看国际 IgA肾病预测工具</p>
               <img src="./assets/images/external-icon-white.svg" class="update-path" alt="External link icon" />
             </div>
           </a>
@@ -357,20 +332,19 @@
       </div>
 
       <div class="footnotes">
-        <p><sup>a</sup>Predicted risk of progression was calculated using the International IgAN Prediction Tool and
-          defined as the risk of a 50% decline in eGFR or ESKD.<sup>1</sup></p>
-        <p>*Image used with permission from the Renal Fellow Network, from: Gallan A. Kidney Biopsy of the Month.
-          Published July 29, 2019. Available at <a class="format-url link-color" target="_blank"
+        <p><sup>a</sup>疾病进展预测风险是通过国际 IgA肾病预测工具计算，定义为eGFR 下降 50% 或进展至 ESKD 的风险。<sup>1</sup></p>
+        <p>*本图像经 Renal Fellow Network 授权使用，来源：Gallan A. Kidney biopsy of the Month. 2019年7月29日在线发表， 可在此处查看 : <a class="format-url link-color" target="_blank"
             href="https://www.renalfellow.org/2019/07/29/kidney-biopsy-of-the-month-iga-nephropathy/">https://www.renalfellow.org/2019/07/29/kidney-biopsy-of-the-month-iga-nephropathy/</a>.
         </p>
-        <p>ACE, angiotensin-converting enzyme; ARB, angiotensin II receptor blocker; BP, blood pressure; CKD, chronic kidney disease; eGFR, estimated glomerular filtration rate; MEST-C, mesangial hypercellularity (M), endocapillary hypercellularity (E), segmental sclerosis (S), tubular atrophy and interstitial fibrosis (T), crescent (C); PAS, periodic acid-Schiff.</p>
-        <p><span class="bold">Reference: 1.</span> Barbour SJ, et al. <em>Kidney Int</em>. 2022;102(1):160-172.</p>
+        <p>ACE：血管紧张素转换酶；ARB：血管紧张素 Ⅱ 受体阻滞剂；CKD：慢性肾脏病；eGFR：估算肾小球滤过率；<br>
+          MEST-C：系膜细胞增生（M）、毛细血管内皮细胞增生（E）、节段性硬化（S）、肾小管萎缩和间质纤维化（T）、新月体（C）；PAS：过碘酸-希夫（染色法 ）。</p>
+        <p><span class="bold">参考文献: 1.</span> Barbour SJ, et al. <em>Kidney Int</em>. 2022;102(1):160-172.</p>
       </div>
 
       <img class="tablet-only update-path mobile-bio-trigger" id="mobile-bio-trigger-2" data-tray-id="carlos-bio-tray-2" src="./assets/images/profiles/mobile-bio-btn-2.png" alt="Baseline Assessment After 2 Years trigger button"/>
     </section>
 
-    <section class="" data-section-id="4" data-section-name="Carlos' Risk of Progression After Supportive Care" data-dot-label="After<br>Supportive care">
+    <section class="" data-section-id="4" data-section-name="Carlos' Risk of Progression After Supportive Care" data-dot-label="蛋白尿的影响">
       <div class="two-column static">
         <div id="left-bio" class="">
           <img src="./assets/images/profiles/carlos-profile.png" class="update-path bio-pic" alt="" />
@@ -379,11 +353,11 @@
         </div>
 
         <div class="right-side">
-          <h1 class="pat-header">Carlos&rsquo; Risk of Progression<br class="desktop-only" /> After Supportive Care</h1>
+          <h1 class="pat-header">卡洛斯接受支持治疗后<br class="desktop-only">
+            的疾病进展风险</h1>
 
-          <p class="desc-text">Carlos was promptly started on maximal supportive care including immunosuppression. Two
-            years after his initial diagnosis, he was able to reduce his blood pressure and reduce his proteinuria by
-            half to 3 g/d.</p>
+          <p class="desc-text">卡洛斯迅速接受了免疫抑制在内的强化支持治疗。<br>
+          在确诊两年后，他的血压得到控制，蛋白尿减半至3 g/d。</p>
 
           <div class="graph-container">
             <div class="hotspot" id="state-1" data-value="Age 43;5%"></div>
@@ -434,58 +408,49 @@
             </div>
           </div>
 
-          <h4>Although he began treatment with supportive care soon after<br class="desktop-only" /> his diagnosis,
-            Carlos&rsquo; risk of progression has increased.</h4>
+          <h4>尽管确诊后就立即开始接受支持<br class="desktop-only">
+            治疗，卡洛斯的进展风险仍持续上升。</h4>
 
-          <p class="bold">Current KDIGO guidelines do not recommend SGLT2i use in IgAN in the absence of diabetes, as
-            additional data are needed to assess efficacy and safety. Treatments in hypothetical patient cases reflect
-            current treatment guidelines.<sup>2</sup></p>
+          <p class="bold">当前KDIGO指南不建议在非糖尿病的 IgAN 患者中使用SGLT2i ，因其疗效和安全性数据还有待完善。虚拟患者病例采用的治疗依据当前治疗指南制定。<sup>2</sup></p>
         </div>
 
       </div>
 
       <div class="footnotes">
-        <p>*Image used with permission from the Renal Fellow Network, from: Gallan A. Kidney Biopsy of the Month.
-          Published July 29, 2019. Available at <a class="format-url link-color" target="_blank"
+        <p>*本图像经 Renal Fellow Network 授权使用，来源：Gallan A. Kidney Biopsy of the Month. 2019 Jul 29.可在此处查看 <a class="format-url link-color" target="_blank"
             href="https://www.renalfellow.org/2019/07/29/kidney-biopsy-of-the-month-iga-nephropathy/">https://www.renalfellow.org/2019/07/29/kidney-biopsy-of-the-month-iga-nephropathy/</a>.
         </p>
-        <p><sup>a</sup>MEST-C score obtained from initial baseline biopsy</p>
-        <p><sup>b</sup>Predicted risk of progression was calculated using the International IgAN Prediction Tool and
-          defined as the risk of a 50% decline in eGFR or ESKD.<sup>1</sup></p>
-        <p>ACE, angiotensin-converting enzyme; ARB, angiotensin II receptor blocker; BP, blood pressure; eGFR, estimated glomerular filtration rate; ESKD, end-stage kidney disease; KDIGO, Kidney Disease Improving Global Outcomes; MEST-C, mesangial hypercellularity (M), endocapillary hypercellularity (E), segmental sclerosis (S), tubular atrophy and interstitial fibrosis (T), crescent (C); PAS, periodic acid-Schiff; SGLT2i, sodium-glucose transport protein 2 inhibitor.</p>
-        <p><span class="bold">References: 1.</span> Barbour SJ, et al. <em>Kidney Int</em>. 2022;102(1):160-172. <span
+        <p><sup>a</sup>MEST-C评分取自基线活检结果。</p>
+        <p><sup>b</sup>疾病进展风险通过国际IgA肾病预测工具计算，定义为 eGFR 下降 50% 或发生 ESKD 的风险。<sup>1</sup></p>
+        <p>ACEi：血管紧张素转换酶抑制剂；ARB：血管紧张素II受体阻滞剂；eGFR：估算肾小球滤过率；ESKD：终末期肾病；KDIGO：改善全球肾脏病预后组织；MEST-C：系膜细胞增生（M）、毛细血管内皮细胞增生（E）、节段性硬化（S）、肾小管萎缩和间质纤维化（T）、新月体（C）；PAS：过碘酸-希夫（染色法 ）；SGLT2i：钠 - 葡萄糖协同转运蛋白 2 抑制剂。</p>
+        <p><span class="bold">参考文献: 1.</span> Barbour SJ, et al. <em>Kidney Int</em>. 2022;102(1):160-172. <span
             class="bold">2.</span> KDIGO. <em>Kidney Int</em>. 2021;100:S1-S276.</p>
       </div>
     </section>
 
-    <section class="gray-bg" data-section-id="5" data-section-name="Carlos Histopathological Changes Caused by IgAN" data-dot-label="Histopathological<br>Changes">
+    <section class="gray-bg" data-section-id="5" data-section-name="Carlos Histopathological Changes Caused by IgAN" data-dot-label="支持治疗后的效果">
       <div class="flex-header">
         <img src="./assets/images/profiles/carlos-profile.png" class="update-path bio-pic desktop-only" alt="" />
 
         <div>
-          <h1 class="pat-header">Histopathological Changes<br class="desktop-only" /> Caused by IgAN</h1>
-          <p class="desc-text">Carlos was able to lower his proteinuria and blood pressure; however,
-            Gd-IgA1 immune complexes can continue to deposit in his kidneys, causing histopathological changes and
-            kidney damage.<sup>1</sup></p>
+          <h1 class="pat-header">IgA肾病导致的组织病理学改变</h1>
+          <p class="desc-text">卡洛斯成功降低了蛋白尿和血压；然而，Gd-IgA1免疫复合物仍持续在肾脏中沉积，导致组织病理学变化和肾脏损伤。<sup>1</sup></p>
         </div>
       </div>
 
       <div class="content-lower">
-        <p class="subhead">Patients with IgAN may continue to lose functional kidney tissue over time even when treated
-          with supportive care to improve other clinical parameters like blood pressure and/or proteinuria.<sup>2</sup>
+        <p class="subhead">IgA肾病患者接受支持治疗后，即使血压和/或蛋白尿等其他临床指标得以改善，<br class="desktop-only">仍可能随时间持续丧失功能性肾组织。<sup>2</sup>
         </p>
 
         <div class="divider"></div>
 
-        <h3 class="graph-header">Changes in renal histopathological features</h3>
-        <p class="direction">Use the slider to see how histopathological features can change over time and impact kidney
-          survival.</p>
+        <h3 class="graph-header">肾脏病理特征的变化</h3>
+        <p class="direction">滑动查看组织病理学特征如何随时间变化，并影响肾脏存活率。</p>
 
         <div class="images-container">
           <div class="left-side">
             <div class="text-bubble visible" id="section-5-state-1">
-              <p>At biopsy, Carlos had mesangial and endocapillary hypercellularity. Part of the glomerulus had
-                developed sclerosis as indicated by the black arrow in the image below.<sup>a</sup></p>
+              <p>活检时，卡洛斯的肾小球存在系膜和毛细血管内细胞增多。部分肾小球已出现硬化，如下图黑色箭头所示。<sup>a</sup></p>
 
               <div class="gap-10"></div>
 
@@ -494,21 +459,19 @@
 
               <div class="gap-10"></div>
 
-              <p>Image used with permission*</p>
+              <p>图片经许可使用*</p>
             </div>
 
             <div class="text-bubble" id="section-5-state-2">
-              <p>Mesangial and endocapillary cells continue to proliferate, and the glomerulus has developed more
-                scarring.</p>
+              <p>系膜细胞和毛细血管内皮细胞持续增殖，肾小球瘢痕形成并进一步加重。</p>
             </div>
 
             <div class="text-bubble" id="section-5-state-3">
-              <p>Excess ECM is deposited within the mesangium, and tubular atrophy develops.</p>
+              <p>系膜区沉积过量 ECM，新月体弥漫性累及整个肾小球，肾小管开始出现萎缩迹象。</p>
             </div>
 
             <div class="text-bubble" id="section-5-state-4">
-              <p>Mesangial cells and inflammatory cells continue to proliferate, and scarring spreads to more of the
-                glomerulus.</p>
+              <p>系膜细胞和炎症细胞持续增殖，瘢痕扩散至肾小球的更多区域。</p>
             </div>
           </div>
 
@@ -524,17 +487,17 @@
                 alt="Glomerulus showing sclerosis, mesangial cell proliferation, and immune cells" />
 
                 <div class="histo-tag group-1" id="tag-1">
-                  <p>Protein</p>
+                  <p>蛋白质</p>
                   <img src="./assets/images/plus-icon.svg" alt="" class="plus update-path"/>
                   <img src="./assets/images/x-icon.svg" alt="" class="close update-path"/>
                 </div>
                 <div class="histo-tag group-1" id="tag-2">
-                  <p>Sclerosis</p>
+                  <p>硬化</p>
                   <img src="./assets/images/plus-icon.svg" alt="" class="plus update-path"/>
                   <img src="./assets/images/x-icon.svg" alt="" class="close update-path"/>
                 </div>
                 <div class="histo-tag group-1" id="tag-3">
-                  <p>Red blood cell</p>
+                  <p>红细胞</p>
                   <img src="./assets/images/plus-icon.svg" alt="" class="plus update-path"/>
                   <img src="./assets/images/x-icon.svg" alt="" class="close update-path"/>
                 </div>
@@ -544,22 +507,22 @@
                   <img src="./assets/images/x-icon.svg" alt="" class="close update-path"/>
                 </div>
                 <div class="histo-tag group-1" id="tag-5">
-                  <p>Gd-IgA1 immune <br class="mobile-only"/>complexes</p>
+                  <p>Gd-IgA1 免疫复合物</p>
                     <img src="./assets/images/plus-icon.svg" alt="" class="plus update-path"/>
                     <img src="./assets/images/x-icon.svg" alt="" class="close update-path"/>
                 </div>
                 <div class="histo-tag group-1" id="tag-6">
-                  <p>Immune cells</p>
+                  <p>免疫细胞</p>
                   <img src="./assets/images/plus-icon.svg" alt="" class="plus update-path"/>
                   <img src="./assets/images/x-icon.svg" alt="" class="close update-path"/>
                 </div>
                 <div class="histo-tag group-1" id="tag-7">
-                  <p>Mesangial cells</p>
+                  <p>系膜细胞​</p>
                     <img src="./assets/images/plus-icon.svg" alt="" class="plus update-path"/>
                     <img src="./assets/images/x-icon.svg" alt="" class="close update-path"/>
                 </div>
                 <div class="histo-tag group-3 hidden" id="tag-8">
-                  <p>Tubular atrophy</p>
+                  <p>肾小管萎缩</p>
                     <img src="./assets/images/plus-icon.svg" alt="" class="plus update-path"/>
                     <img src="./assets/images/x-icon.svg" alt="" class="close update-path"/>
                 </div>
@@ -680,18 +643,14 @@
       </div>
 
       <div class="footnotes">
-        <p>The graphic shown above is for illustrative purposes only and is intended to educate on potential
-          histopathological changes that could occur during IgAN. It is not intended to provide specific information
-          about the progression of these changes or inform treatment decisions. Changes in proteinuria and eGFR are
-          hypothetical and are based on trends seen in clinical trials and cohort studies.<sup>3-6</sup></p>
-        <p>*Image used with permission from the Renal Fellow Network, from: Gallan A. Kidney Biopsy of the Month.
-          Published July 29, 2019. Available at <a class="format-url link-color" target="_blank"
+        <p>上图仅供参考，旨在说明 IgA&#32958;&#30149;&#26399;&#38388;&#21487;&#33021;&#20986;&#29616;&#30340;&#28508;&#22312;&#32452;&#32455;&#30149;&#29702;&#23398;&#21464;&#21270;，而并非旨在提供这些变化进展的具体信息，也不用于指导治疗决策。<br class="desktop-only">
+          蛋白尿的变化和 eGFR 的变化均根据临床试验和队列研究结果趋势设定。<sup>3-6</sup></p>
+        <p>*图片经 Renal Fellow Network授权使用，来源：Gallan A. Kidney biopsy of the Month.2019年7月29日在线发表，可在此处查看: <a class="format-url link-color" target="_blank"
             href="https://www.renalfellow.org/2019/07/29/kidney-biopsy-of-the-month-iga-nephropathy/">https://www.renalfellow.org/2019/07/29/kidney-biopsy-of-the-month-iga-nephropathy/</a>.
         </p>
-        <p><sup>a</sup>PAS staining showing sclerosis in the upper left portion of the glomerulus as indicated by black
-          arrow. A single glomerulus may not capture all components of the MEST-C score.</p>
-        <p>ECM, extracellular matrix; eGFR, estimated glomerular filtration rate; Gd-IgA1, galactose-deficient IgA1; MEST-C, mesangial hypercellularity (M), endocapillary hypercellularity (E), segmental sclerosis (S), tubular atrophy and interstitial fibrosis (T), crescent (C); PAS, periodic acid-Schiff.</p>
-        <p><span class="bold">References: 1.</span> Lai KN, et al. <em>Nat Rev Dis Primers</em>. 2016;2:16001. <span
+        <p><sup>a</sup>PAS染色显示肾小球左上象限存在硬化（如黑色箭头所示）。单个肾小球可能无法全面反映MEST-C评分所有组分。</p>
+        <p>ECM：细胞外基质；eGFR：估算肾小球滤过率；Gd-IgA1：半乳糖缺陷型 IgA1；MEST-C：系膜细胞增生（M）、毛细血管内皮细胞增生（E）、节段性硬化（S）、肾小管萎缩和间质纤维化（T）、新月体（C）；PAS：过碘酸-希夫（染色法 ）。</p>
+        <p><span class="bold">参考文献: 1.</span> Lai KN, et al. <em>Nat Rev Dis Primers</em>. 2016;2:16001. <span
             class="bold">2.</span> Barratt J, et al. <em>Kidney Int</em>. 2023;103(2):391-402. <span
             class="bold">3.</span> Pitcher D, et al. <em>Clin J Am Soc Nephrol</em>. 2023;18(6):727-738. <span
             class="bold">4.</span> Faucon AL, et al. <em>Nephrol Dial Transplant</em>. 2024;30:gfae085. <span
@@ -700,17 +659,17 @@
       </div>
     </section>
 
-    <section class="gray-bg" data-section-id="6" data-section-name="Carlos Impact of MEST-C Lesions" data-dot-label="Impact of <br>MEST-C Lesions">
+    <section class="gray-bg" data-section-id="6" data-section-name="Carlos Impact of MEST-C Lesions" data-dot-label="组织病理学变化">
       <div class="flex-header">
         <img src="./assets/images/profiles/carlos-profile.png" class="update-path bio-pic desktop-only" alt="" />
 
         <div>
-          <h1 class="pat-header">Impact of <span class="nowrap">MEST-C</span> Lesions</h1>
-          <p class="desc-text">MEST-C lesions may help nephrologists determine the appropriate management strategy for each patient.</p>
+          <h1 class="pat-header">MEST-C 病变的临床意义</h1>
+          <p class="desc-text">MEST-C 病变可协助肾病科医生为每位患者确定合适的管理策略</p>
         </div>
       </div>
 
-      <p class="bold">Click below to learn more about <span class="nowrap">MEST-C</span> lesions.</p>
+      <p class="bold">点击下方了解更多关于 MEST-C 病变的信息。</p>
 
       <div id="content-box">
 
@@ -735,15 +694,15 @@
       </div>
 
       <div class="footnotes tablet-desktop-only">
-          <p>CKD, chronic kidney disease; IgA, immunoglobulin A; MEST-C mesangial hypercellularity (M), endocapillary hypercellularity (E), segmental sclerosis (S), tubular atrophy and interstitial fibrosis (T) and crescents (C).</p>
-          <p><span class="bold">Reference: 1.</span> Pattrapornpisut P, et al. <em>Am J Kidney Dis</em>. 2021;78(3):429-441. <span class="bold">2.</span> Wendt R, et al. <em>Biomedicines</em>. 2024;12(10):2259. <span class="bold">3.</span> Trimarchi H, et al. <em>Kidney Int</em>. 2017;91(5):1014-1021. <span class="bold">4.</span> Mitrotti A, et al. <em>Pediatr Nephrol</em>. 2024;39(6):1685-1707. <span class="bold">5.</span> Filippone EJ, et al. <em>Front Immunol</em>. 2024;15:1436923. <span class="bold">6.</span> Wendt R, et al. <em>Biomedicines</em>. 2024;12(10):2259. <span class="bold">7.</span> Caster DJ, et al. <em>Kidney Int Rep</em>. 2023;8(9):1792-1800.</p>
+          <p>CKD：慢性肾脏病；IgA：免疫球蛋白A；MEST-C：系膜细胞增生（M）、毛细血管内皮细胞增生（E）、节段性硬化（S）、肾小管萎缩和间质纤维化（T）、新月体（C）。</p>
+          <p><span class="bold">参考文献：1.</span> Pattrapornpisut P, et al. <em>Am J Kidney Dis</em>. 2021;78(3):429-441. <span class="bold">2.</span> Wendt R, et al. <em>Biomedicines</em>. 2024;12(10):2259. <span class="bold">3.</span> Trimarchi H, et al. <em>Kidney Int</em>. 2017;91(5):1014-1021. <span class="bold">4.</span> Mitrotti A, et al. <em>Pediatr Nephrol</em>. 2024;39(6):1685-1707. <span class="bold">5.</span> Filippone EJ, et al. <em>Front Immunol</em>. 2024;15:1436923. <span class="bold">6.</span> Wendt R, et al. <em>Biomedicines</em>. 2024;12(10):2259. <span class="bold">7.</span> Caster DJ, et al. <em>Kidney Int Rep</em>. 2023;8(9):1792-1800.</p>
       </div>
     </section>
 
-    <section class="gray-bg acc-section" data-section-id="7" data-section-name="Carlos Impact of eGFR Decline on Progression to ESKD" data-dot-label="Impact of eGFR<br>Decline on<br>Progression">
+    <section class="gray-bg acc-section" data-section-id="7" data-section-name="Carlos Impact of eGFR Decline on Progression to ESKD" data-dot-label="eGFR 下降对疾病进<br>展的影响">
 
       <div class="acc-header">
-        <p>Learn more about how Carlos&rsquo; eGFR may decline over time</p>
+        <p>了解更多卡洛斯的 eGFR 如何随时间下降的信息</p>
         <img src="./assets/images/acc-arrow.svg" class="update-path acc-arrow" alt=""/>
       </div>
 
@@ -752,15 +711,13 @@
           <img src="./assets/images/profiles/carlos-profile.png" class="update-path bio-pic desktop-only" alt="" />
   
           <div>
-            <h1 class="pat-header">Impact of eGFR Decline<br class="desktop-only" /> on Progression to Kidney Failure</h1>
-            <p class="desc-text">Based on how quickly Carlos&rsquo; eGFR declines, he may reach<br class="desktop-only" />
-              kidney failure within 10 years.</p>
+            <h1 class="pat-header">eGFR下降对疾病进展至肾衰竭的影响</h1>
+            <p class="desc-text">根据卡洛斯的eGFR下降速度，他可能在10年内发展至肾衰竭。</p>
           </div>
         </div>
   
-        <p class="bold">If Carlos&rsquo; eGFR decline stabilizes, this can delay the onset of kidney failure.</p>
-        <p class="direction">Select a button below to see how different rates of eGFR decline can impact progression to
-          kidney failure.</p>
+        <p class="bold">如果卡洛斯的eGFR下降趋于稳定，可延缓肾衰竭的发生。</p>
+        <p class="direction">点击下方按钮，查看不同eGFR下降速率对肾衰竭进展的影响</p>
   
         <div class="graph-container">
           <div class="tablet-desktop-only">
@@ -796,30 +753,30 @@
         </div>
   
         <div class="footnotes">
-          <p>CKD, chronic kidney disease; eGFR, estimated glomerular filtration rate.</p>
+          <p>CKD：慢性肾脏病；eGFR：估算肾小球滤过率。</p>
         </div>
       </div>
 
     </section>
 
     <section class="switch-pat-section" data-section-name="Switch Patient">
-      <h2 class="yellow-header">SELECT ANOTHER HYPOTHETICAL PATIENT</h2>
+      <h2 class="yellow-header">选择另一名虚拟患者</h2>
 
       <div class="flex">
         <div class="profile nav-el" data-nav-url="progression/sarah" data-exit-url="progression/sarah">
           <img src="./assets/images/profiles/sarah-profile.png" class="update-path" alt="" />
-          <h3>Sarah</h3>
+          <h3>莎拉</h3>
         </div>
         <div class="profile nav-el" data-nav-url="progression/mark" data-exit-url="progression/mark">
           <img src="./assets/images/profiles/mark-profile.png" class="update-path" alt="" />
-          <h3>Mark</h3>
+          <h3>马克</h3>
         </div>
       </div>
 
       <img src="./assets/images/or-line-graphic.png" class="or-line update-path" alt="Or" />
 
       <div class="button nav-el" id="discover" data-nav-url="pathogenesis/index" data-exit-url="pathogenesis/mark">
-        <p>Discover the pathogenesis of IgAN</p>
+        <p>探索 IgA肾病的疾病机制</p>
       </div>
     </section>
 

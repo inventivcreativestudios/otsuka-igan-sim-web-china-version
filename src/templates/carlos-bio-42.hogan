@@ -1,67 +1,66 @@
 <div class="bio-info">
-  <p class="name">Carlos, 42</p>
+  <p class="name">卡洛斯，42岁</p>
 
   <div>
-    <h4>Assessment after 2 years of maximal supportive care</h4>
+    <h4>接受强化支持治疗2年后的评估</h4>
     <div class="bio-info-stat">
-      <p class="blue bold">Age</p>
-      <p class="blue bold">42</p>
+      <p class="blue bold">年龄</p>
+      <p class="blue bold">42岁</p>
     </div>
     <div class="bio-info-stat">
-      <p>Race</p>
-      <p>Hispanic</p>
+      <p>种族</p>
+      <p>西班牙裔</p>
     </div>
     <div class="bio-info-stat">
       <p class="blue bold">eGFR</p>
       <p class="blue bold">45 mL/min/1.73 m<sup>2</sup></p>
     </div>
     <div class="bio-info-stat">
-      <p class="blue bold">Systolic BP</p>
+      <p class="blue bold">收缩压</p>
       <p class="blue bold">140 mm Hg</p>
     </div>
     <div class="bio-info-stat">
-      <p class="blue bold">Diastolic BP</p>
+      <p class="blue bold">舒张压</p>
       <p class="blue bold">80 mm Hg</p>
     </div>
     <div class="bio-info-stat">
-      <p class="blue bold">Proteinuria</p>
+      <p class="blue bold">蛋白尿</p>
       <p class="blue bold">3 g/d</p>
     </div>
     <div class="bio-info-stat">
-      <p class="blue bold">Use of ACE Inhibitor<br />
-        or ARB at biopsy</p>
+      <p class="blue bold">活检时ACEi或<br />
+        ARB使用情况</p>
       <p class="blue bold">Yes</p>
     </div>
     <div class="bio-info-stat">
-      <p>MEST M-score</p>
+      <p>MEST M 评分</p>
       <p>1<sup>a</sup></p>
     </div>
     <div class="bio-info-stat">
-      <p>MEST E-score</p>
+      <p>MEST E 评分</p>
       <p>1<sup>a</sup></p>
     </div>
     <div class="bio-info-stat">
-      <p>MEST S-score</p>
+      <p>MEST S 评分</p>
       <p>1<sup>a</sup></p>
     </div>
     <div class="bio-info-stat">
-      <p>MEST T-score</p>
+      <p>MEST T 评分</p>
       <p>0<sup>a</sup></p>
     </div>
     <div class="bio-info-stat">
-      <p>MEST C-score</p>
+      <p>MEST C 评分</p>
       <p>0<sup>a</sup></p>
     </div>
     <div class="bio-info-stat">
-      <p class="blue bold">Immunosuppression use</p>
-      <p class="blue bold">Yes</p>
+      <p class="blue bold">免疫抑制剂使用情况</p>
+      <p class="blue bold">有</p>
     </div>
 
     <img src="./assets/images/profiles/carlos/biopsy-stain.png" class="stain update-path"
       alt="PAS staining showing sclerosis in the upper left portion of the glomerulus" />
 
-    <p>PAS staining showing sclerosis in the upper left portion of the glomerulus as indicated by black arrow. A
-      single glomerulus may not capture all components of the MEST-C score.*</p>
+    <p>PAS染色显示肾小球左上象限存在硬化（如黑色箭头所示）。单个肾小球可能无法全面反映MEST-C评分所有组分。*</p>
 
   </div>
 </div>
