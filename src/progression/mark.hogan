@@ -92,7 +92,7 @@
 
         <div class="right-side">
           <img src="./assets/images/profiles/mark-profile.png" class="update-path bio-pic conditional-render" alt=""/>
-          <p class="name conditional-render">Mark, 34</p>
+          <p class="name conditional-render">马克（34岁）</p>
 
           <h1 class="sect-1-header">马克是一位34岁的跑步爱好者，因工作新职位经常出差。</h1>
 

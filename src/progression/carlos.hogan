@@ -26,47 +26,39 @@
 
     <div id="mobile-bio-tray" class="mobile-bio-tray">
       <div id="tray-close">
-        <p>Baseline Assessment at Biopsy</p>
+        <p>活检时的基线评估</p>
         <img src="./assets/images/back-arrow.svg" class="update-path arrow" alt="Back arrow"/>
       </div>
 
-      <p class="name">Carlos, 40</p>
+      <p class="name">卡洛斯（40岁）</p>
 
       {{> ../templates/carlos-bio }}
 
       <div class="extra-section">
-        <p class="extra-footnote">*Image used with permission from the Renal Fellow Network, from: Gallan A. Kidney Biopsy of the Month.
-          Published July 29, 2019. Available at <a class="format-url link-color" target="_blank"
+        <p class="extra-footnote">*图片经 Renal Fellow Network授权使用，来源：Gallan A. Kidney biopsy of the Month. 2019年7月29日在线发表，可在此处查看: <a class="format-url link-color" target="_blank"
             href="https://www.renalfellow.org/2019/07/29/kidney-biopsy-of-the-month-iga-nephropathy/">https://www.renalfellow.org/2019/07/29/kidney-biopsy-of-the-month-iga-nephropathy/</a>.
         </p>
     
-        <p class="extra-footnote">ACE, angiotensin-converting enzyme; ARB, angiotensin II receptor blocker; BP, blood pressure; CKD, chronic kidney disease; eGFR,
-          estimated glomerular filtration rate; IgA, immunoglobulin A; MEST-C, mesangial hypercellularity (M), endocapillary
-          hypercellularity (E), segmental sclerosis (S), tubular atrophy and interstitial fibrosis (T), crescent
-          (C); PAS, periodic acid-Schiff.</p>
+        <p class="extra-footnote">ACE：血管紧张素转换酶；ARB：血管紧张素II受体阻滞剂；eGFR：估算肾小球滤过率；MEST-C：系膜细胞增生（M）、毛细血管内皮细胞增生（E），节段性硬化（S）、肾小管萎缩和间质纤维化（T）、新月体（C）；PAS：过碘酸-希夫（染色法）。</p>
       </div>
     </div>
 
     <div id="carlos-bio-tray-2" class="mobile-bio-tray">
       <div id="tray-close">
-        <p>Assessment after 2 years</p>
+        <p>2年后评估</p>
         <img src="./assets/images/back-arrow.svg" class="update-path arrow" alt="Back arrow"/>
       </div>
 
-      <p class="name">Carlos, 42</p>
+      <p class="name">卡洛斯（42岁）</p>
 
       {{> ../templates/carlos-bio-42 }}
 
       <div class="extra-section">
-        <p class="extra-footnote">*Image used with permission from the Renal Fellow Network, from: Gallan A. Kidney Biopsy of the Month.
-          Published July 29, 2019. Available at <a class="format-url link-color" target="_blank"
+        <p class="extra-footnote">*图片经 Renal Fellow Network授权使用，来源：Gallan A. Kidney biopsy of the Month. 2019年7月29日在线发表，可在此处查看: <a class="format-url link-color" target="_blank"
             href="https://www.renalfellow.org/2019/07/29/kidney-biopsy-of-the-month-iga-nephropathy/">https://www.renalfellow.org/2019/07/29/kidney-biopsy-of-the-month-iga-nephropathy/</a>.
         </p>
     
-        <p class="extra-footnote">ACE, angiotensin-converting enzyme; ARB, angiotensin II receptor blocker; BP, blood pressure; CKD, chronic kidney disease; eGFR,
-          estimated glomerular filtration rate; IgA, immunoglobulin A; MEST-C, mesangial hypercellularity (M), endocapillary
-          hypercellularity (E), segmental sclerosis (S), tubular atrophy and interstitial fibrosis (T), crescent
-          (C); PAS, periodic acid-Schiff.</p>
+        <p class="extra-footnote">ACE：血管紧张素转换酶；ARB：血管紧张素II受体阻滞剂；eGFR：估算肾小球滤过率；MEST-C：系膜细胞增生（M）、毛细血管内皮细胞增生（E）、节段性硬化（S）、肾小管萎缩和间质纤维化（T）、新月体（C）；PAS：过碘酸-希夫（染色法）。</p>
       </div>
     </div>
 
@@ -84,7 +76,7 @@
 
         <div class="right-side">
           <img src="./assets/images/profiles/carlos-profile.png" class="update-path bio-pic conditional-render" alt=""/>
-          <p class="name conditional-render">Carlos, 40</p>
+          <p class="name conditional-render">卡洛斯（40岁）</p>
 
           <h1 class="sect-1-header">卡洛斯是一位40岁的西班牙裔男性，IT专业人士，经营着自己的公司。</h1>
 
@@ -124,7 +116,7 @@
     </section>
 
     <div class="temp-section mobile-only">
-      <p class="direction bold align-center">Swipe in the carousel below to explore Carlos&rsquo; baseline characteristics</p>
+      <p class="direction bold align-center">滑动下方轮播图，查看卡洛斯的基线特征</p>
     </div>
 
     <!-- //////////////////// SECTION 2 ///////////////////// -->
