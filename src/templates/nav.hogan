@@ -68,10 +68,10 @@
 
   <div class="mobile-acc" id="pathogenesis">
     <div class="menu-item nav-el" data-nav-url="pathogenesis/index" data-exit-url="pathogenesis/index" data-url-param="about-igan">
-      <p>About IgAN</p>
+      <p>关于IgA肾病</p>
     </div>
     <div class="menu-item nav-el" data-nav-url="pathogenesis/index" data-exit-url="pathogenesis/index" data-url-param="april">
-      <p>APRIL/4-hit</p>
+      <p>APRIL/四重打击</p>
     </div>
   </div>
 
@@ -87,13 +87,13 @@
       <p>Progression Home</p>
     </div>
     <div class="menu-item nav-el" data-nav-url="progression/sarah" data-exit-url="progression/sarah">
-      <p>Sarah</p>
+      <p>莎拉</p>
     </div>
     <div class="menu-item nav-el" data-nav-url="progression/carlos" data-exit-url="progression/carlos">
-      <p>Carlos</p>
+      <p>卡洛斯</p>
     </div>
     <div class="menu-item nav-el" data-nav-url="progression/mark" data-exit-url="progression/mark">
-      <p>Mark</p>
+      <p>马克</p>
     </div>
   </div>
 
